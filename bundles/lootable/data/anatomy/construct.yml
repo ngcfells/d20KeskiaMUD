@@ -1,0 +1,19 @@
+---
+anatomy:
+  harvest:
+    - id: scrap_metal
+      name: Scrap Metal
+      base: 3
+      chance: 1
+    - id: construct_core
+      name: Power Core
+      base: 1
+      chance: 0.3
+
+  skin: []
+
+  butcher:
+    - id: gear_fragment
+      name: Gear Fragments
+      base: 4
+      chance: 1

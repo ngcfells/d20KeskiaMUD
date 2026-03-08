@@ -1,0 +1,19 @@
+---
+anatomy:
+  harvest:
+    - id: ichor
+      name: Infernal Ichor
+      base: 2
+      chance: 1
+
+  skin:
+    - id: hide_fiend
+      name: Fiendish Hide
+      base: 1
+      chance: 0.7
+
+  butcher:
+    - id: bone_fiend
+      name: Fiend Bone
+      base: 2
+      chance: 1

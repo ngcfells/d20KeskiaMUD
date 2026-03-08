@@ -1,0 +1,21 @@
+---
+command: skin
+body: |
+  Skin a corpse to remove hides, pelts, scales, chitin, or other external
+  coverings used for crafting armor, clothing, or trade goods.
+
+  Skinning yields depend on:
+    • creature type (beast, dragon, fiend, aberration)
+    • subtype (fire-resistant scales, frost pelts)
+    • size (larger creatures yield more material)
+    • decay state (rotted hides produce less)
+
+  After skinning, the corpse is removed.
+
+  Usage:
+    skin <corpse>
+
+  Examples:
+    skin deer
+    skin dragon corpse
+    skin 2.corpse

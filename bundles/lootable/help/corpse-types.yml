@@ -1,0 +1,30 @@
+---
+command: corpse-types
+body: |
+  Corpse types are determined by physiology traits and define the base container
+  created when an NPC dies. Each corpse type has its own decay profile and
+  harvesting potential.
+
+  Physiology → Corpse Type:
+    undead → dust
+    construct → scrap
+    ooze → slime
+    elemental → essence
+    plant → fibers
+    dragon → dragon_remains
+    fiend → ichor
+    celestial → radiant_remains
+    humanoid/beast → standard corpse
+
+  Corpse types influence:
+    • what can be harvested
+    • what can be skinned
+    • what can be butchered
+    • decay rate
+    • loot table selection
+    • environmental interactions
+
+  Examples:
+    A fire elemental leaves behind an "essence" corpse.
+    A treant leaves behind "fibers".
+    A dragon leaves "dragon_remains".

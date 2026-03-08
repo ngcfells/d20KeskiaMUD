@@ -1,0 +1,53 @@
+---
+command: harvesting-yields
+body: |
+  Harvesting yields are determined by physiology, subtype, size, decay state, and
+  environmental modifiers. Each physiology category provides different materials.
+
+  Physiology Yields:
+    undead:
+      • bone dust, necrotic residue
+    construct:
+      • gears, plates, power cores
+    ooze:
+      • slime, pseudopod tissue
+    elemental:
+      • elemental motes, cores, essences
+    plant:
+      • fibers, sap, bark, spores
+    dragon:
+      • scales, bones, glands, blood, marrow
+    fiend:
+      • ichor, infernal residue
+    celestial:
+      • radiant feathers, holy essence
+    beast/humanoid:
+      • meat, hide, organs, sinew, bones
+
+  Subtype Yields:
+    fire:
+      • fire glands, ember sacs
+    cold:
+      • frost cores, chilled marrow
+    psionic:
+      • psionic crystals, mind-shards
+
+  Size Scaling:
+    tiny → minimal yields
+    small → normal yields
+    medium → increased yields
+    large → high yields
+    huge → very high yields
+    gargantuan → massive yields
+
+  Decay Effects:
+    fresh → full yields
+    decayed → reduced yields
+    rotted → minimal yields
+    composted → plant matter only
+
+  Environmental Modifiers:
+    cold rooms → preserve yields
+    hot rooms → spoil yields
+    corrupted rooms → taint yields
+    radiant rooms → purify yields

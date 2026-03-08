@@ -1,6 +1,6 @@
 'use strict';
 
-const LootResolver = require('../../lib/lootResolver');
+const LootResolver = require('../../lib/resolvers/lootResolver');
 
 module.exports = {
   listeners: {

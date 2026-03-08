@@ -1,0 +1,41 @@
+---
+anatomy:
+  harvest:
+    - id: organ_heart
+      name: Heart
+      base: 1
+      chance: 1
+    - id: organ_liver
+      name: Liver
+      base: 1
+      chance: 1
+    - id: organ_blood
+      name: Blood Sample
+      base: 2
+      chance: 1
+
+  skin:
+    - id: hide_humanoid
+      name: Humanoid Hide
+      base: 1
+      chance: 0.2
+
+  butcher:
+    - id: meat_humanoid
+      name: Humanoid Meat
+      base: 2
+      chance: 0.1
+    - id: bone_humanoid
+      name: Bones
+      base: 3
+      chance: 1
+
+  subtype: {}
+
+  sizeMultiplier:
+    tiny: 0.5
+    small: 1
+    medium: 1.5
+    large: 2
+    huge: 3
+    gargantuan: 4

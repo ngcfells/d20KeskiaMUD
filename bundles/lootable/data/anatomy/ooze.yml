@@ -1,0 +1,19 @@
+---
+anatomy:
+  harvest:
+    - id: ooze_slime
+      name: Slime
+      base: 3
+      chance: 1
+    - id: ooze_sample
+      name: Ooze Sample
+      base: 1
+      chance: 0.5
+
+  skin: []
+
+  butcher:
+    - id: ooze_mass
+      name: Ooze Mass
+      base: 2
+      chance: 1

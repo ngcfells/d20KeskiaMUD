@@ -1,6 +1,6 @@
 'use strict';
 
-const lootResolver = require('../../lib/lootResolver');
+const lootResolver = require('../../lib/resolvers/lootResolver');
 const TQ = require('../../lib/TraitQuery');
 
 module.exports = srcPath => {

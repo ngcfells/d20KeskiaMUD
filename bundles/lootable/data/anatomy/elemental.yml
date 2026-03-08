@@ -1,0 +1,40 @@
+---
+anatomy:
+  harvest:
+    - id: elemental_essence
+      name: Elemental Essence
+      base: 1
+      chance: 1
+
+  skin: []
+
+  butcher:
+    - id: elemental_mote
+      name: Elemental Mote
+      base: 2
+      chance: 1
+
+  subtype:
+    fire:
+      harvest:
+        - id: fire_gland
+          name: Fire Gland
+          base: 1
+          chance: 1
+      butcher:
+        - id: ember_sac
+          name: Ember Sac
+          base: 2
+          chance: 1
+
+    cold:
+      harvest:
+        - id: frost_core
+          name: Frost Core
+          base: 1
+          chance: 1
+      butcher:
+        - id: chilled_marrow
+          name: Chilled Marrow
+          base: 2
+          chance: 1

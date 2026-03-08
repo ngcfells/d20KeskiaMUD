@@ -1,0 +1,25 @@
+---
+command: butcher
+body: |
+  Butcher a corpse to break it down into:
+    • meat
+    • bones
+    • marrow
+    • fat
+    • sinew
+
+  Butchering yields depend on:
+    • physiology (humanoid, beast, dragon, aberration)
+    • size (tiny → gargantuan)
+    • decay state (fresh vs spoiled)
+    • environmental modifiers (cold preserves, heat spoils)
+
+  After butchering, the corpse is removed.
+
+  Usage:
+    butcher <corpse>
+
+  Examples:
+    butcher boar
+    butcher giant corpse
+    butcher 4.corpse

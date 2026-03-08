@@ -1,0 +1,27 @@
+---
+command: harvest
+body: |
+  Harvest a corpse to extract biological or magical components such as:
+    • organs
+    • glands
+    • blood
+    • sinew
+    • magical essences
+    • alchemical components
+
+  Harvesting yields depend on:
+    • physiology (undead, construct, ooze, elemental, plant, dragon, etc.)
+    • subtype (fire glands, frost cores, psionic crystals)
+    • size (yield scaling)
+    • decay state (fresh vs rotted)
+    • environmental modifiers (corruption, radiation, cold)
+
+  After harvesting, the corpse is removed.
+
+  Usage:
+    harvest <corpse>
+
+  Examples:
+    harvest wolf
+    harvest troll corpse
+    harvest 3.corpse

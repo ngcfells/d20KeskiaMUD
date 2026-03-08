@@ -1,6 +1,11 @@
 {
   "port": 4000,
   "bundles": [
+    "d20-traits",
+    "d20-attributes",
+    "lootable",
+    "decay",
+    "lifecycle",
     "bundle-example-areas",
     "bundle-example-channels",
     "bundle-example-classes",
@@ -17,7 +22,6 @@
     "vendor-npcs",
     "player-groups",
     "progressive-respawn",
-    "telnet-networking",
     "websocket-networking"
   ],
   "dataSources": {

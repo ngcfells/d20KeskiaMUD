@@ -1,0 +1,188 @@
+---
+schema: 1
+
+id: deep_dwarf
+parent: dwarf
+family: dwarf
+
+name: Deep Dwarf
+
+metadata:
+  origin: multiversal
+  rarity: uncommon
+  tags: [canon, environmental_subrace]
+
+attributes:
+  constitution: 2
+  wisdom: 1
+  charisma: -2
+
+traits:
+  - physiology_low_light_adapted
+  - physiology_light_sensitive
+  - physiology_underdark_hazard_resistant
+
+abilities:
+  - deep_lore
+
+languages:
+  - dwarven
+  - undercommon
+
+environments:
+  - underground
+  - deep_earth
+  - cavern
+
+lore:
+  society: >
+    Deep dwarves dwell in remote caverns far from the surface, forming
+    isolated clans hardened by scarcity and subterranean dangers.
+  appearance: >
+    Their skin is stone‑pale or slate‑gray, with eyes adapted to dim light.
+    Their bodies are compact and resilient.
+  culture: >
+    Deep dwarves value secrecy, endurance, and mastery of stonecraft.
+    Their traditions emphasize survival, clan loyalty, and caution.
+  religion: >
+    Their faith centers on earth spirits, ancestral guardians, and
+    subterranean deities of stone and endurance.
+
+variants:
+
+  # ─────────────────────────────────────────────
+  # MULTIVERSAL SYSTEM VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: spelljammer
+    tags: [void]
+    description: >
+      Deep dwarves exposed to void‑touched caverns or Far Realm fissures.
+    traits:
+      add:
+        - physiology_planar_taint_void
+
+  - origin: starfinder
+    tags: [shadow]
+    description: >
+      Deep dwarves influenced by Shadow‑infused caverns and planar bleed.
+    traits:
+      add:
+        - physiology_planar_taint_shadow
+
+  - origin: earthdawn
+    tags: [horror]
+    description: >
+      Deep dwarves scarred by the Scourge and the predation of Horrors.
+    traits:
+      add:
+        - physiology_horror_taint
+
+  - origin: arduin
+    tags: [eldritch]
+    description: >
+      Deep dwarves altered by eldritch caverns and ancient arcane anomalies.
+    traits:
+      add:
+        - physiology_eldritch_taint
+
+  # ─────────────────────────────────────────────
+  # D&D REGIONAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: forgotten_realms
+    region: zakhara
+    tags: [desert, al_qadim]
+    description: >
+      Deep dwarves of Zakhara dwell beneath the burning sands, adapted to
+      extreme heat and desert hazards.
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: forgotten_realms
+    region: chult
+    tags: [jungle]
+    description: >
+      Deep dwarves of Chult inhabit humid caverns beneath the jungle canopy.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: forgotten_realms
+    region: icewind_dale
+    tags: [arctic]
+    description: >
+      Deep dwarves of the far north endure freezing caverns and glacial tunnels.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: forgotten_realms
+    region: maztica
+    tags: [mesoamerican]
+    description: >
+      Deep dwarves of Maztica dwell beneath volcanic highlands and dense jungles.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  # ─────────────────────────────────────────────
+  # GLOBAL CULTURAL ANALOGUES
+  # ─────────────────────────────────────────────
+
+  - origin: generic_fantasy
+    region: polynesia_analog
+    tags: [oceanic]
+    description: >
+      Deep dwarves of volcanic island chains adapted to salt, humidity, and sea caves.
+    traits:
+      add:
+        - physiology_oceanic_acclimated
+
+  - origin: generic_fantasy
+    region: sahara_analog
+    tags: [desert]
+    description: >
+      Deep dwarves of vast desert underlands adapted to heat and sandstorms.
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: generic_fantasy
+    region: northlands_analog
+    tags: [arctic, norse]
+    description: >
+      Deep dwarves of frozen caverns shaped by permafrost and glacial stone.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: generic_fantasy
+    region: dreamtime_analog
+    tags: [australian]
+    description: >
+      Deep dwarves of ancient sandstone labyrinths shaped by heat and spirit‑echoes.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: subcontinent_analog
+    tags: [indian]
+    description: >
+      Deep dwarves of monsoon‑carved caverns and volcanic ridges.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: first_nations_analog
+    tags: [native_american]
+    description: >
+      Deep dwarves of sacred caverns shaped by spirits, rivers, and ancient stone.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant

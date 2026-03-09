@@ -1,0 +1,18 @@
+- id: chiss
+  name: Chiss
+  description: Blue-skinned near-humans known for their tactical brilliance and aloofness.
+  attributes:
+    strength: 0
+    dexterity: 0
+    constitution: 0
+    intelligence: 2
+    wisdom: 0
+    charisma: 0
+    appearance: 0
+  metadata:
+    origin: starwars
+    baseSpeed: 30
+    vision: darkvision
+    traits:
+      - tactical_mind
+      - chiss_cool

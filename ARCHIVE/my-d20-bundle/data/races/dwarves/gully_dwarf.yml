@@ -1,0 +1,165 @@
+---
+schema: 1
+
+id: gully_dwarf
+parent: dwarf
+family: dwarf
+
+name: Gully Dwarf (Aghar)
+
+metadata:
+  origin: multiversal
+  rarity: rare
+  tags: [degenerative_subrace, dragonlance_canon]
+
+attributes:
+  constitution: 1
+  wisdom: -1
+  intelligence: -2
+  charisma: -2
+
+traits:
+  - physiology_low_light_adapted
+  - physiology_resilient_immune_system
+  - physiology_disease_resistant
+  - physiology_pain_conditioning
+
+abilities:
+  - scavenger_cunning
+  - filthborn_resilience
+  - survival_instinct
+
+languages:
+  - dwarven
+  - broken_common
+
+environments:
+  - slums
+  - ruins
+  - sewers
+  - wastelands
+  - underground
+
+lore:
+  society: >
+    Gully dwarves, known as Aghar, are a degenerate offshoot of the dwarven
+    race. They live in squalor, scavenging in ruins, slums, and forgotten
+    tunnels. Their society is loosely organized, often chaotic, and driven
+    by immediate survival rather than long-term planning.
+  appearance: >
+    Gully dwarves are smaller, thinner, and more hunched than other dwarves.
+    Their features are often asymmetrical, their clothing ragged, and their
+    posture defensive.
+  culture: >
+    Their culture is built around survival, scavenging, and avoiding danger.
+    They value cunning, luck, and the ability to hide or flee when needed.
+  religion: >
+    Gully dwarves rarely maintain formal religion, though some revere
+    ancestral spirits or local idols of luck and protection.
+
+variants:
+
+  # ─────────────────────────────────────────────
+  # CANONICAL / SYSTEM VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: dragonlance
+    tags: [canon]
+    description: >
+      True Aghar of Krynn, living in ruins, slums, and collapsed dwarven
+      strongholds.
+    traits:
+      add:
+        - physiology_disease_resistant
+
+  # ─────────────────────────────────────────────
+  # D&D REGIONAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: forgotten_realms
+    region: zakhara
+    tags: [desert, al_qadim]
+    description: >
+      Gully dwarves of Zakhara survive in desert ruins, abandoned caravansaries,
+      and sun‑blasted slums.
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: forgotten_realms
+    region: chult
+    tags: [jungle]
+    description: >
+      Gully dwarves of Chult scavenge in jungle ruins and vine‑choked
+      abandoned cities.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: forgotten_realms
+    region: maztica
+    tags: [mesoamerican]
+    description: >
+      Gully dwarves of Maztica inhabit collapsed temples and ruined
+      highland settlements.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: forgotten_realms
+    region: icewind_dale
+    tags: [arctic]
+    description: >
+      Gully dwarves of the far north survive in frozen ruins and abandoned
+      mining camps.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: kara_tur
+    tags: [east_asian]
+    description: >
+      Gully dwarves of Kara‑Tur inhabit ruined fortresses and collapsed
+      mountain villages.
+    traits:
+      add:
+        - physiology_high_altitude_adapted
+
+  # ─────────────────────────────────────────────
+  # MULTIVERSAL LOGICAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: spelljammer
+    region: derelict_hulls
+    tags: [extrapolated]
+    description: >
+      Gully dwarves scavenging in derelict spelljamming ships and drifting
+      sky‑ruins.
+    traits:
+      add:
+        - physiology_low_light_adapted
+
+  - origin: starfinder
+    region: junkworlds
+    tags: [extrapolated]
+    description: >
+      Gully dwarves surviving in scrap‑heaps, abandoned stations, and
+      collapsed megastructures.
+    traits:
+      add:
+        - physiology_disease_resistant
+
+  - origin: rifts
+    region: ruin_zones
+    tags: [extrapolated]
+    description: >
+      Gully dwarves surviving dimensional storms in ruined cities and
+      collapsed industrial zones.
+    traits:
+      add:
+        - physiology_disease_resistant
+
+  # ─────────────────────────────────────────────
+  # GLOBAL CULTURAL ANALOGUES
+  # ─────────────────────────────────────────────

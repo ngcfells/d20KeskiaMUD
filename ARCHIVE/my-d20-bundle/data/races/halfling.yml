@@ -1,0 +1,17 @@
+- id: halfling
+  name: Halfling
+  description: Small and nimble, halflings are surprisingly brave and possess uncanny luck.
+  attributes:
+    strength: -2
+    dexterity: 2
+    constitution: 0
+    intelligence: 0
+    wisdom: 0
+    charisma: 0
+    appearance: 0
+  metadata:
+    baseSpeed: 20
+    size: small
+    traits:
+      - halfling_luck
+      - sure_footing

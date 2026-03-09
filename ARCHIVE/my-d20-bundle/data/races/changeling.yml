@@ -1,0 +1,17 @@
+- id: changeling
+  name: Changeling
+  description: Masters of disguise who can alter their physical form at will.
+  attributes:
+    strength: 0
+    dexterity: 0
+    constitution: 0
+    intelligence: 0
+    wisdom: 0
+    charisma: 0
+    appearance: 2
+  metadata:
+    baseSpeed: 30
+    traits:
+      - minor_shapechange
+      - linguist
+      - natural_linguist

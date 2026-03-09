@@ -1,0 +1,11 @@
+- id: elf
+  name: Elf
+  isBase: true
+  description: Slender and graceful, elves have a natural affinity for magic and dexterity.
+  attributes:
+    dexterity: 2
+    constitution: -2
+    appearance: 2
+  metadata:
+    baseSpeed: 30
+    vision: low-light

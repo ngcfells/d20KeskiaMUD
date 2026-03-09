@@ -1,0 +1,184 @@
+- id: animated_object_small
+  name: "Small Animated Object"
+  level: 1
+  attributes:
+    health: 15
+    dexterity: 12
+    strength: 10
+    armor_class: 14
+  behaviors:
+    d20_combat:
+      attack_bonus: 1
+      damage: "1d4"
+      damage_type: "bludgeoning"
+    construct_traits:
+      immunities: ["mind-affecting", "poison", "sleep", "paralysis", "stunning", "disease", "critical_hits"]
+      special: "Hardness (varies by material)"
+
+- id: animated_object_medium
+  name: "Medium Animated Object"
+  level: 2
+  attributes:
+    health: 25
+    dexterity: 10
+    strength: 12
+    armor_class: 14
+  behaviors:
+    d20_combat:
+      attack_bonus: 2
+      damage: "1d6+1"
+      damage_type: "bludgeoning"
+    construct_traits:
+      immunities: ["mind-affecting", "poison", "sleep", "paralysis", "stunning", "disease", "critical_hits"]
+      
+- id: animated_plant_large
+  name: "Large Animated Plant"
+  keywords: ["plant", "animated", "large", "tree"]
+  level: 4
+  description: >
+    A massive collection of timber and vine that has uprooted itself. 
+    Its thick branches sweep the air like heavy clubs.
+  attributes:
+    health: 52
+    strength: 14
+    dexterity: 10
+    constitution: 10
+    armor_class: 14 # Natural armor + size penalty
+    speed: 3.0
+  behaviors:
+    d20_combat:
+      attack_bonus: 5
+      damage: "1d8+3" # Slam attack
+      damage_type: "bludgeoning"
+      reach: 10 # Can hit targets from further away in your combat engine
+    plant_traits:
+      immunities: ["mind-affecting", "poison", "sleep", "paralysis", "stunning", "critical_hits"]
+      vulnerabilities: ["fire"]
+    damage_reduction:
+      amount: 5
+      type: "hardness" # Represents the toughness of the wood
+  script: "animated_plant"
+
+- id: legionnaire_skeleton
+  name: 'Skeletal Legionnaire'
+  description: >
+    A clattering assembly of bleached bones, still wearing the tattered 
+    remnants of its former life. Its eyes glow with a cold, violet 
+    necrotic spark.
+  level: 3
+  gender: NEUTRAL
+  attributes:
+    strength: 13
+    dexterity: 13
+    constitution: 0 # Undead
+    intelligence: 0
+    wisdom: 10
+    charisma: 1
+    health: 20
+    stamina: 100
+  metadata:
+    isUndead: true
+    isTemporary: true
+    sourceSpell: 'animate_legion'
+    baseSpeed: 30
+    naturalArmor: 2
+  tags: ['undead', 'skeleton', 'mindless', 'legionnaire']
+  behaviors:
+    legionnaire_logic: {}
+    combat: {}
+    
+- id: small_fire_elemental
+  name: "Small Fire Elemental"
+  keywords: ["elemental", "fire", "small"]
+  level: 1
+  description: >
+    A whirling pillar of bright flame about 4 feet tall. Its 'features' are 
+    merely darker patches of fire that resemble eyes and a mouth.
+  attributes:
+    health: 9
+    dexterity: 13
+    strength: 10
+    constitution: 10
+    intelligence: 4
+    wisdom: 11
+    charisma: 11
+    armor_class: 15
+    speed: 5.0
+  behaviors:
+    d20_combat:
+      attack_bonus: 3
+      damage: "1d4"
+      damage_type: "fire"
+      special_attacks:
+        - name: "Burn"
+          dc: 11
+          effect: "Target catches fire for 1d4 rounds unless they pass a Reflex save."
+    elemental_traits:
+      immunities: ["fire", "poison", "sleep", "paralysis", "stunning", "critical_hits"]
+      vulnerabilities: ["cold"]
+  script: "small_fire_elemental"
+
+- id: liang_chou
+  name: "Liang Chou"
+  keywords: ["liang", "chou", "archivist", "arcanist", "master"]
+  level: 30
+  gender: "male"
+  description: >
+    A man of indeterminate age with a silver-threaded queue and eyes like polished obsidian. 
+    He wears a simple High Shou robe over Thayan-silk trousers, his presence radiating 
+    the clinical weight of a thousand libraries. A faint scent of old parchment and 
+    ozone follows his fluid, Taiji-influenced movements.
+  attributes:
+    health: 450
+    stamina: 300
+    intelligence: 46
+    dexterity: 22
+    constitution: 20
+    strength: 14
+    wisdom: 24
+    charisma: 26
+    appearance: 22
+    will: 28
+    reflex: 24
+    fortitude: 22
+  metadata:
+    # --- CLASS BREAKDOWN (d20/3.5) ---
+    class_levels:
+      wizard: 10          # School: Abjuration (Thayan Training)
+      red_wizard: 10      # High Thayan Specialist
+      archmage: 5         # High Arcana Mastery
+      hierophant_arcane: 5 # Epic Tier Planar Archivist
+    
+    # --- FEATS & BOONS ---
+    feats: [
+      "martial_training_jian", "weapon_focus_jian", "skill_focus_knowledge",
+      "spell_penetration_greater", "quicken_spell", "silent_spell", 
+      "planar_bubble", "netherese_arcanist_tradition", "scribe_scroll",
+      "craft_wondrous_item", "epic_spellcasting", "universal_literacy"
+    ]
+    
+    # --- CORE METADATA ---
+    alignment: "lawful_evil"
+    creatureType: "humanoid"
+    race: "human"
+    isSpellcaster: true
+    spellcastingAbility: "intelligence"
+    languages: ["high_shou", "common", "netherese", "draconic", "abyssal", "infernal", "celestial", "elven", "loross", "sigil-cant"]
+    dimensional_library: [] # Populated via mirroring/retrieval
+    isArchivist: true
+    
+  script: "liang_chou_logic"
+
+- id: xue_ink_drake
+  name: "Xue"
+  keywords: ["xue", "drake", "dragon", "ink", "familiar"]
+  level: 30 # Scales with master
+  description: >
+    A tiny, serpentine dragon composed of shifting black ink and silver smoke. 
+    It coils around Liang's neck, its translucent scales shimmering like wet calligraphy.
+  metadata:
+    creatureType: "dragon"
+    race: "lung_dragon_hybrid"
+    isFamiliar: true
+    masterId: "liang_chou"
+    ability: "shared_archive" # Can fetch books for Liang in combat

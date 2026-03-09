@@ -1,0 +1,17 @@
+- id: shifter
+  name: Shifter
+  description: Descending from humans and lycanthropes, shifters can manifest
+    bestial traits.
+  attributes:
+    strength: 0
+    dexterity: 2
+    constitution: 0
+    intelligence: -2
+    wisdom: 0
+    charisma: -2
+    appearance: 0
+  metadata:
+    baseSpeed: 30
+    traits:
+      - shifting
+      - low_light_vision

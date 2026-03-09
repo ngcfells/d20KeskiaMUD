@@ -1,0 +1,10 @@
+title: lifecycle
+description: Lifecycle systems for aging, hunger, sleep, regeneration, and environmental adaptation.
+version: 1.0.0
+author: Chris Fells, 2026
+
+requires: []
+
+listeners:
+  bundleReady:
+    - listeners/onReady.js

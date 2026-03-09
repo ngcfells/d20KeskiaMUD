@@ -1,0 +1,18 @@
+- id: half_elf
+  name: Half-Elf
+  description: Blending the best traits of humans and elves, half-elves are
+    versatile diplomats.
+  attributes:
+    strength: 0
+    dexterity: 0
+    constitution: 0
+    intelligence: 0
+    wisdom: 0
+    charisma: 0
+    appearance: 2
+  metadata:
+    baseSpeed: 30
+    vision: low-light
+    traits:
+      - adaptability
+      - elven_blood

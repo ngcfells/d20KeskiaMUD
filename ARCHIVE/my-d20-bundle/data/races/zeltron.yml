@@ -1,0 +1,17 @@
+- id: zeltron
+  name: Zeltron
+  description: Pink-skinned humanoids who project powerful pheromones and
+    experience intense emotions.
+  attributes:
+    strength: 0
+    dexterity: 0
+    constitution: 0
+    intelligence: 0
+    wisdom: -2
+    charisma: 2
+    appearance: 4
+  metadata:
+    baseSpeed: 30
+    traits:
+      - pheromones
+      - empathic_link

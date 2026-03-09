@@ -1,0 +1,207 @@
+---
+schema: 1
+
+id: dwarf
+family: dwarf
+
+name: Dwarf (Base)
+
+metadata:
+  origin: multiversal
+  rarity: common
+  tags: [canon, core_race]
+
+# ─────────────────────────────────────────────
+# NEW: Anatomy block (humanoid baseline)
+# ─────────────────────────────────────────────
+anatomy:
+  - head
+  - eyes
+  - earring.2
+  - neck
+  - torso
+  - body
+  - shoulders
+  - arms
+  - wrists.2
+  - hands
+  - finger.2
+  - waist
+  - legs
+  - feet
+  - wield
+  - offhand
+  - held
+  - ioun
+  - slotless
+
+attributes:
+  constitution: 2
+  wisdom: 1
+
+traits:
+  - physiology_dense_musculature
+  - physiology_resilient_immune_system
+  - physiology_low_light_adapted
+
+abilities:
+  - stonecunning
+  - dwarven_toughness
+  - dwarven_weapon_training
+  - dwarven_endurance
+  - dwarven_engineering
+  - mining_expertise
+
+languages:
+  - dwarven
+  - common
+
+environments:
+  - mountains
+  - hills
+  - underground
+
+lore:
+  society: >
+    Dwarves are a proud, industrious people known for their craftsmanship,
+    clan loyalty, and mastery of stone and metal. Their societies are built
+    around strongholds carved into mountains or deep caverns.
+  appearance: >
+    Stocky and muscular, dwarves have broad frames, thick beards, and
+    features shaped by generations of labor and endurance.
+  culture: >
+    Dwarven culture values tradition, honor, and skilled craftsmanship.
+    Their clans maintain ancient lineages and guard their secrets fiercely.
+  religion: >
+    Dwarves honor gods of the forge, stone, protection, and ancestral memory.
+
+variants:
+
+  # ─────────────────────────────────────────────
+  # CANONICAL SYSTEM VARIANTS (ONLY WHEN TRUE)
+  # ─────────────────────────────────────────────
+
+  - origin: dark_sun
+    tags: [psionic, canon]
+    description: >
+      Athasian dwarves possess innate psionic talent due to the pervasive
+      psionic nature of Athas.
+    traits:
+      add:
+        - physiology_psionic_resilience
+
+  - origin: mystara
+    tags: [psionic_light, canon]
+    description: >
+      Mystaran dwarves exhibit minor psionic aptitude in certain clans.
+    traits:
+      add:
+        - physiology_psionic_resilience
+
+  # ─────────────────────────────────────────────
+  # D&D REGIONAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: forgotten_realms
+    region: zakhara
+    tags: [desert, al_qadim]
+    description: >
+      Zakhari dwarves dwell in desert mountains and sun‑blasted strongholds.
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: forgotten_realms
+    region: chult
+    tags: [jungle]
+    description: >
+      Chultan dwarves inhabit humid jungles and volcanic highlands.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: forgotten_realms
+    region: icewind_dale
+    tags: [arctic]
+    description: >
+      Northern dwarves endure freezing winds and permafrost caverns.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: forgotten_realms
+    region: maztica
+    tags: [mesoamerican]
+    description: >
+      Maztican dwarves dwell in high plateaus and dense jungle foothills.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: kara_tur
+    tags: [east_asian]
+    description: >
+      Kara‑Tur dwarves inhabit mountainous regions and steppe‑border strongholds.
+    traits:
+      add:
+        - physiology_high_altitude_adapted
+
+  # ─────────────────────────────────────────────
+  # GLOBAL CULTURAL ANALOGUES
+  # ─────────────────────────────────────────────
+
+  - origin: generic_fantasy
+    region: polynesia_analog
+    tags: [oceanic]
+    description: >
+      Island dwarves adapted to volcanic archipelagos and sea‑spray caverns.
+    traits:
+      add:
+        - physiology_oceanic_acclimated
+
+  - origin: generic_fantasy
+    region: sahara_analog
+    tags: [desert]
+    description: >
+      Desert dwarves hardened by scorching heat and shifting sands.
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: generic_fantasy
+    region: northlands_analog
+    tags: [arctic, norse]
+    description: >
+      Northern dwarves shaped by icy mountains and frozen tundra.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: generic_fantasy
+    region: dreamtime_analog
+    tags: [australian]
+    description: >
+      Dwarves of ancient sandstone ranges shaped by heat and spirit‑echoes.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: subcontinent_analog
+    tags: [indindian]
+    description: >
+      Dwarves of monsoon‑carved mountains and volcanic ridges.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: first_nations_analog
+    tags: [native_american]
+    description: >
+      Dwarves of sacred mountains, river‑cut caverns, and forested highlands.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant

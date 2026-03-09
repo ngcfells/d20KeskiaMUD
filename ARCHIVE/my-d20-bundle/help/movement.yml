@@ -1,0 +1,11 @@
+- id: encumbrance
+  keywords: ['encumbrance', 'weight', 'load']
+  name: Carrying Capacity
+  body: |
+    Your movement speed and stamina recovery are dictated by your load:
+    - <b>Light Load:</b> (Str x 10) No penalties.
+    - <b>Heavy Load:</b> (> Str x 10) Reduced speed, Advanced Mobility disabled.
+    - <b>Max Load:</b> (> Str x 15) Speed reduced to 5ft, no stamina recovery.
+    
+    Items in your <b>Dimensional Stash</b> are weightless. Items in 
+    <b>Physical Containers</b> (backpacks) count toward your load.

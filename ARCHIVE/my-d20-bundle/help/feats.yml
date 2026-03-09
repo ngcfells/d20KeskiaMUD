@@ -1,0 +1,37 @@
+- id: advanced_armor_training
+  keywords: ['advanced armor training', 'aat']
+  name: Advanced Armor Training
+  body: |
+    <b>Category:</b> Combat
+    <b>Prerequisites:</b> Base Attack Bonus +3, Armor Training class feature.
+    
+    You have mastered advanced armor techniques. While in a combat stance, you gain:
+    - <b>Base:</b> +1 Armor Bonus, -1 Armor Check Penalty.
+    - <b>Defensive Stance:</b> +2 Armor Bonus.
+    
+    This feat allows a fighter to maintain mobility while heavily armored.
+
+- id: adept_two_weapon_fighting
+  keywords: ['adept two-weapon fighting', 'atwf']
+  name: Adept Two-Weapon Fighting
+  body: |
+    <b>Category:</b> Combat
+    <b>Prerequisites:</b> Base Attack Bonus +6, Dexterity 17, Two-Weapon Fighting.
+    
+    A mastery of dual-wielding that further reduces penalties. In a combat 
+    stance, your off-hand penalties are minimized, allowing for a second 
+    off-hand attack with higher precision.
+
+- id: advanced_mobility
+  keywords: ['advanced mobility', 'adv mobility']
+  name: Advanced Mobility
+  body: |
+    <b>Category:</b> Combat
+    <b>Prerequisites:</b> Base Attack Bonus +3, Dexterity 15, Tumble 6, Mobility.
+    
+    Your advanced training allows you to navigate the battlefield with ease.
+    - <b>Base:</b> +2 Dodge AC vs Attacks of Opportunity.
+    - <b>Defensive Stance:</b> +4 Dodge AC vs Attacks of Opportunity.
+    - <b>Perceptive Stance:</b> You ignore penalties from difficult terrain.
+    
+    <i>Note: Benefit is lost if you are prone, grappled, or overburdened.</i>

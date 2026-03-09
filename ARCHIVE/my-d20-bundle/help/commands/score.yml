@@ -1,0 +1,13 @@
+# path: bundles/my-d20-bundle/help/commands/score.yml
+id: score
+name: Score
+aliases: [stats, attributes]
+description: |
+  Displays your character's current status, including:
+  - Ability Scores (Str, Dex, etc.)
+  - Combat Stats (AC, BAB, Saving Throws)
+  - Armor Check Penalty (ACP) and Movement Speed
+  - Current Treasury (Currencies)
+  
+  Fighters with Armor Training will see a special breakdown of their 
+  maneuverability bonuses here.

@@ -1,0 +1,16 @@
+- id: human
+  name: Human
+  description: Versatile and ambitious, humans are the most common race. They gain
+    an extra feat and more skill points than others.
+  attributes:
+    strength: 0
+    dexterity: 0
+    constitution: 0
+    intelligence: 0
+    wisdom: 0
+    charisma: 0
+    appearance: 0
+  metadata:
+    baseSpeed: 30
+    bonusFeats: 1
+    bonusSkillPoints: 4

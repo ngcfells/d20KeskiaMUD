@@ -1,0 +1,16 @@
+- id: sullustan
+  name: Sullustan
+  description: Expert navigators and pilots who hail from subterranean cities.
+  attributes:
+    strength: 0
+    dexterity: 2
+    constitution: -2
+    intelligence: 0
+    wisdom: 0
+    charisma: 0
+    appearance: 0
+  metadata:
+    baseSpeed: 30
+    traits:
+      - darkvision
+      - expert_pilot

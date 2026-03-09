@@ -1,0 +1,19 @@
+- id: gnome
+  name: Gnome
+  description: Small, eccentric, and full of energy, gnomes are natural inventors
+    and illusionists.
+  attributes:
+    strength: -2
+    dexterity: 0
+    constitution: 2
+    intelligence: 0
+    wisdom: 0
+    charisma: 0
+    appearance: 0
+  metadata:
+    baseSpeed: 20
+    size: small
+    vision: low-light
+    traits:
+      - illusion_affinity
+      - obsessive

@@ -1,0 +1,68 @@
+# ============================================================
+# RECIPES — Crafting Integration Pack 1
+# ============================================================
+
+# ------------------------------------------------------------
+# BAKING
+# ------------------------------------------------------------
+- id: recipe_bread
+  name: Loaf of Bread
+  workstation: workstation_kitchen
+  tools: [tool_cooking_kit]
+  skill:
+    id: craft
+    specialty: [cooking, baking]
+  dc: 15
+  materials:
+    - { id: mat_flour, qty: 2 }
+    - { id: mat_yeast, qty: 1 }
+  output: item_bread
+
+# ------------------------------------------------------------
+# BREWING
+# ------------------------------------------------------------
+- id: recipe_simple_ale
+  name: Simple Ale
+  workstation: workstation_brewery
+  tools: [tool_brewing_kit]
+  skill:
+    id: craft
+    specialty: [brewing]
+  dc: 15
+  materials:
+    - { id: mat_yeast, qty: 1 }
+    - { id: mat_sugar, qty: 1 }
+    - { id: mat_glass_bottle, qty: 1 }
+  output: item_simple_ale
+
+# ------------------------------------------------------------
+# HERBALISM
+# ------------------------------------------------------------
+- id: recipe_mint_tea
+  name: Mint Tea
+  workstation: workstation_herbalism_table
+  tools: [tool_herbalism_kit]
+  skill:
+    id: craft
+    specialty: [herbalism]
+  dc: 12
+  materials:
+    - { id: mat_herb_mint, qty: 1 }
+    - { id: water_plain, qty: 1 }
+  output: item_mint_tea
+
+# ------------------------------------------------------------
+# ALCHEMY
+# ------------------------------------------------------------
+- id: recipe_arcane_infusion_minor
+  name: Minor Arcane Infusion
+  workstation: workstation_alchemy_lab
+  tools: [tool_alchemy_kit]
+  skill:
+    id: craft
+    specialty: [alchemy, alchemical_items]
+  dc: 20
+  materials:
+    - { id: mat_arcane_dust, qty: 1 }
+    - { id: water_plain, qty: 1 }
+  output: brew_arcane_infusion_minor

@@ -1,0 +1,10 @@
+title: d20-traits
+description: Core trait registry for physiology, subtype, size, creature-type, and special trait families.
+version: 1.0.0
+author: Chris Fells, 2026
+
+requires: []
+
+listeners:
+  bundleReady:
+    - listeners/register.js

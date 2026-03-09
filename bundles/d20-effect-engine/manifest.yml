@@ -1,0 +1,8 @@
+title: d20-effect-engine
+description: Core effect engine for all d20 systems.
+version: 1.0.0
+author: Chris Fells, 2026
+
+listeners:
+  stateReady:
+    - listeners/register.js

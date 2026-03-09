@@ -1,0 +1,185 @@
+---
+schema: 1
+
+id: oceanic_dwarf
+parent: dwarf
+family: dwarf
+
+name: Oceanic Dwarf
+
+metadata:
+  origin: multiversal
+  rarity: uncommon
+  tags: [environmental_subrace, oceanic, coastal]
+
+attributes:
+  constitution: 1
+  dexterity: 1
+  wisdom: 1
+
+traits:
+  - physiology_oceanic_acclimated
+  - physiology_dense_musculature
+  - physiology_resilient_immune_system
+
+abilities:
+  - tide_lore
+  - reefstride
+  - storm_hardiness
+
+languages:
+  - dwarven
+  - common
+
+environments:
+  - coastal
+  - archipelago
+  - volcanic_islands
+  - sea_caves
+  - maritime_mountains
+
+lore:
+  society: >
+    Oceanic dwarves inhabit volcanic archipelagos, coastal cliffs, and
+    sea‑carved caverns. Their clans are shaped by storms, tides, and the
+    need for mastery of both stone and sea. They build fortified harbors,
+    cliffside citadels, and coral‑reinforced structures.
+  appearance: >
+    Their skin ranges from deep bronze to storm‑gray, often weathered by
+    salt and wind. Their hair and beards are braided tightly to resist
+    sea spray and storms.
+  culture: >
+    Oceanic dwarves value seamanship, craftsmanship, and clan loyalty.
+    Their traditions include storm rites, coral carving, and volcanic
+    metalwork.
+  religion: >
+    Their deities embody storms, tides, volcanic fire, and ancestral
+    guardians of the sea.
+
+variants:
+
+  # ─────────────────────────────────────────────
+  # CANONICAL / SYSTEM VARIANTS (NONE REQUIRED)
+  # ─────────────────────────────────────────────
+  # Oceanic dwarves are not canon in any major D&D setting, but they fit
+  # naturally into coastal regions and multiversal analogues.
+
+  # ─────────────────────────────────────────────
+  # D&D REGIONAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: forgotten_realms
+    region: nelanther_isles
+    tags: [oceanic]
+    description: >
+      Oceanic dwarves of the Nelanther Isles inhabit volcanic islands and
+      sea‑caves shaped by storms and pirates.
+    traits:
+      add:
+        - physiology_oceanic_acclimated
+
+  - origin: forgotten_realms
+    region: chult_coast
+    tags: [jungle, oceanic]
+    description: >
+      Oceanic dwarves of Chult dwell along storm‑lashed coasts and coral
+      cliffs.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: forgotten_realms
+    region: maztica_coast
+    tags: [mesoamerican, oceanic]
+    description: >
+      Oceanic dwarves of Maztica inhabit volcanic archipelagos and
+      obsidian‑lined sea caves.
+    traits:
+      add:
+        - physiology_oceanic_acclimated
+
+  - origin: kara_tur
+    region: island_provinces
+    tags: [east_asian, oceanic]
+    description: >
+      Oceanic dwarves of Kara‑Tur dwell on storm‑battered islands and
+      cliffside strongholds.
+    traits:
+      add:
+        - physiology_oceanic_acclimated
+
+  # ─────────────────────────────────────────────
+  # MULTIVERSAL LOGICAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: spelljammer
+    region: drift_islands
+    tags: [oceanic, extrapolated]
+    description: >
+      Oceanic dwarves adapted to floating sky‑islands with vast cloud‑seas
+      and storm belts.
+    traits:
+      add:
+        - physiology_oceanic_acclimated
+
+  - origin: starfinder
+    region: ocean_worlds
+    tags: [oceanic, extrapolated]
+    description: >
+      Oceanic dwarves of water‑worlds inhabit volcanic archipelagos and
+      deep‑sea caverns.
+    traits:
+      add:
+        - physiology_oceanic_acclimated
+
+  - origin: rifts
+    region: drowned_rifts
+    tags: [oceanic, extrapolated]
+    description: >
+      Oceanic dwarves surviving dimensional storms in flooded ruins and
+      submerged strongholds.
+    traits:
+      add:
+        - physiology_oceanic_acclimated
+
+  # ─────────────────────────────────────────────
+  # GLOBAL CULTURAL ANALOGUES
+  # ─────────────────────────────────────────────
+
+  - origin: generic_fantasy
+    region: polynesia_analog
+    tags: [oceanic]
+    description: >
+      Oceanic dwarves of volcanic archipelagos shaped by storms, tides,
+      and coral reefs.
+    traits:
+      add:
+        - physiology_oceanic_acclimated
+
+  - origin: generic_fantasy
+    region: melanesia_analog
+    tags: [oceanic]
+    description: >
+      Oceanic dwarves of deep‑jungle islands and basalt cliffs.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: generic_fantasy
+    region: caribbean_analog
+    tags: [oceanic]
+    description: >
+      Oceanic dwarves of coral islands, sea caves, and storm‑lashed coasts.
+    traits:
+      add:
+        - physiology_oceanic_acclimated
+
+  - origin: generic_fantasy
+    region: first_nations_coastal_analog
+    tags: [native_american, oceanic]
+    description: >
+      Oceanic dwarves of coastal forests, sea‑carved cliffs, and tidal
+      caverns.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant

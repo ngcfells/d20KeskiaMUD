@@ -1,0 +1,21 @@
+- id: human
+  name: Human
+  body: |
+    Humans are the most adaptable and ambitious of the common races.
+    <b>Attributes:</b> No inherent bonuses or penalties.
+    <b>Bonus:</b> Humans receive <yellow>+1 Bonus Feat</yellow> at 1st level and 
+    additional skill points.
+
+- id: elf
+  name: Elf
+  body: |
+    Slender and graceful masters of magic and archery.
+    <b>Attributes:</b> <green>+2 Dexterity</green>, <green>+2 Appearance</green>, <red>-2 Constitution</red>.
+    <b>Traits:</b> Low-light vision and immunity to sleep effects.
+
+- id: dwarf
+  name: Dwarf
+  body: |
+    Stout and hardy warriors familiar with the deep places of the earth.
+    <b>Attributes:</b> <green>+2 Constitution</green>, <red>-2 Charisma</red>, <red>-2 Appearance</red>.
+    <b>Traits:</b> Darkvision and increased resistance to poisons.

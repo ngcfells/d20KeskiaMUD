@@ -1,0 +1,38 @@
+- id: fighter
+  name: Fighter
+  body: |
+    The <cyan>Fighter</cyan> is a master of martial combat. 
+    <b>Hit Die:</b> d10
+    <b>Primary Stat:</b> Strength
+    <b>Bonus:</b> Receives a bonus <magenta>Combat Feat</magenta> at 1st level and 
+    every even-numbered level thereafter.
+
+- id: wizard
+  name: Wizard
+  body: |
+    The <cyan>Wizard</cyan> is a master of arcane secrets.
+    <b>Hit Die:</b> d4
+    <b>Primary Stat:</b> Intelligence
+    <b>Features:</b> Capable of casting powerful arcane spells. They start 
+    with <yellow>Scribe Scroll</yellow> and a <yellow>Familiar</yellow>.
+
+- id: monk
+  name: Monk
+  body: |
+    The <cyan>Monk</cyan> is an unarmored warrior of discipline.
+    <b>Hit Die:</b> d8
+    <b>Requirements:</b> Must maintain a <white>Lawful</white> alignment.
+    <b>Features:</b> <yellow>Flurry of Blows</yellow> and scaling unarmed damage.
+    If a Monk becomes non-lawful, they must <yellow>atone</yellow> to regain 
+    their powers.
+
+- id: rogue
+  name: Rogue
+  body: |
+    The <cyan>Rogue</cyan> is a versatile specialist in stealth, trickery, and precision.
+    <b>Hit Die:</b> d6
+    <b>Skill Points:</b> 8 + Int Modifier
+    <b>Key Features:</b>
+    - <yellow>Sneak Attack:</yellow> Deal extra damage to flat-footed or flanked foes.
+    - <yellow>Trapfinding:</yellow> The only class capable of disarming high-DC traps.
+    - <yellow>Evasion:</yellow> Avoid damage from area effects with a successful Reflex save.

@@ -1,0 +1,9 @@
+- id: moon_elf
+  parent: elf
+  name: Moon Elf
+  description: The most common elf subrace; nomadic and friendly.
+  attributes:
+    intelligence: 2
+  metadata:
+    traits:
+      - elven_weapon_proficiency

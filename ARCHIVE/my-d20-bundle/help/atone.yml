@@ -1,0 +1,16 @@
+- id: atone
+  name: Atone
+  command: atone
+  body: |
+    <b>Usage:</b> <yellow>atone</yellow>
+    <b>Aliases:</b> penance, repent
+
+    Certain classes, such as <cyan>Monks</cyan> and <cyan>Paladins</cyan>, require a strict 
+    adherence to specific alignments. If your actions cause your alignment 
+    to shift outside of these requirements, you will "fall from grace."
+
+    While fallen, you lose access to all class-specific <magenta>Abilities</magenta> and 
+    <magenta>Feats</magenta>. To restore your standing, you must perform the atone 
+    command at a sanctified location.
+
+    <b>Cost:</b> A tithe of <yellow>500 GP x your Current Level</yellow> is required.

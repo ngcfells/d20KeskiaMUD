@@ -1,0 +1,88 @@
+# ============================================================
+# WORKSTATIONS — Crafting Integration Pack 1
+# ============================================================
+
+- id: workstation_campfire
+  name: Campfire
+  category: heat
+  tags: [primitive, survival]
+  description: A simple fire suitable for basic cooking and heating.
+  provides:
+    heat: 1
+  skills:
+    - survival
+    - craft
+
+- id: workstation_kitchen
+  name: Kitchen
+  category: cooking
+  tags: [cooking, food]
+  description: A full kitchen with ovens, stoves, and prep surfaces.
+  provides:
+    heat: 2
+    prep: 2
+  skills:
+    - craft
+    - profession
+
+- id: workstation_forge
+  name: Forge
+  category: metalworking
+  tags: [smithing, heat]
+  description: A blazing forge for metalworking and weaponsmithing.
+  provides:
+    heat: 3
+    hammering: 2
+    anvil: 1
+  skills:
+    - craft
+
+- id: workstation_alchemy_lab
+  name: Alchemy Lab
+  category: alchemy
+  tags: [alchemy, reagents]
+  description: A specialized lab for brewing potions and alchemical items.
+  provides:
+    heat: 1
+    distillation: 2
+    infusion: 2
+  skills:
+    - craft
+    - knowledge
+
+- id: workstation_brewery
+  name: Brewery
+  category: brewing
+  tags: [brewing, fermentation]
+  description: A brewery with fermentation barrels and brewing kettles.
+  provides:
+    heat: 1
+    fermentation: 3
+  skills:
+    - craft
+    - profession
+
+- id: workstation_herbalism_table
+  name: Herbalism Table
+  category: herbalism
+  tags: [herbs, preparation]
+  description: A workstation for preparing herbs, poultices, and decoctions.
+  provides:
+    prep: 2
+    grinding: 1
+  skills:
+    - craft
+    - survival
+    - profession
+
+- id: workstation_distillery
+  name: Distillery
+  category: distilling
+  tags: [distillation, alcohol]
+  description: A distillation setup for extracting essences and spirits.
+  provides:
+    distillation: 3
+    heat: 1
+  skills:
+    - craft
+    - profession

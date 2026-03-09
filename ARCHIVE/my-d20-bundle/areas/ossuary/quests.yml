@@ -1,0 +1,17 @@
+- id: "shaman_soup"
+  title: "Bones for the Soup"
+  description: "Gorguk needs bones to thicken his broth. He seems particularly fond of the ones that rattle."
+  completer: "ossuary:goblin_shaman"
+  config:
+    autoComplete: false
+    repeatable: true # Allows farming for the key
+  goals:
+    - type: "FetchGoal"
+      config:
+        count: 5
+        removeItem: true
+        item: "ossuary:bone_fragments"
+  rewards:
+    - type: "ExperienceReward"
+      config:
+        amount: 150

@@ -1,0 +1,13 @@
+title: d20-common-effects
+description: Shared non-spell, non-item, non-class effect families for the d20 system.
+version: 1.0.0
+author: Chris Fells, 2026
+
+requires:
+  - d20-traits
+  - lifecycle
+  - decay
+
+listeners:
+  bundleReady:
+    - listeners/onReady.js

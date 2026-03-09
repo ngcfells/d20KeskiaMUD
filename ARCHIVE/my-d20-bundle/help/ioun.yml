@@ -1,0 +1,34 @@
+- id: ioun_stones
+  keywords: ['ioun', 'orbit', 'resonance']
+  name: Ioun Stones
+  body: |
+    Ioun Stones are mystical gems that orbit the head. 
+    
+    <b>Physics:</b> Orbiting stones are weightless and do not count toward 
+    encumbrance. However, they are NOT in stasis; they are subject to 
+    the environment (heat/decay) unless stashed in your inventory.
+    
+    <b>Orbital Limit:</b> 10 + (INT Mod x 2). Exceeding this limit blurs 
+    your vision, applying penalties to perception and attack rolls.
+    
+    <b>Resonance:</b> Certain combinations of shapes and colors create 
+    powerful harmonies. Use <b>identify resonance</b> to discover them.
+
+- command: identify_resonance
+  keywords: ['identify resonance']
+  body: |
+    Usage: <b>identify resonance</b>
+    
+    Attempts to find patterns in your current stones using <b>Spellcraft</b>.
+    - You get exactly <b>one check per skill rank</b>. 
+    - Success permanently records the harmony in your <b>inventory</b>.
+    - Failure means you must improve your skill before trying again.
+
+- command: ioun_burn
+  keywords: ['ioun burn', 'burn']
+  body: |
+    Usage: <b>ioun burn <stone> --confirm</b>
+    
+    A desperate act of destruction. Permanently shatters an orbiting 
+    Ioun stone to gain a +4 surge to its primary attribute for 1 minute.
+    <b>Warning:</b> This cannot be undone.

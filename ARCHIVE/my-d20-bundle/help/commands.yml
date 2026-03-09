@@ -1,0 +1,76 @@
+- command: inventory
+  keywords: ['inventory', 'inv']
+  body: |
+    Usage: <b>inventory</b>
+    
+    Displays your <b>Dimensional Stasis Stash</b> (20 slots, weightless/frozen) 
+    and any <b>Physical Containers</b> (backpacks/pouches) you are wearing. 
+    It also shows your current carried weight vs your max load capacity.
+
+- command: get
+  keywords: ['get', 'take', 'loot']
+  body: |
+    Usage: <b>get <item> [container]</b>
+    
+    Pick up an item from the room or a container. Items retrieved are 
+    automatically placed in your <b>Dimensional Stasis Stash</b>.
+    - Stash Limit: 20 items.
+
+- command: put
+  keywords: ['put']
+  body: |
+    Usage: <b>put <item> <container></b>
+    
+    Place an item from your stash into a physical container or another 
+    stash. Moving an item from your stash into an <b>equipped backpack</b> 
+    will increase your carried weight and expose the item to decay.
+
+- command: wear
+  keywords: ['wear', 'wield', 'equip']
+  body: |
+    Usage: <b>wear <item></b>
+    
+    Equip an item from your stash onto your anatomy. 
+    - <b>Ioun Stones:</b> Enter an orbital path and remain weightless.
+    - <b>Containers:</b> Adding items to worn bags increases your total load.
+    - <b>Armor:</b> Heavy gear may slow your movement delay.
+
+- command: remove
+  keywords: ['remove', 'unequip', 'unwield']
+  body: |
+    Usage: <b>remove <item></b>
+    
+    Unequip an item and return it to your weightless <b>Stasis Stash</b>. 
+    If the stash is full (20/20), the item will be dropped on the ground.
+
+- command: drop
+  keywords: ['drop']
+  body: |
+    Usage: <b>drop <item></b>
+    
+    Discard an item from your stash or your body. Dropping heavy physical 
+    containers will immediately reduce your movement delay.
+
+- command: give
+  keywords: ['give']
+  body: |
+    Usage: <b>give <item> <player></b>
+    
+    Transfer an item from your stash to another player's stash. Both 
+    parties must have room in their 20-slot dimensional space.
+
+- command: eat
+  keywords: ['eat']
+  body: |
+    Usage: <b>eat <food></b>
+    
+    Consume an item for nourishment. Items eaten from your <b>Stasis Stash</b> 
+    remain perfectly fresh regardless of how much time has passed.
+
+- command: drink
+  keywords: ['drink']
+  body: |
+    Usage: <b>drink <liquid></b>
+    
+    Quaff a potion or beverage. Beware drinking scalding liquids from 
+    physical containers; stasis-held liquids remain at their original temp.

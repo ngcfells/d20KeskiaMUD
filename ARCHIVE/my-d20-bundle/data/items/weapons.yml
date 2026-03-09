@@ -1,0 +1,183 @@
+# path: bundles/my-d20-bundle/data/items/weapons.yml
+
+# --- ARCHAIC ---
+- id: "weathered_club"
+  name: "Weathered Oak Club"
+  type: WEAPON
+  keywords: ["club", "bludgeon"]
+  description: "A heavy length of oak, worn smooth by age and grip. It is sturdy and effective against the brittle bones of the dead."
+  metadata:
+    slot: wield
+    isLight: true
+    weaponType: simple
+    weaponGroup: BLUNTS
+    damageDice: 1d6
+    damageType: kinetic
+    damageSubType: bludgeoning
+    isDoubleWeapon: false
+    critThreshold: 20
+    critMultiplier: 2
+    weight: 3
+    cost: 0 # Clubs are free/improvised in 3.5e
+
+- id: "pious_staff"
+  name: "Pious Quarterstaff"
+  type: WEAPON
+  keywords: ["staff", "quarterstaff"]
+  description: "A six-foot length of ash wood capped with rusted iron. It serves equally well as a walking aid or a double-ended weapon."
+  metadata:
+    slot: wield
+    isLight: false
+    weaponType: simple
+    weaponGroup: STAVES
+    damageDice: 1d6
+    damageType: kinetic
+    damageSubType: bludgeoning
+    isDoubleWeapon: true
+    critThreshold: 20
+    critMultiplier: 2
+    weight: 4
+    cost: 0 # Quarterstaves are free in 3.5e
+
+- id: "rusted_sword"
+  name: "Rusted Sword"
+  type: WEAPON
+  description: "A badly corroded iron sword, its edge pitted and flaking with deep reddish rust."
+  metadata:
+    slot: wield
+    isLight: false
+    weaponType: simple
+    weaponGroup: BLADES_HEAVY
+    damageDice: 1d6
+    damageType: kinetic
+    damageSubType: slashing
+    critThreshold: 20
+    critMultiplier: 2
+    weight: 3
+    cost: 2 # ~2gp equivalent; nearly worthless due to corrosion
+
+- id: "longsword_01"
+  name: "Masterwork Longsword"
+  type: WEAPON
+  description: "A finely weighted blade of iron, balanced for a professional soldier."
+  metadata:
+    slot: wield
+    isLight: false
+    weaponType: martial
+    weaponGroup: BLADES_HEAVY
+    damageDice: 1d8
+    damageType: kinetic
+    damageSubType: slashing
+    critThreshold: 19
+    critMultiplier: 2
+    weight: 4
+    cost: 315 # 15gp base + 300gp Masterwork component
+
+- id: "rapier_01"
+  name: "Duelist's Rapier"
+  type: WEAPON
+  description: "A slender, needle-like sword designed for precision."
+  metadata:
+    slot: wield
+    isLight: false
+    isFinesse: true
+    weaponType: martial
+    weaponGroup: BLADES_LIGHT
+    damageDice: 1d6
+    damageType: kinetic
+    damageSubType: piercing
+    critThreshold: 18
+    critMultiplier: 2
+    weight: 2
+    cost: 20
+
+- id: liang_jian
+  name: "The Ink-Threaded Jian"
+  keywords: ["jian", "sword", "blade", "ink-threaded"]
+  type: "WEAPON"
+  slot: "wield"
+  description: >
+    A slender, straight blade etched with thousands of microscopic High Shou characters. 
+    When swung, it leaves faint trails of black ink in the air that hum with arcane power.
+  metadata:
+    weaponType: "jian"
+    enhancementBonus: 6
+    isSpellFocus: true
+    damage: "1d8+6"
+    damageType: "kinetic"
+    behaviors: ["liang_deflection_trigger"]
+    tags: ["artifact", "focus", "sharp", "liang_signature"]
+
+# --- MODERN ---
+- id: "glock_17"
+  name: "Glock 17"
+  type: WEAPON
+  description: "A reliable 9mm semi-automatic pistol."
+  metadata:
+    slot: wield
+    isLight: true
+    weaponType: exotic
+    weaponGroup: HANDGUNS
+    damageDice: 2d6
+    damageType: ballistic
+    damageSubType: piercing
+    range: 30
+    critThreshold: 20
+    critMultiplier: 2
+    weight: 2
+    cost: 500 # Adjusted for modern setting economy
+
+- id: "remington_870"
+  name: "Remington 870"
+  type: WEAPON
+  description: "A pump-action shotgun favored by security forces."
+  metadata:
+    slot: wield
+    isLight: false
+    weaponType: exotic
+    weaponGroup: LONGARMS
+    damageDice: 2d8
+    damageType: ballistic
+    damageSubType: bludgeoning
+    range: 20
+    critThreshold: 20
+    critMultiplier: 2
+    weight: 8
+    cost: 800
+
+# --- SCI-FI ---
+- id: "vibroblade_01"
+  name: "Vibroblade"
+  type: WEAPON
+  description: "A high-frequency vibrating dagger that shears through armor."
+  metadata:
+    slot: wield
+    isLight: true
+    isFinesse: true
+    weaponType: martial
+    weaponGroup: BLADES_LIGHT
+    damageDice: 1d10
+    damageType: energy
+    damageSubType: sonic
+    critThreshold: 19
+    critMultiplier: 3
+    weight: 1
+    cost: 1200 # High-tech tier pricing
+
+- id: "laser_rifle_01"
+  name: "Mark IV Laser Rifle"
+  type: WEAPON
+  description: "A precision energy weapon with an integrated cooling shroud."
+  metadata:
+    slot: wield
+    isLight: false
+    weaponType: exotic
+    weaponGroup: LASERS
+    damageDice: 3d6
+    damageType: energy
+    damageSubType: fire
+    range: 100
+    critThreshold: 20
+    critMultiplier: 2
+    weight: 7
+    cost: 2500

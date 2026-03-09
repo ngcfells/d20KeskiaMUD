@@ -1,0 +1,20 @@
+bundle: my-d20-bundle
+id: celestial_reach
+name: Celestial Reach
+title: Celestial Reach, the Hallowed Journey
+suggested_level: 3
+metadata:
+  is_starter: false
+behaviors:
+  progressive-respawn:
+    interval: 20
+scripts:
+  items: ./scripts/items
+  npcs: ./scripts/npcs
+  rooms: ./scripts/rooms
+
+# REQUIRED KEYS FOR RANVIER LOADERS
+items: []
+npcs: []
+rooms: []
+quests: []

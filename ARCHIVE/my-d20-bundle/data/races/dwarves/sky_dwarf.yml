@@ -1,0 +1,201 @@
+---
+schema: 1
+
+id: sky_dwarf
+parent: dwarf
+family: dwarf
+
+name: Sky Dwarf
+
+metadata:
+  origin: multiversal
+  rarity: uncommon
+  tags: [environmental_subrace, high_altitude, aerial]
+
+attributes:
+  dexterity: 1
+  constitution: 1
+  wisdom: 1
+
+traits:
+  - physiology_high_altitude_adapted
+  - physiology_dense_musculature
+  - physiology_resilient_immune_system
+
+abilities:
+  - skyforge_lore
+  - cliffborn_agility
+  - windsense
+
+languages:
+  - dwarven
+  - common
+
+environments:
+  - high_mountains
+  - cliffs
+  - skyholds
+  - floating_citadels
+
+lore:
+  society: >
+    Sky dwarves dwell in lofty peaks, cliffside citadels, and floating
+    strongholds. Their clans are shaped by thin air, fierce winds, and
+    the need for precise engineering in perilous heights.
+  appearance: >
+    Leaner than other dwarves, sky dwarves have wind‑toughened skin,
+    braided hair to resist the gusts, and sharp, perceptive eyes.
+  culture: >
+    Their culture emphasizes agility, craftsmanship, and mastery of
+    high‑altitude engineering. They are famed for skybridges, wind‑harps,
+    and cliff‑forges.
+  religion: >
+    Their deities embody wind, storms, mountains, and ancestral guardians
+    of the high places.
+
+variants:
+
+  # ─────────────────────────────────────────────
+  # CANONICAL / SYSTEM VARIANTS (NONE REQUIRED)
+  # ─────────────────────────────────────────────
+  # Sky dwarves do not have psionic/planar/corruption variants in any canon.
+
+  # ─────────────────────────────────────────────
+  # D&D REGIONAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: forgotten_realms
+    region: zakhara
+    tags: [desert, al_qadim]
+    description: >
+      Sky dwarves of Zakhara inhabit high desert mesas and wind‑scoured peaks.
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: forgotten_realms
+    region: chult
+    tags: [jungle]
+    description: >
+      Sky dwarves of Chult dwell on jungle cliffs and volcanic highlands.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: forgotten_realms
+    region: icewind_dale
+    tags: [arctic]
+    description: >
+      Northern sky dwarves inhabit icy peaks and wind‑lashed ridges.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: forgotten_realms
+    region: maztica
+    tags: [mesoamerican]
+    description: >
+      Maztican sky dwarves dwell in high plateaus and cliffside citadels.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: kara_tur
+    tags: [east_asian]
+    description: >
+      Kara‑Tur sky dwarves inhabit steep, terraced mountains and cloud‑piercing
+      monasteries.
+    traits:
+      add:
+        - physiology_high_altitude_adapted
+
+  # ─────────────────────────────────────────────
+  # MULTIVERSAL LOGICAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: spelljammer
+    region: sky_islands
+    tags: [extrapolated]
+    description: >
+      Sky dwarves adapted to floating sky‑islands and drifting citadels.
+    traits:
+      add:
+        - physiology_high_altitude_adapted
+
+  - origin: starfinder
+    region: gas_giant_platforms
+    tags: [extrapolated]
+    description: >
+      Sky dwarves dwelling on atmospheric platforms above gas giants.
+    traits:
+      add:
+        - physiology_high_altitude_adapted
+
+  - origin: rifts
+    region: cloud_rifts
+    tags: [extrapolated]
+    description: >
+      Sky dwarves surviving dimensional storms atop floating mountain shards.
+    traits:
+      add:
+        - physiology_high_altitude_adapted
+
+  # ─────────────────────────────────────────────
+  # GLOBAL CULTURAL ANALOGUES
+  # ─────────────────────────────────────────────
+
+  - origin: generic_fantasy
+    region: polynesia_analog
+    tags: [oceanic, volcanic]
+    description: >
+      Sky dwarves of volcanic island cliffs and basalt sky‑forts.
+    traits:
+      add:
+        - physiology_oceanic_acclimated
+
+  - origin: generic_fantasy
+    region: sahara_analog
+    tags: [desert]
+    description: >
+      Sky dwarves of desert mesas and wind‑carved sandstone peaks.
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: generic_fantasy
+    region: northlands_analog
+    tags: [arctic, norse]
+    description: >
+      Sky dwarves of icy fjords, frozen cliffs, and storm‑lashed peaks.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: generic_fantasy
+    region: dreamtime_analog
+    tags: [australian]
+    description: >
+      Sky dwarves of ancient sandstone cliffs shaped by heat and spirit‑echoes.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: subcontinent_analog
+    tags: [indian]
+    description: >
+      Sky dwarves of monsoon‑carved highlands and cloud‑piercing ridges.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: first_nations_analog
+    tags: [native_american]
+    description: >
+      Sky dwarves of sacred cliffs, river‑cut mesas, and high forested ridges.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant

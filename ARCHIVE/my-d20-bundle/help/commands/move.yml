@@ -1,0 +1,11 @@
+# path: bundles/my-d20-bundle/help/commands/move.yml
+id: move
+name: Move
+usage: move <direction>
+description: |
+  Travel to an adjacent room in the specified direction.
+  
+  Movement speed is determined by your equipment and class abilities. 
+  Wearing heavy armor without training will significantly increase the 
+  time it takes to arrive in the next room.
+related: [armor_training, speed]

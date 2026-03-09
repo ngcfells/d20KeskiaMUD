@@ -1,0 +1,214 @@
+---
+schema: 1
+
+id: earth_dwarf
+parent: dwarf
+family: dwarf
+
+name: Earth Dwarf
+
+metadata:
+  origin: multiversal
+  rarity: uncommon
+  tags: [elemental_subrace, earth, stone]
+
+attributes:
+  constitution: 2
+  strength: 1
+  charisma: -1
+
+traits:
+  - physiology_dense_musculature
+  - physiology_resilient_immune_system
+  - physiology_stone_hardened
+  - physiology_earth_affinity
+
+abilities:
+  - geomantic_lore
+  - tremor_sense_minor
+  - stonebond_endurance
+
+languages:
+  - dwarven
+  - common
+  - terran
+
+environments:
+  - mountains
+  - deep_earth
+  - caverns
+  - stone_deserts
+  - tectonic_zones
+
+lore:
+  society: >
+    Earth dwarves dwell in deep caverns, mineral‑rich mountains, and
+    stone‑rooted strongholds. Their clans are shaped by geomancy, mining,
+    and the slow, patient rhythms of the earth. They are renowned for
+    stonecraft, mineral lore, and mastery of subterranean engineering.
+  appearance: >
+    Their skin ranges from granite‑gray to deep brown, often with natural
+    mineral flecks. Their hair and beards resemble iron, copper, or
+    obsidian strands.
+  culture: >
+    Earth dwarves value patience, endurance, and craftsmanship. Their
+    traditions include stone rites, geomantic rituals, and mineral
+    divination.
+  religion: >
+    Their deities embody stone, mountains, minerals, and the deep earth.
+
+variants:
+
+  # ─────────────────────────────────────────────
+  # CANONICAL / SYSTEM VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: elemental_plane_of_earth
+    tags: [elemental, canon]
+    description: >
+      Earth dwarves native to the Elemental Plane of Earth, shaped by
+      living stone, crystal caverns, and mineral currents.
+    traits:
+      add:
+        - physiology_earth_affinity
+        - physiology_stone_hardened
+
+  - origin: mystara
+    region: rockhome
+    tags: [canon]
+    description: >
+      Earth dwarves of Rockhome dwell in mineral‑rich mountains and deep
+      stone halls.
+    traits:
+      add:
+        - physiology_stone_hardened
+
+  # ─────────────────────────────────────────────
+  # MULTIVERSAL LOGICAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: spelljammer
+    region: lithic_worlds
+    tags: [stone, extrapolated]
+    description: >
+      Earth dwarves adapted to stone‑worlds, mineral asteroids, and
+      drifting crystal caverns.
+    traits:
+      add:
+        - physiology_earth_affinity
+
+  - origin: starfinder
+    region: mineral_planets
+    tags: [stone, extrapolated]
+    description: >
+      Earth dwarves of mineral‑dense planets shaped by tectonic storms and
+      crystal forests.
+    traits:
+      add:
+        - physiology_stone_hardened
+
+  - origin: rifts
+    region: tectonic_rifts
+    tags: [stone, extrapolated]
+    description: >
+      Earth dwarves surviving dimensional quakes and unstable tectonic
+      megastructures.
+    traits:
+      add:
+        - physiology_earth_affinity
+
+  # ─────────────────────────────────────────────
+  # D&D REGIONAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: forgotten_realms
+    region: zakhara
+    tags: [desert, stone]
+    description: >
+      Earth dwarves of Zakhara inhabit stone deserts, basalt ridges, and
+      deep sandstone caverns.
+    traits:
+      add:
+        - physiology_desert_hazard_resistant
+
+  - origin: forgotten_realms
+    region: chult_highlands
+    tags: [jungle, stone]
+    description: >
+      Earth dwarves of Chult dwell in volcanic highlands and stone‑rooted
+      jungle caverns.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: forgotten_realms
+    region: maztica_highlands
+    tags: [mesoamerican, stone]
+    description: >
+      Earth dwarves of Maztica inhabit obsidian cliffs and mineral‑rich
+      highlands.
+    traits:
+      add:
+        - physiology_stone_hardened
+
+  - origin: kara_tur
+    region: stone_mountains
+    tags: [east_asian, stone]
+    description: >
+      Earth dwarves of Kara‑Tur dwell in steep stone mountains and
+      geomantic caverns.
+    traits:
+      add:
+        - physiology_high_altitude_adapted
+
+  # ─────────────────────────────────────────────
+  # GLOBAL CULTURAL ANALOGUES
+  # ─────────────────────────────────────────────
+
+  - origin: generic_fantasy
+    region: andes_analog
+    tags: [mountain, stone]
+    description: >
+      Earth dwarves of high mountain ranges shaped by stone terraces and
+      mineral cliffs.
+    traits:
+      add:
+        - physiology_high_altitude_adapted
+
+  - origin: generic_fantasy
+    region: himalaya_analog
+    tags: [mountain, stone]
+    description: >
+      Earth dwarves of towering peaks and deep geomantic caverns.
+    traits:
+      add:
+        - physiology_high_altitude_adapted
+
+  - origin: generic_fantasy
+    region: sahara_rock_analog
+    tags: [desert, stone]
+    description: >
+      Earth dwarves of stone deserts, basalt mesas, and canyon labyrinths.
+    traits:
+      add:
+        - physiology_desert_hazard_resistant
+
+  - origin: generic_fantasy
+    region: dreamtime_analog
+    tags: [australian, stone]
+    description: >
+      Earth dwarves of ancient sandstone ranges shaped by heat and
+      spirit‑echoes.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: first_nations_canyon_analog
+    tags: [native_american, stone]
+    description: >
+      Earth dwarves of sacred canyons, river‑cut cliffs, and stone
+      labyrinths.
+    traits:
+      add:
+        - physiology_stone_hardened

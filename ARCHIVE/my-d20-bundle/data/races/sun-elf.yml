@@ -1,0 +1,9 @@
+id: sun-elf
+parent: elf
+name: Sun Elf
+description: Arrogant and scholarly, Sun Elves value magic above all.
+attributes:
+  intelligence: 2
+metadata:
+  traits:
+    - high_magic_affinity

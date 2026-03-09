@@ -1,0 +1,17 @@
+- id: kalashtar
+  name: Kalashtar
+  description: A compound race created from the union of humanity and renegade
+    spirits from the plane of dreams.
+  attributes:
+    strength: 0
+    dexterity: 0
+    constitution: 0
+    intelligence: 0
+    wisdom: 2
+    charisma: 2
+    appearance: 2
+  metadata:
+    baseSpeed: 30
+    traits:
+      - mindlink
+      - psychic_resistance

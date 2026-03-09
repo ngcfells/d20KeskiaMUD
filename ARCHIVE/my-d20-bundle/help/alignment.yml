@@ -1,0 +1,11 @@
+- id: alignment
+  name: Alignment
+  body: |
+    <b>Alignment</b> represents your character's moral and ethical standing.
+    It is measured on two axes: <white>Law vs. Chaos</white> and <white>Good vs. Evil</white>.
+
+    Your actions in the world—such as killing innocents, completing quests, or 
+    showing mercy—will shift your position on this grid. 
+
+    Classes like the <cyan>Monk</cyan> and <cyan>Paladin</cyan> lose their powers 
+    if their alignment shifts too far from their required path. See: <yellow>help atone</yellow>

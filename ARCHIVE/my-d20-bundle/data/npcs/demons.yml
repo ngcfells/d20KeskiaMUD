@@ -1,0 +1,137 @@
+- id: monster_dretch
+  name: "Dretch"
+  keywords: ["dretch", "demon", "tanar_ri"]
+  level: 2
+  description: "A small, bloated humanoid with sagging, hairless skin. It smells of stale flatulence and decay."
+  metadata:
+    isExtraplanar: true
+    homePlane: "Abyss"
+    homePlaneRoomId: "the_abyss:triple_realm0"
+    dislikedItem: "vial_of_holy_water" # Standard repulsion for minor filth
+  attributes:
+    health: 13
+    strength: 12
+    dexterity: 10
+    constitution: 14
+    intelligence: 5
+    wisdom: 11
+    charisma: 11
+    appearance: 2
+    armor_class: 16
+  behaviors:
+    d20_combat:
+      attack_bonus: 3
+      damage: "1d6+1"
+      damage_type: "kinetic"
+      damageSubType: "slashing"
+    demon_traits:
+      immunities: ["electricity", "poison"]
+      resistances: { fire: 10, cold: 10, acid: 10 }
+      damage_reduction: { amount: 5, type: "cold_iron" }
+    stinking_cloud_aura:
+      dc: 13
+      effect: "shaken"
+
+- id: monster_babau
+  name: "Babau"
+  keywords: ["babau", "demon", "assassin", "tanar_ri"]
+  level: 6
+  description: "A tall, skeletal figure covered in tight, black leather-like skin. A single horn curves from the head."
+  metadata:
+    isExtraplanar: true
+    homePlane: "Abyss"
+    homePlaneRoomId: "the_abyss:shadow_maze0"
+    dislikedItem: "powdered_silver" # Irritates their protective slime
+  attributes:
+    health: 66
+    strength: 21
+    dexterity: 12
+    constitution: 20
+    intelligence: 14
+    wisdom: 13
+    charisma: 16
+    appearance: 4
+    armor_class: 19
+  behaviors:
+    d20_combat:
+      attack_bonus: 12
+      damage: "1d8+5"
+      damage_type: "kinetic"
+      damageSubType: "piercing"
+      special: "Sneak Attack +2d6"
+    demon_traits:
+      immunities: ["electricity", "poison"]
+      resistances: { fire: 10, cold: 10, acid: 10 }
+      damage_reduction: { amount: 10, type: "cold_iron" }
+    protective_slime:
+      effect: "Deals 1d6 acid damage to any weapon striking it."
+
+- id: monster_vrock
+  name: "Vrock"
+  keywords: ["vrock", "demon", "vulture", "tanar_ri"]
+  level: 9
+  description: "A horrifying cross between a humanoid and a giant vulture, with feathered wings and powerful talons."
+  metadata:
+    isExtraplanar: true
+    homePlane: "Abyss"
+    homePlaneRoomId: "the_abyss:vrock_perch0"
+    dislikedItem: "bell_of_pure_tone" # High-frequency sound disrupts their screeching essence
+  attributes:
+    health: 115
+    strength: 23
+    dexterity: 15
+    constitution: 25
+    intelligence: 14
+    wisdom: 16
+    charisma: 16
+    appearance: 3
+    armor_class: 22
+    speed: 60 # 60ft fly speed
+  behaviors:
+    d20_combat:
+      attack_bonus: 15
+      damage: "2d6+6"
+      damage_type: "kinetic"
+      damageSubType: "slashing"
+    demon_traits:
+      immunities: ["electricity", "poison"]
+      resistances: { fire: 10, cold: 10, acid: 10 }
+      damage_reduction: { amount: 10, type: "good" }
+    vrock_screech:
+      dc: 22
+      effect: "stunned"
+      cooldown: 30000
+
+- id: monster_hezrou
+  name: "Hezrou"
+  keywords: ["hezrou", "demon", "toad", "tanar_ri"]
+  level: 11
+  description: "A massive, toad-like demon with rows of jagged teeth and skin that weeps a foul-smelling ichor."
+  metadata:
+    isExtraplanar: true
+    homePlane: "Abyss"
+    homePlaneRoomId: "the_abyss:stinking_fens0"
+    dislikedItem: "incense_of_purity" # Overwhelms their stench-based aura
+  attributes:
+    health: 138
+    strength: 29
+    dexterity: 10
+    constitution: 29
+    intelligence: 14
+    wisdom: 14
+    charisma: 18
+    appearance: 1
+    armor_class: 24
+  behaviors:
+    d20_combat:
+      attack_bonus: 17
+      damage: "4d4+9"
+      damage_type: "kinetic"
+      damageSubType: "bludgeoning"
+    demon_traits:
+      immunities: ["electricity", "poison"]
+      resistances: { fire: 10, cold: 10, acid: 10 }
+      damage_reduction: { amount: 10, type: "good" }
+    stench_aura: # Nauseating odor
+      dc: 24
+      effect: "nauseous"

@@ -1,0 +1,178 @@
+---
+schema: 1
+
+id: frost_dwarf
+parent: dwarf
+family: dwarf
+
+name: Frost Dwarf
+
+metadata:
+  origin: multiversal
+  rarity: uncommon
+  tags: [canon, environmental_subrace]
+
+attributes:
+  constitution: 2
+  strength: 1
+  charisma: -1
+
+traits:
+  - physiology_cold_acclimated
+  - physiology_dense_musculature
+  - physiology_resilient_immune_system
+
+abilities:
+  - frostforge_lore
+  - iceborn_endurance
+
+languages:
+  - dwarven
+  - common
+
+environments:
+  - arctic
+  - tundra
+  - glacial
+  - subarctic
+
+lore:
+  society: >
+    Frost dwarves inhabit frozen mountains, glacial caverns, and tundra
+    strongholds. Their clans are shaped by scarcity, harsh winters, and
+    the need for cooperation in unforgiving climates.
+  appearance: >
+    Their skin ranges from pale stone to icy blue-gray, with thick beards
+    that often freeze in the cold. Their bodies are compact and heavily
+    muscled.
+  culture: >
+    Frost dwarves value endurance, stoicism, and mastery of ice and stone.
+    Their craftsmanship includes frost‑tempered metals and rune‑etched tools.
+  religion: >
+    Their deities embody winter, endurance, storms, and ancestral memory.
+
+variants:
+
+  # ─────────────────────────────────────────────
+  # CANONICAL / SYSTEM VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: forgotten_realms
+    region: icewind_dale
+    tags: [arctic, canon]
+    description: >
+      Frost dwarves of Icewind Dale endure blizzards, permafrost, and
+      glacial caverns.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: forgotten_realms
+    region: spine_of_the_world
+    tags: [arctic]
+    description: >
+      Frost dwarves of the Spine of the World inhabit frozen peaks and
+      subterranean ice caverns.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: dragonlance
+    region: nordmaar
+    tags: [arctic]
+    description: >
+      Frost dwarves of Nordmaar dwell in icy highlands and frozen coasts.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: mystara
+    region: northern_reaches
+    tags: [arctic]
+    description: >
+      Frost dwarves of the Northern Reaches endure long winters and
+      glacial valleys.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  # ─────────────────────────────────────────────
+  # MULTIVERSAL LOGICAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: spelljammer
+    region: glacia
+    tags: [arctic, extrapolated]
+    description: >
+      Frost dwarves adapted to ice‑worlds and frozen asteroids.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: starfinder
+    region: triaxus
+    tags: [arctic, extrapolated]
+    description: >
+      Frost dwarves of Triaxus endure extreme seasonal shifts and glacial
+      megastructures.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: rifts
+    region: antarctica
+    tags: [arctic, extrapolated]
+    description: >
+      Frost dwarves surviving dimensional storms and frozen wastelands.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  # ─────────────────────────────────────────────
+  # GLOBAL CULTURAL ANALOGUES
+  # ─────────────────────────────────────────────
+
+  - origin: generic_fantasy
+    region: northlands_analog
+    tags: [arctic, norse]
+    description: >
+      Frost dwarves of northern fjords, icy mountains, and frozen seas.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: generic_fantasy
+    region: tundra_analog
+    tags: [arctic]
+    description: >
+      Frost dwarves of windswept tundra and permafrost caverns.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: generic_fantasy
+    region: polar_analog
+    tags: [arctic]
+    description: >
+      Frost dwarves of polar ice shelves and glacial labyrinths.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: generic_fantasy
+    region: siberia_analog
+    tags: [arctic]
+    description: >
+      Frost dwarves of boreal forests, frozen rivers, and icy mountains.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: generic_fantasy
+    region: inuit_analog
+    tags: [arctic, native_american]
+    description: >
+      Frost dwarves of coastal ice caves and frozen archipelagos.
+    traits:
+      add:
+        - physiology_cold_acclimated

@@ -1,0 +1,17 @@
+title: d20-combat
+description: Full D20 combat engine integrating attack rolls, AC, damage types, criticals, maneuvers, and effect hooks.
+version: 1.0.0
+author: Chris Fells, 2026
+
+requires:
+  - d20-effect-engine
+  - d20-common-effects
+  - d20-attributes
+  - d20-traits
+  - lifecycle
+  - decay
+  - lootable
+
+listeners:
+  stateReady:
+    - listeners/register.js

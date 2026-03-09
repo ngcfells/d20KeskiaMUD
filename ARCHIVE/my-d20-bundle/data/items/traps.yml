@@ -1,0 +1,102 @@
+# traps.yml
+# Canonical trap definitions for the TrapManager subsystem.
+
+snare:
+  type: snare
+  category: wildlife
+  difficulty: easy
+  detectDC: 8
+  disarmDC: 10
+  triggerDC: 10
+  damage: none
+  effect: entangle
+  materials:
+    - rope
+    - stick
+  tools:
+    - tool_trap_kit
+  bait: berries
+  targets: [animal, beast]
+
+pit:
+  type: pit
+  category: wildlife
+  difficulty: moderate
+  detectDC: 12
+  disarmDC: 12
+  triggerDC: 12
+  damage: fall
+  effect: prone
+  materials:
+    - shovel
+  tools:
+    - tool_trap_kit
+  bait: none
+  targets: [animal, humanoid]
+
+tripwire:
+  type: tripwire
+  category: combat
+  difficulty: moderate
+  detectDC: 14
+  disarmDC: 14
+  triggerDC: 14
+  damage: minor
+  effect: stumble
+  materials:
+    - wire
+  tools:
+    - tool_trap_kit
+  bait: none
+  targets: [humanoid]
+
+spike:
+  type: spike
+  category: combat
+  difficulty: hard
+  detectDC: 16
+  disarmDC: 16
+  triggerDC: 16
+  damage: piercing
+  effect: bleed
+  materials:
+    - spikes
+    - wood
+  tools:
+    - tool_trap_kit
+  bait: none
+  targets: [humanoid, beast]
+
+deadfall:
+  type: deadfall
+  category: wildlife
+  difficulty: hard
+  detectDC: 15
+  disarmDC: 15
+  triggerDC: 15
+  damage: bludgeoning
+  effect: stun
+  materials:
+    - log
+    - rope
+  tools:
+    - tool_trap_kit
+  bait: meat
+  targets: [animal, beast]
+
+alarm:
+  type: alarm
+  category: combat
+  difficulty: moderate
+  detectDC: 14
+  disarmDC: 14
+  triggerDC: 10
+  damage: none
+  effect: alert
+  materials:
+    - bell
+    - wire
+  tools:
+    - tool_trap_kit
+  bait: none
+  targets: [humanoid, beast]

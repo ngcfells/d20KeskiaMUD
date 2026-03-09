@@ -1,0 +1,24 @@
+bundle: my-d20-bundle
+id: ossuary
+name: Ossuary
+title: Ossuary
+
+levelRange:
+  min: 1
+  max: 3
+
+tags:
+  - tutorial
+  - undead
+  - dungeon
+
+scripts:
+  items: ./scripts/items
+  npcs: ./scripts/npcs
+  rooms: ./scripts/rooms
+
+# REQUIRED KEYS FOR RANVIER LOADERS
+items: []
+npcs: []
+rooms: []
+quests: []

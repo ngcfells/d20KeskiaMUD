@@ -1,0 +1,31 @@
+- command: buy
+  keywords: ['buy']
+  body: |
+    Usage: <b>buy <item> <vendor></b>
+    
+    Purchase an item from a merchant. 
+    <b>Mixed Currency:</b> Our exchange engine automatically calculates your 
+    total buying power across all denominations (Nuyen, GP, Credits, etc.).
+    <b>Change:</b> The vendor will take higher denominations first to meet 
+    the Universal Credit (UC) cost of the item.
+
+- command: list
+  keywords: ['list']
+  body: |
+    Usage: <b>list <vendor></b>
+    
+    See a merchant's inventory. Prices are displayed in the vendor's 
+    <b>Preferred Regional Currency</b>.
+
+- id: currency_exchange
+  keywords: ['currency', 'exchange', 'uc']
+  name: Multiversal Exchange
+  body: |
+    The world uses a <b>Universal Credit (UC)</b> back-end for trade. 
+    - 1 GP = 1.0 UC
+    - 1 Nuyen = 0.02 UC
+    - 1 Credit = 0.1 UC
+    
+    When buying from a vendor, your entire wallet is evaluated. You can 
+    buy a sword in a fantasy town using credits from a distant star system, 
+    though the exchange rate may vary by bank or black market.

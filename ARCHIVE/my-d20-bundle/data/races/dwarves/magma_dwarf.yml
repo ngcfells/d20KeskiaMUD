@@ -1,0 +1,206 @@
+---
+schema: 1
+
+id: magma_dwarf
+parent: dwarf
+family: dwarf
+
+name: Magma Dwarf
+
+metadata:
+  origin: multiversal
+  rarity: uncommon
+  tags: [environmental_subrace, volcanic, geothermal]
+
+attributes:
+  constitution: 2
+  strength: 1
+  charisma: -1
+
+traits:
+  - physiology_heat_acclimated
+  - physiology_desert_hazard_resistant
+  - physiology_dense_musculature
+  - physiology_resilient_immune_system
+
+abilities:
+  - magmaforge_lore
+  - volcanic_endurance
+
+languages:
+  - dwarven
+  - common
+
+environments:
+  - volcanic
+  - geothermal
+  - mountains
+  - deep_earth
+
+lore:
+  society: >
+    Magma dwarves dwell in volcanic mountains, lava tubes, and geothermal
+    caverns. Their clans are shaped by heat, pressure, and the constant
+    threat of eruptions. Their forges are legendary for producing
+    heat‑tempered alloys and rune‑etched weapons.
+  appearance: >
+    Their skin ranges from obsidian-dark to ember-red, often marked with
+    natural heat‑scar patterns. Their hair and beards may appear soot‑dark,
+    coppery, or streaked with ash.
+  culture: >
+    Magma dwarves value endurance, craftsmanship, and mastery of fire and
+    stone. Their traditions include volcanic rites, metalcraft, and
+    geomantic engineering.
+  religion: >
+    Their deities embody fire, stone, creation, and volcanic renewal.
+
+variants:
+
+  # ─────────────────────────────────────────────
+  # CANONICAL / SYSTEM VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: forgotten_realms
+    region: maztica
+    tags: [mesoamerican, volcanic]
+    description: >
+      Magma dwarves of Maztica dwell in volcanic highlands and obsidian
+      caverns shaped by ancient eruptions.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: forgotten_realms
+    region: chult
+    tags: [jungle, volcanic]
+    description: >
+      Magma dwarves of Chult inhabit volcanic ridges and geothermal jungles.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: mystara
+    region: broken_lands
+    tags: [volcanic]
+    description: >
+      Magma dwarves of the Broken Lands dwell in lava tubes and volcanic
+      caverns shaped by ancient magical upheaval.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  # ─────────────────────────────────────────────
+  # MULTIVERSAL LOGICAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: spelljammer
+    region: ignis
+    tags: [volcanic, extrapolated]
+    description: >
+      Magma dwarves adapted to fire‑worlds and molten asteroid belts.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: starfinder
+    region: aucturn_fissures
+    tags: [volcanic, extrapolated]
+    description: >
+      Magma dwarves of Aucturn’s geothermal fissures endure toxic heat and
+      unstable magma flows.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: rifts
+    region: volcanic_rifts
+    tags: [volcanic, extrapolated]
+    description: >
+      Magma dwarves surviving dimensional storms and volcanic megastructures.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  # ─────────────────────────────────────────────
+  # D&D REGIONAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: forgotten_realms
+    region: zakhara
+    tags: [desert, volcanic]
+    description: >
+      Magma dwarves of Zakhara inhabit volcanic deserts and basalt ridges.
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: kara_tur
+    region: wu_pi_te_shan
+    tags: [east_asian, volcanic]
+    description: >
+      Magma dwarves of Kara‑Tur dwell in volcanic mountain chains and
+      geothermal valleys.
+    traits:
+      add:
+        - physiology_high_altitude_adapted
+
+  # ─────────────────────────────────────────────
+  # GLOBAL CULTURAL ANALOGUES
+  # ─────────────────────────────────────────────
+
+  - origin: generic_fantasy
+    region: polynesia_analog
+    tags: [oceanic, volcanic]
+    description: >
+      Magma dwarves of volcanic archipelagos shaped by lava flows and
+      obsidian cliffs.
+    traits:
+      add:
+        - physiology_oceanic_acclimated
+
+  - origin: generic_fantasy
+    region: sahara_analog
+    tags: [desert, volcanic]
+    description: >
+      Magma dwarves of desert volcanoes and basalt mesas.
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: generic_fantasy
+    region: rift_valley_analog
+    tags: [african, volcanic]
+    description: >
+      Magma dwarves of geothermal rift valleys and obsidian‑lined caverns.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: icelandic_analog
+    tags: [volcanic, arctic]
+    description: >
+      Magma dwarves of glacial volcanoes and geothermal ice caverns.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: generic_fantasy
+    region: subcontinent_analog
+    tags: [indian, volcanic]
+    description: >
+      Magma dwarves of monsoon‑fed volcanic ridges and basalt plateaus.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: first_nations_analog
+    tags: [native_american, volcanic]
+    description: >
+      Magma dwarves of sacred volcanic mountains and obsidian caves.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant

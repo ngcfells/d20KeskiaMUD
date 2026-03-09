@@ -1,0 +1,221 @@
+---
+schema: 1
+
+id: desert_dwarf
+parent: dwarf
+family: dwarf
+
+name: Desert Dwarf
+
+metadata:
+  origin: multiversal
+  rarity: uncommon
+  tags: [environmental_subrace, desert]
+
+attributes:
+  constitution: 2
+  wisdom: 1
+  charisma: -1
+
+traits:
+  - physiology_heat_acclimated
+  - physiology_desert_hazard_resistant
+  - physiology_dense_musculature
+  - physiology_resilient_immune_system
+
+abilities:
+  - dune_lore
+  - sandstride
+  - desert_endurance
+
+languages:
+  - dwarven
+  - common
+
+environments:
+  - desert
+  - arid_mountains
+  - badlands
+  - canyons
+  - dry_underground
+
+lore:
+  society: >
+    Desert dwarves dwell in sun‑blasted mountains, canyon strongholds, and
+    deep desert caverns. Their clans are shaped by scarcity, heat, and the
+    need for careful water stewardship. They are renowned for their
+    endurance, discipline, and mastery of desert survival.
+  appearance: >
+    Their skin ranges from bronze to deep earth‑tones, often cracked or
+    weathered by the sun. Their beards are tightly braided to keep out sand.
+  culture: >
+    Desert dwarves value resilience, resourcefulness, and clan loyalty.
+    Their craftsmanship includes heat‑tempered metals, sandstone carving,
+    and ingenious water‑harvesting devices.
+  religion: >
+    Their deities embody sun, stone, endurance, and the spirits of the
+    desert winds.
+
+variants:
+
+  # ─────────────────────────────────────────────
+  # CANONICAL / SYSTEM VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: forgotten_realms
+    region: zakhara
+    tags: [desert, al_qadim, canon]
+    description: >
+      Zakhari desert dwarves inhabit sun‑scorched mountains and deep
+      sandstone caverns.
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: forgotten_realms
+    region: anauroch
+    tags: [desert]
+    description: >
+      Desert dwarves of Anauroch survive in ruined Netherese caverns and
+      shifting dune‑canyons.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: forgotten_realms
+    region: calimshan
+    tags: [desert]
+    description: >
+      Calishite desert dwarves inhabit arid mountains and ancient
+      sandstone fortresses.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: mystara
+    region: emirates_of_ylaruam
+    tags: [desert]
+    description: >
+      Desert dwarves of Ylaruam dwell in dry mountains and oasis‑border
+      strongholds.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  # ─────────────────────────────────────────────
+  # MULTIVERSAL LOGICAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: spelljammer
+    region: sunward_dunes
+    tags: [desert, extrapolated]
+    description: >
+      Desert dwarves adapted to drifting sand‑worlds and sun‑blasted
+      asteroid deserts.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: starfinder
+    region: aucturn_deserts
+    tags: [desert, extrapolated]
+    description: >
+      Desert dwarves of Aucturn survive in toxic, heat‑warped wastelands.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: rifts
+    region: wasteland_rifts
+    tags: [desert, extrapolated]
+    description: >
+      Desert dwarves surviving dimensional storms in blasted wastelands.
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  # ─────────────────────────────────────────────
+  # D&D REGIONAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: forgotten_realms
+    region: chult_drylands
+    tags: [savanna]
+    description: >
+      Desert dwarves of Chult’s dry savannas and canyon‑cut highlands.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: forgotten_realms
+    region: maztica_deserts
+    tags: [mesoamerican, desert]
+    description: >
+      Desert dwarves of Maztica inhabit arid plateaus and volcanic deserts.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: kara_tur
+    region: hsing_hsing_desert
+    tags: [east_asian, desert]
+    description: >
+      Desert dwarves of Kara‑Tur dwell in dry steppes and dune‑border
+      mountains.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  # ─────────────────────────────────────────────
+  # GLOBAL CULTURAL ANALOGUES
+  # ─────────────────────────────────────────────
+
+  - origin: generic_fantasy
+    region: sahara_analog
+    tags: [desert]
+    description: >
+      Desert dwarves of vast dune‑seas and sandstone mountains.
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: generic_fantasy
+    region: arabian_analog
+    tags: [desert]
+    description: >
+      Desert dwarves of caravan cities, canyon fortresses, and oasis
+      strongholds.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: dreamtime_analog
+    tags: [australian]
+    description: >
+      Desert dwarves of ancient sandstone ranges and sacred desert sites.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: subcontinent_analog
+    tags: [indian]
+    description: >
+      Desert dwarves of monsoon‑shadow deserts and volcanic drylands.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: first_nations_analog
+    tags: [native_american]
+    description: >
+      Desert dwarves of canyon‑cut mesas, dry river valleys, and sacred
+      desert cliffs.
+    traits:
+      add:
+        - physiology_desert_hazard_resistant

@@ -1,0 +1,68 @@
+# ============================================================
+# TOOLS — Crafting Integration Pack 1
+# ============================================================
+
+- id: tool_cooking_kit
+  name: Cooking Kit
+  category: cooking
+  provides:
+    prep: 1
+    heat: 1
+  skills:
+    - craft
+    - profession
+
+- id: tool_smithing_hammer
+  name: Smithing Hammer
+  category: smithing
+  provides:
+    hammering: 1
+  skills:
+    - craft
+
+- id: tool_tongs
+  name: Tongs
+  category: smithing
+  provides:
+    grip: 1
+  skills:
+    - craft
+
+- id: tool_alchemy_kit
+  name: Alchemy Kit
+  category: alchemy
+  provides:
+    distillation: 1
+    infusion: 1
+  skills:
+    - craft
+    - knowledge
+
+- id: tool_herbalism_kit
+  name: Herbalism Kit
+  category: herbalism
+  provides:
+    grinding: 1
+    prep: 1
+  skills:
+    - craft
+    - survival
+
+- id: tool_brewing_kit
+  name: Brewing Kit
+  category: brewing
+  provides:
+    fermentation: 1
+    heat: 1
+  skills:
+    - craft
+    - profession
+
+- id: tool_distilling_kit
+  name: Distilling Kit
+  category: distilling
+  provides:
+    distillation: 1
+  skills:
+    - craft
+    - profession

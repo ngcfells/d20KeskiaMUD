@@ -1,0 +1,59 @@
+# bundles/my-d20-bundle/data/items/magic_items.yml
+
+# --- IOUN STONES ---
+- id: "ioun_torch_stone"
+  name: "Dull Grey Ioun Stone"
+  type: LIGHT
+  keywords: ["stone", "ioun", "torch"]
+  description: "A burnt-out, grey stone that hums with a faint magical warmth. It orbits any creature that releases it."
+  metadata:
+    is_light: true
+    is_ioun: true
+    slot: "ioun" # Orbits the head in 3.5e
+
+# --- WONDEROUS ITEMS ---
+- id: "permanent_bone_legs"
+  name: 'Permanent Bone Legs'
+  description: >
+    A pair of articulated humanoid leg and hip bones, fused together by 
+    glowing ley-lines of violet negative energy. They stand upright, 
+    patiently shifting their weight from foot to foot as they await a master.
+  type: CONTAINER
+  roomDesc: 'A set of skeletal legs stands here, clicking its heels together.'
+  keywords: ['bone', 'legs', 'skeletal', 'mount', 'porter']
+  level: 9
+  weight: 25
+  maxItems: 10
+  maxWeight: 150 # Based on STR 15 (Level 9 Permanency min)
+  metadata:
+    isPermanent: true
+    sourceSpell: 'bone_legs'
+    creationCost: 500 # XP
+    canBeRidden: true
+    isAnimatedUndead: true
+    # d20 Attributes for the object
+    strength: 15
+    dexterity: 12
+    speed: 30
+    hp: 45
+    ac: 15
+  script: 'permanent_bone_legs'
+  behaviors:
+    # Custom behavior for following and mounting
+    follow: 
+      range: 'close'
+    container:
+      closed: false
+      closable: false
+
+# NPC SPECIFIC
+- id: liang_ioun_array
+  name: "Netherese Ioun Array"
+  keywords: ["ioun", "stones", "orbitals", "array"]
+  type: "CONTAINER" # Acts as a holder for multiple orbital effects
+  slot: "head"
+  description: "A swarming cloud of varicolored stones that orbit Liang's head in a complex, geometric pattern."
+  metadata:
+    isIounStone: true
+    activeStones: ["pale_green", "orange_prism", "vibrant_purple", "clear_spindle", "dull_grey"]
+    resonanceType: "netherese_harmonic"

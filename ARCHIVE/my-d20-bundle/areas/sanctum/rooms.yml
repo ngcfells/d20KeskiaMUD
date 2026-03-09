@@ -1,0 +1,24 @@
+- id: dimensional_archive_prison
+  title: "The Infinite Margin"
+  coordinates: [0, 0, 999] # Planar offset
+  description: >
+    The air here is thick with the scent of vellum and drying ink. There is no 
+    sky, only a vast, yellowed parchment ceiling that stretches into a 
+    meaningless horizon. The walls are composed of millions of vertical 
+    ink-lines that, upon closer inspection, are revealed to be the compressed, 
+    two-dimensional silhouettes of screaming figures. Silence reigns here, 
+    absolute and clinical, as if the room itself is waiting for a final 
+    punctuation mark.
+  metadata:
+    isSanctum: true
+    isAntiMagic: false # Magic works, but escape is anchored
+    collapsesAntimagic: true # Per our AMF logic, this zone breaks AMFs
+    planar_anchor: "Liang Chou"
+    roomType: "planar_prison"
+  
+  # --- LOGIC FOR THE ENTRAPPED ---
+  behaviors:
+    - id: "liang_narrative_stasis"
+  
+  # --- EXITS: NONE (Requires Liang's Retrieval or Planar Shift) ---
+  exits: []

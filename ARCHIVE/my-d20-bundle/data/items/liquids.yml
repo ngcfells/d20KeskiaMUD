@@ -1,0 +1,673 @@
+# ============================================================
+# LIQUIDS.YML — Canonical Multiversal Liquid Catalog
+# ============================================================
+# Each liquid defines:
+#   id: unique identifier
+#   name: display name
+#   category: water | juice | soda | milk | tea | coffee | broth | alcohol | oil | syrup | planar_water
+#   tags: arbitrary descriptors
+#   description: flavor text
+#   defaultEffects: list of effect IDs from Liquid Effects Pack 1
+# ============================================================
+
+# ------------------------------------------------------------
+# MUNDANE WATERS
+# ------------------------------------------------------------
+- id: water_plain
+  name: Plain Water
+  category: water
+  tags: [mundane, drinkable]
+  description: Clean, potable water.
+  defaultEffects: [hydrate_minor]
+
+- id: water_spring
+  name: Fresh Spring Water
+  category: water
+  tags: [mundane, drinkable]
+  description: Cool, clear water from a natural spring.
+  defaultEffects: [hydrate_minor, refresh_minor]
+
+- id: water_well
+  name: Well Water
+  category: water
+  tags: [mundane, drinkable]
+  description: Water drawn from a deep stone well.
+  defaultEffects: [hydrate_minor]
+
+- id: water_sparkling
+  name: Sparkling Water
+  category: water
+  tags: [mundane, drinkable, carbonated]
+  description: Lightly carbonated mineral water.
+  defaultEffects: [hydrate_minor]
+
+- id: water_lemon
+  name: Lemon Water
+  category: water
+  tags: [mundane, drinkable, citrus]
+  description: Water infused with fresh lemon.
+  defaultEffects: [hydrate_minor, refresh_minor]
+
+# ------------------------------------------------------------
+# JUICES
+# ------------------------------------------------------------
+- id: juice_apple
+  name: Apple Juice
+  category: juice
+  tags: [mundane, drinkable, sweet]
+  description: Pressed juice from ripe apples.
+  defaultEffects: [hydrate_minor, morale_minor]
+
+- id: juice_orange
+  name: Orange Juice
+  category: juice
+  tags: [mundane, drinkable, citrus]
+  description: Tart, refreshing orange juice.
+  defaultEffects: [hydrate_minor]
+
+- id: juice_grape
+  name: Grape Juice
+  category: juice
+  tags: [mundane, drinkable, sweet]
+  description: Deep purple grape juice.
+  defaultEffects: [hydrate_minor]
+
+- id: juice_pineapple
+  name: Pineapple Juice
+  category: juice
+  tags: [mundane, drinkable, tropical]
+  description: Sweet, tangy pineapple juice.
+  defaultEffects: [hydrate_minor, morale_minor]
+
+# ------------------------------------------------------------
+# SODAS
+# ------------------------------------------------------------
+- id: soda_cola
+  name: Cola
+  category: soda
+  tags: [mundane, drinkable, caffeinated]
+  description: Fizzy, sweet cola.
+  defaultEffects: [hydrate_minor, jitter_minor]
+
+- id: soda_root_beer
+  name: Root Beer
+  category: soda
+  tags: [mundane, drinkable, sweet]
+  description: A sweet, foamy root beer.
+  defaultEffects: [hydrate_minor]
+
+- id: soda_ginger_ale
+  name: Ginger Ale
+  category: soda
+  tags: [mundane, drinkable, ginger]
+  description: A crisp ginger-flavored soda.
+  defaultEffects: [hydrate_minor]
+
+- id: soda_lemon_lime
+  name: Lemon-Lime Soda
+  category: soda
+  tags: [mundane, drinkable, citrus]
+  description: A fizzy lemon-lime soft drink.
+  defaultEffects: [hydrate_minor]
+
+# ------------------------------------------------------------
+# MILKS
+# ------------------------------------------------------------
+- id: milk_cow
+  name: Cow’s Milk
+  category: milk
+  tags: [mundane, drinkable, dairy]
+  description: Fresh cow’s milk.
+  defaultEffects: [hydrate_minor, nourish_minor]
+
+- id: milk_goat
+  name: Goat’s Milk
+  category: milk
+  tags: [mundane, drinkable, dairy]
+  description: Tangy goat’s milk.
+  defaultEffects: [hydrate_minor, nourish_minor]
+
+- id: milk_almond
+  name: Almond Milk
+  category: milk
+  tags: [mundane, drinkable, dairy_free]
+  description: Nut-based milk alternative.
+  defaultEffects: [hydrate_minor]
+
+- id: milk_soy
+  name: Soy Milk
+  category: milk
+  tags: [mundane, drinkable, dairy_free]
+  description: A smooth soy-based milk alternative.
+  defaultEffects: [hydrate_minor]
+
+# ------------------------------------------------------------
+# TEAS & COFFEES
+# ------------------------------------------------------------
+- id: tea_herbal
+  name: Herbal Tea
+  category: tea
+  tags: [mundane, drinkable, herbal]
+  description: A calming herbal infusion.
+  defaultEffects: [calm_minor]
+
+- id: tea_black
+  name: Black Tea
+  category: tea
+  tags: [mundane, drinkable, caffeinated]
+  description: Strong, dark black tea.
+  defaultEffects: [jitter_minor]
+
+- id: tea_green
+  name: Green Tea
+  category: tea
+  tags: [mundane, drinkable, herbal]
+  description: A soothing green tea.
+  defaultEffects: [calm_minor]
+
+- id: coffee_black
+  name: Black Coffee
+  category: coffee
+  tags: [mundane, drinkable, caffeinated]
+  description: Strong, bitter black coffee.
+  defaultEffects: [jitter_medium]
+
+- id: coffee_iced
+  name: Iced Coffee
+  category: coffee
+  tags: [mundane, drinkable, caffeinated]
+  description: Chilled coffee over ice.
+  defaultEffects: [jitter_minor]
+
+# ------------------------------------------------------------
+# BROTHS
+# ------------------------------------------------------------
+- id: broth_vegetable
+  name: Vegetable Broth
+  category: broth
+  tags: [mundane, drinkable, savory]
+  description: Warm, savory vegetable broth.
+  defaultEffects: [hydrate_minor, nourish_minor]
+
+- id: broth_chicken
+  name: Chicken Broth
+  category: broth
+  tags: [mundane, drinkable, savory]
+  description: A warm, comforting chicken broth.
+  defaultEffects: [hydrate_minor, nourish_minor]
+
+- id: broth_bone
+  name: Bone Broth
+  category: broth
+  tags: [mundane, drinkable, savory]
+  description: Rich broth simmered from bones.
+  defaultEffects: [hydrate_minor, nourish_small_heal]
+
+# ------------------------------------------------------------
+# ALCOHOLS
+# ------------------------------------------------------------
+- id: ale_light
+  name: Light Ale
+  category: alcohol
+  tags: [mundane, drinkable, ale]
+  description: A mild, frothy ale.
+  defaultEffects: [alcohol_light]
+
+- id: ale_dark
+  name: Dark Ale
+  category: alcohol
+  tags: [mundane, drinkable, ale]
+  description: A rich, dark ale.
+  defaultEffects: [alcohol_medium]
+
+- id: wine_red
+  name: Red Wine
+  category: alcohol
+  tags: [mundane, drinkable, wine]
+  description: A glass of deep red wine.
+  defaultEffects: [alcohol_medium]
+
+- id: wine_white
+  name: White Wine
+  category: alcohol
+  tags: [mundane, drinkable, wine]
+  description: A crisp white wine.
+  defaultEffects: [alcohol_medium]
+
+- id: spirits_whiskey
+  name: Whiskey
+  category: alcohol
+  tags: [mundane, drinkable, spirits]
+  description: A strong, burning whiskey.
+  defaultEffects: [alcohol_strong]
+
+- id: spirits_vodka
+  name: Vodka
+  category: alcohol
+  tags: [mundane, drinkable, spirits]
+  description: Clear, potent vodka.
+  defaultEffects: [alcohol_strong]
+
+# ------------------------------------------------------------
+# OILS & SYRUPS
+# ------------------------------------------------------------
+- id: oil_olive
+  name: Olive Oil
+  category: oil
+  tags: [mundane, cooking]
+  description: A bottle of olive oil.
+  defaultEffects: []
+
+- id: syrup_maple
+  name: Maple Syrup
+  category: syrup
+  tags: [mundane, sweet]
+  description: Thick, sweet maple syrup.
+  defaultEffects: [morale_minor]
+
+- id: syrup_honey
+  name: Honey
+  category: syrup
+  tags: [mundane, sweet]
+  description: A jar of golden honey.
+  defaultEffects: [morale_minor]
+
+# ------------------------------------------------------------
+# ALIGNMENT WATERS
+# ------------------------------------------------------------
+- id: water_holy
+  name: Holy Water
+  category: planar_water
+  tags: [holy, good, consecrated]
+  description: Water blessed by a good-aligned deity.
+  defaultEffects: [holy_water_splash]
+
+- id: water_unholy
+  name: Unholy Water
+  category: planar_water
+  tags: [unholy, evil, desecrated]
+  description: Water profaned by a dark power.
+  defaultEffects: [unholy_water_splash]
+
+- id: water_axiomatic
+  name: Axiomatic Water
+  category: planar_water
+  tags: [lawful, planar]
+  description: Water suffused with the essence of Law.
+  defaultEffects: [axiomatic_alignment_shift]
+
+- id: water_anarchic
+  name: Anarchic Water
+  category: planar_water
+  tags: [chaotic, planar]
+  description: Water infused with the essence of Chaos.
+  defaultEffects: [anarchic_alignment_shift]
+
+# ------------------------------------------------------------
+# CLASSIC PLANAR RIVERS
+# ------------------------------------------------------------
+- id: water_styx
+  name: Water of the Styx
+  category: planar_water
+  tags: [evil, planar, memory]
+  description: Black, oily water from the River Styx.
+  defaultEffects: [styx_memory_loss]
+
+- id: water_lethe
+  name: Water of Lethe
+  category: planar_water
+  tags: [neutral, planar, memory]
+  description: Pale, misty water that erodes memory.
+  defaultEffects: [lethe_forgetfulness]
+
+- id: water_phlegethos
+  name: Water of Phlegethos
+  category: planar_water
+  tags: [fire, planar]
+  description: Boiling, fiery liquid from the hellish river.
+  defaultEffects: [phlegethos_fire_burn]
+
+- id: water_celestial
+  name: Celestial Fountain Water
+  category: planar_water
+  tags: [good, planar, radiant]
+  description: Radiant water from a celestial spring.
+  defaultEffects: [celestial_minor_heal]
+
+- id: water_shadowfell
+  name: Shadowfell Mire Water
+  category: planar_water
+  tags: [shadow, planar, necrotic]
+  description: Murky water from the Shadowfell.
+  defaultEffects: [shadowfell_chill]
+
+# ============================================================
+# LIQUIDS_PACK2.YML — Liquid Effects Pack 2 Catalog
+# ============================================================
+
+# ------------------------------------------------------------
+# HIGH-SUGAR DRINKS / ENERGY
+# ------------------------------------------------------------
+- id: soda_ultra_cola
+  name: Ultra Cola
+  category: soda
+  tags: [mundane, drinkable, caffeinated, high_sugar]
+  description: A hyper-sweet, heavily caffeinated cola.
+  defaultEffects: [sugar_rush, jitter_medium]
+
+- id: soda_energy_blue
+  name: Blue Energy Drink
+  category: soda
+  tags: [mundane, drinkable, energy_drink]
+  description: A neon-blue energy drink that hums faintly.
+  defaultEffects: [energy_surge, sugar_rush]
+
+- id: soda_energy_red
+  name: Red Energy Drink
+  category: soda
+  tags: [mundane, drinkable, energy_drink]
+  description: A crimson energy drink that tastes like raw adrenaline.
+  defaultEffects: [energy_surge, sugar_rush]
+
+- id: juice_sugar_bomb
+  name: Sugar Bomb Juice
+  category: juice
+  tags: [mundane, drinkable, high_sugar]
+  description: A syrupy-sweet juice loaded with sugar.
+  defaultEffects: [sugar_rush]
+
+# ------------------------------------------------------------
+# WARMTH / COLD RESISTANCE
+# ------------------------------------------------------------
+- id: cocoa_hot
+  name: Hot Cocoa
+  category: broth
+  tags: [mundane, drinkable, warm]
+  description: A steaming mug of rich hot cocoa.
+  defaultEffects: [warmth_minor, morale_minor]
+
+- id: cider_mulled
+  name: Mulled Cider
+  category: broth
+  tags: [mundane, drinkable, warm, spiced]
+  description: Spiced cider served piping hot.
+  defaultEffects: [warmth_minor, morale_minor]
+
+- id: wine_spiced
+  name: Spiced Wine
+  category: alcohol
+  tags: [mundane, drinkable, warm, wine]
+  description: A warm, spiced red wine.
+  defaultEffects: [warmth_greater, alcohol_medium]
+
+- id: spirits_firebrandy
+  name: Firebrandy
+  category: alcohol
+  tags: [mundane, drinkable, hot, spirits]
+  description: A fiery liquor that burns all the way down.
+  defaultEffects: [warmth_greater, alcohol_strong]
+
+# ------------------------------------------------------------
+# COLD / CHILLING
+# ------------------------------------------------------------
+- id: wine_ice
+  name: Icewine
+  category: alcohol
+  tags: [mundane, drinkable, chilled, wine]
+  description: A sweet wine served ice-cold.
+  defaultEffects: [chill_minor, alcohol_medium]
+
+- id: water_glacial
+  name: Glacial Meltwater
+  category: water
+  tags: [mundane, drinkable, cold]
+  description: Crystal-clear water from ancient glaciers.
+  defaultEffects: [chill_minor, hydrate_minor]
+
+# ------------------------------------------------------------
+# PURITY / POISON / RADIANCE / SHADOW
+# ------------------------------------------------------------
+- id: draught_antidote_dilution
+  name: Antidote Dilution Draught
+  category: water
+  tags: [alchemical, drinkable, antidote]
+  description: A cloudy draught that weakens toxins in the blood.
+  defaultEffects: [poison_dilution]
+
+- id: water_radiant_spring
+  name: Radiant Spring Water
+  category: planar_water
+  tags: [good, planar, radiant]
+  description: Water from a spring touched by celestial light.
+  defaultEffects: [radiant_cleansing, celestial_minor_heal]
+
+- id: water_shadow_tainted
+  name: Shadow-Tainted Water
+  category: planar_water
+  tags: [shadow, planar, corrupted]
+  description: Water that has soaked in the essence of the Shadowfell.
+  defaultEffects: [shadow_taint, shadowfell_chill]
+
+# ------------------------------------------------------------
+# TOLERANCE / DEPENDENCY
+# ------------------------------------------------------------
+- id: tonic_alcohol_tolerance
+  name: Alcohol Tolerance Tonic
+  category: syrup
+  tags: [alchemical, drinkable]
+  description: A bitter tonic that helps the body endure alcohol.
+  defaultEffects: [alcohol_tolerance]
+
+- id: tonic_caffeine_dependency
+  name: Caffeine Dependency Tonic
+  category: syrup
+  tags: [alchemical, drinkable]
+  description: A strange tonic that makes you crave caffeine.
+  defaultEffects: [caffeine_dependency]
+
+# ------------------------------------------------------------
+# HYDRATION STATES
+# ------------------------------------------------------------
+- id: water_overhydration_mix
+  name: Overhydration Mix
+  category: water
+  tags: [alchemical, experimental]
+  description: An experimental mixture that overloads the body with water.
+  defaultEffects: [hydration_overload]
+
+- id: draught_desert_survival
+  name: Desert Survival Draught
+  category: water
+  tags: [alchemical, survival]
+  description: A concentrated draught that delays dehydration.
+  defaultEffects: [hydrate_minor, dehydration_mild]
+
+- id: draught_desert_failure
+  name: Failed Desert Draught
+  category: water
+  tags: [alchemical, flawed]
+  description: A flawed survival draught that worsens dehydration.
+  defaultEffects: [dehydration_severe]
+
+# ------------------------------------------------------------
+# PLANAR RESONANCE VIALS
+# ------------------------------------------------------------
+- id: vial_resonance_good
+  name: Vial of Good Resonance
+  category: planar_water
+  tags: [good, planar, resonance]
+  description: A vial of liquid that hums with benevolent power.
+  defaultEffects: [planar_resonance_good]
+
+- id: vial_resonance_evil
+  name: Vial of Evil Resonance
+  category: planar_water
+  tags: [evil, planar, resonance]
+  description: A vial of liquid that seethes with malice.
+  defaultEffects: [planar_resonance_evil]
+
+- id: vial_resonance_law
+  name: Vial of Lawful Resonance
+  category: planar_water
+  tags: [lawful, planar, resonance]
+  description: A vial of liquid that vibrates with perfect order.
+  defaultEffects: [planar_resonance_law]
+
+- id: vial_resonance_chaos
+  name: Vial of Chaotic Resonance
+  category: planar_water
+  tags: [chaotic, planar, resonance]
+  description: A vial of liquid that swirls unpredictably.
+  defaultEffects: [planar_resonance_chaos]
+
+# ============================================================
+# LIQUIDS — PACK 3: EXOTIC & ADVANCED
+# ============================================================
+
+# ------------------------------------------------------------
+# PLANAR FUSION BREWS
+# ------------------------------------------------------------
+- id: brew_planar_fusion_stable
+  name: Stable Planar Fusion Brew
+  category: planar_water
+  tags: [planar, fusion, stable]
+  description: A carefully balanced mixture of opposing planar essences.
+  defaultEffects: [planar_fusion_stable]
+
+- id: brew_planar_fusion_volatile
+  name: Volatile Planar Fusion Brew
+  category: planar_water
+  tags: [planar, fusion, volatile]
+  description: A dangerously unstable blend of planar energies.
+  defaultEffects: [planar_fusion_volatile]
+
+- id: brew_planar_fusion_unstable
+  name: Unstable Planar Fusion Brew
+  category: planar_water
+  tags: [planar, fusion, unstable]
+  description: A partially stabilized planar mixture that still crackles with risk.
+  defaultEffects: [planar_fusion_unstable]
+
+# ------------------------------------------------------------
+# ALCHEMICAL VOLATILITY / TOXICITY
+# ------------------------------------------------------------
+- id: draught_alchemical_volatility_minor
+  name: Minor Volatility Draught
+  category: syrup
+  tags: [alchemical, volatile]
+  description: A bubbling draught that heightens the risk of alchemical reactions.
+  defaultEffects: [alchemical_volatility_minor]
+
+- id: draught_alchemical_volatility_major
+  name: Major Volatility Draught
+  category: syrup
+  tags: [alchemical, volatile, dangerous]
+  description: A violently unstable draught used only by the bold or foolish.
+  defaultEffects: [alchemical_volatility_major]
+
+- id: tonic_toxicity_minor
+  name: Minor Toxicity Tonic
+  category: syrup
+  tags: [alchemical, toxic]
+  description: A bitter tonic that slowly poisons the body.
+  defaultEffects: [toxicity_buildup_minor]
+
+- id: tonic_toxicity_major
+  name: Major Toxicity Tonic
+  category: syrup
+  tags: [alchemical, toxic, dangerous]
+  description: A highly toxic concoction used in dark experiments.
+  defaultEffects: [toxicity_buildup_major]
+
+# ------------------------------------------------------------
+# FERMENTATION / AGING / SPOILAGE
+# ------------------------------------------------------------
+- id: ale_fermenting
+  name: Fermenting Ale
+  category: alcohol
+  tags: [fermenting, unfinished]
+  description: Ale still in the process of fermenting.
+  defaultEffects: [fermentation_active]
+
+- id: ale_perfected
+  name: Perfected Aged Ale
+  category: alcohol
+  tags: [aged, premium]
+  description: A perfectly aged ale with exceptional flavor and potency.
+  defaultEffects: [fermentation_perfected, alcohol_medium]
+
+- id: wine_spoiled_minor
+  name: Slightly Spoiled Wine
+  category: alcohol
+  tags: [spoiled, mild]
+  description: Wine that has just begun to turn.
+  defaultEffects: [spoilage_minor, alcohol_light]
+
+- id: wine_spoiled_severe
+  name: Severely Spoiled Wine
+  category: alcohol
+  tags: [spoiled, foul]
+  description: Wine that has gone completely bad and smells awful.
+  defaultEffects: [spoilage_severe]
+
+# ------------------------------------------------------------
+# HEAT / COLD SCALING LIQUIDS
+# ------------------------------------------------------------
+- id: draught_heat_reserve_minor
+  name: Minor Heat Reserve Draught
+  category: water
+  tags: [alchemical, heat]
+  description: A draught that helps the body endure hot environments.
+  defaultEffects: [heat_scaling_minor]
+
+- id: draught_heat_reserve_major
+  name: Major Heat Reserve Draught
+  category: water
+  tags: [alchemical, heat, strong]
+  description: A powerful draught that greatly improves heat tolerance.
+  defaultEffects: [heat_scaling_major]
+
+- id: draught_cold_reserve_minor
+  name: Minor Cold Reserve Draught
+  category: water
+  tags: [alchemical, cold]
+  description: A draught that helps the body endure cold environments.
+  defaultEffects: [cold_scaling_minor]
+
+- id: draught_cold_reserve_major
+  name: Major Cold Reserve Draught
+  category: water
+  tags: [alchemical, cold, strong]
+  description: A powerful draught that greatly improves cold tolerance.
+  defaultEffects: [cold_scaling_major]
+
+# ------------------------------------------------------------
+# MAGICAL INFUSION BREWS
+# ------------------------------------------------------------
+- id: brew_arcane_infusion_minor
+  name: Minor Arcane Infusion Brew
+  category: planar_water
+  tags: [arcane, infused]
+  description: A brew infused with a small amount of raw arcane power.
+  defaultEffects: [arcane_infusion_minor]
+
+- id: brew_arcane_infusion_major
+  name: Major Arcane Infusion Brew
+  category: planar_water
+  tags: [arcane, infused, potent]
+  description: A potent brew saturated with arcane energy.
+  defaultEffects: [arcane_infusion_major]
+
+- id: brew_divine_infusion_minor
+  name: Minor Divine Infusion Brew
+  category: planar_water
+  tags: [divine, infused]
+  description: A brew blessed with a touch of divine grace.
+  defaultEffects: [divine_infusion_minor]
+
+- id: brew_divine_infusion_major
+  name: Major Divine Infusion Brew
+  category: planar_water
+  tags: [divine, infused, potent]
+  description: A powerful brew steeped in divine radiance.
+  defaultEffects: [divine_infusion_major]

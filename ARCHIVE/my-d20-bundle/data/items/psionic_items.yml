@@ -1,0 +1,13 @@
+# bundles/my-d20-bundle/data/items/psionic_items.yml
+
+# --- PSIONIC ITEMS ---
+- id: "ancient_psionic_focus"
+  name: "Ancient Psionic Focus"
+  type: ACCESSORY
+  keywords: ["focus", "crystal", "psionic"]
+  description: "A jagged shard of violet quartz that hums with a faint, psychic resonance. It heightens the wearer's mental clarity."
+  metadata:
+    slot: "held"
+    intelligence_bonus: 2
+    psionics_bonus: 5
+    is_psionic_tool: true

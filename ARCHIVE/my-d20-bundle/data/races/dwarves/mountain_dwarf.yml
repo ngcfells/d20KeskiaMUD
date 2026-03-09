@@ -1,0 +1,206 @@
+---
+schema: 1
+
+id: mountain_dwarf
+parent: dwarf
+family: dwarf
+
+name: Mountain Dwarf
+
+metadata:
+  origin: multiversal
+  rarity: common
+  tags: [canon, core_subrace]
+
+attributes:
+  strength: 2
+  constitution: 1
+
+traits:
+  - physiology_dense_musculature
+  - physiology_resilient_immune_system
+  - physiology_high_altitude_adapted
+
+abilities:
+  - stonecunning
+  - dwarven_toughness
+  - dwarven_weapon_training
+  - dwarven_engineering
+  - mountain_warfare_training
+
+languages:
+  - dwarven
+  - common
+
+environments:
+  - mountains
+  - highlands
+  - underground
+
+lore:
+  society: >
+    Mountain dwarves dwell in vast strongholds carved into the hearts of
+    mountains. Their clans are known for martial discipline, engineering
+    prowess, and mastery of stone and metal.
+  appearance: >
+    Broad‑shouldered and heavily muscled, mountain dwarves have rugged
+    features shaped by high‑altitude living and hard labor.
+  culture: >
+    Their culture emphasizes honor, craftsmanship, and clan loyalty.
+    Mountain dwarves are famed for their fortresses, forges, and
+    unbreakable shields.
+  religion: >
+    They honor gods of the forge, mountains, protection, and ancestral
+    memory.
+
+variants:
+
+  # ─────────────────────────────────────────────
+  # CANONICAL / SYSTEM VARIANTS (NONE REQUIRED)
+  # ─────────────────────────────────────────────
+  # Mountain dwarves have no psionic/planar/corruption variants in any canon.
+
+  # ─────────────────────────────────────────────
+  # D&D REGIONAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: forgotten_realms
+    region: zakhara
+    tags: [desert, al_qadim]
+    description: >
+      Mountain dwarves of Zakhara inhabit sun‑blasted peaks and desert
+      highlands.
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: forgotten_realms
+    region: chult
+    tags: [jungle]
+    description: >
+      Mountain dwarves of Chult dwell in volcanic highlands and jungle‑rimmed
+      mountains.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: forgotten_realms
+    region: icewind_dale
+    tags: [arctic]
+    description: >
+      Northern mountain dwarves endure freezing winds and snow‑covered peaks.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: forgotten_realms
+    region: maztica
+    tags: [mesoamerican]
+    description: >
+      Maztican mountain dwarves inhabit volcanic ridges and high plateaus.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: kara_tur
+    tags: [east_asian]
+    description: >
+      Kara‑Tur mountain dwarves dwell in steep, terraced mountains and
+      fortified highland citadels.
+    traits:
+      add:
+        - physiology_high_altitude_adapted
+
+  # ─────────────────────────────────────────────
+  # MULTIVERSAL LOGICAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: spelljammer
+    region: asteroid_strongholds
+    tags: [extrapolated]
+    description: >
+      Mountain dwarves who carved strongholds into drifting stone asteroids.
+    traits:
+      add:
+        - physiology_high_altitude_adapted
+
+  - origin: starfinder
+    region: triaxus_highlands
+    tags: [extrapolated]
+    description: >
+      Mountain dwarves of Triaxus endure extreme seasonal shifts and
+      high‑altitude megastructures.
+    traits:
+      add:
+        - physiology_high_altitude_adapted
+
+  - origin: rifts
+    region: mountain_rifts
+    tags: [extrapolated]
+    description: >
+      Mountain dwarves surviving dimensional storms in high‑altitude rift zones.
+    traits:
+      add:
+        - physiology_high_altitude_adapted
+
+  # ─────────────────────────────────────────────
+  # GLOBAL CULTURAL ANALOGUES
+  # ─────────────────────────────────────────────
+
+  - origin: generic_fantasy
+    region: polynesia_analog
+    tags: [oceanic, volcanic]
+    description: >
+      Mountain dwarves of volcanic island ranges and basalt cliffs.
+    traits:
+      add:
+        - physiology_oceanic_acclimated
+
+  - origin: generic_fantasy
+    region: sahara_analog
+    tags: [desert]
+    description: >
+      Mountain dwarves of desert highlands shaped by scorching winds and sand.
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: generic_fantasy
+    region: northlands_analog
+    tags: [arctic, norse]
+    description: >
+      Mountain dwarves of icy fjords, frozen peaks, and glacial valleys.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: generic_fantasy
+    region: dreamtime_analog
+    tags: [australian]
+    description: >
+      Mountain dwarves of ancient sandstone ranges shaped by heat and
+      spirit‑echoes.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: subcontinent_analog
+    tags: [indian]
+    description: >
+      Mountain dwarves of monsoon‑carved highlands and volcanic ridges.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: first_nations_analog
+    tags: [native_american]
+    description: >
+      Mountain dwarves of sacred mountains, river‑cut cliffs, and forested
+      highlands.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant

@@ -1,0 +1,291 @@
+# path: bundles/my-d20-bundle/data/items/containers.yml
+
+############################################################
+# PERSONAL CARRY & ADVENTURING PACKS
+############################################################
+
+- id: container_backpack_standard
+  name: "Backpack"
+  type: CONTAINER
+  keywords: ["backpack", "pack", "standard"]
+  description: "A sturdy canvas backpack with leather straps and multiple compartments."
+  roomDesc: "A sturdy backpack lies here."
+  metadata:
+    capacity: 60
+    weight: 2
+    weightReduction: 0
+    wearableSlot: "back"
+  behaviors:
+    container:
+      closed: true
+      lockable: false
+
+- id: container_backpack_large
+  name: "Large Backpack"
+  type: CONTAINER
+  keywords: ["backpack", "pack", "large", "rugged"]
+  description: "A large, rugged backpack designed for long journeys and heavy loads."
+  roomDesc: "A large, rugged backpack rests here."
+  metadata:
+    capacity: 90
+    weight: 2.5
+    weightReduction: 0
+    wearableSlot: "back"
+  behaviors:
+    container:
+      closed: true
+      lockable: false
+
+- id: container_satchel
+  name: "Leather Satchel"
+  type: CONTAINER
+  keywords: ["satchel", "bag", "shoulder"]
+  description: "A shoulder-worn leather satchel with a wide flap cover."
+  metadata:
+    capacity: 15
+    weight: 1
+    weightReduction: 0
+    wearableSlot: "shoulders"
+  behaviors:
+    container:
+      closed: true
+
+- id: container_messenger_bag
+  name: "Messenger Bag"
+  type: CONTAINER
+  keywords: ["messenger", "bag", "crossbody"]
+  description: "A cross-body messenger bag with reinforced stitching and multiple pockets."
+  metadata:
+    capacity: 20
+    weight: 1.2
+    weightReduction: 0
+    wearableSlot: "shoulders"
+  behaviors:
+    container:
+      closed: true
+
+############################################################
+# SPECIALIZED POUCHES & COMPONENT STORAGE
+############################################################
+
+- id: container_fanny_pack
+  name: "Fanny Pack"
+  type: CONTAINER
+  keywords: ["fanny", "pack", "pouch", "belt"]
+  description: "A small belt pouch worn at the waist for quick access to essentials."
+  roomDesc: "A small fanny pack lies here."
+  metadata:
+    capacity: 15
+    weight: 0.5
+    weightReduction: 0
+    wearableSlot: "waist"
+  behaviors:
+    container:
+      closed: true
+
+- id: container_pouch_small
+  name: "Small Pouch"
+  type: CONTAINER
+  keywords: ["pouch", "small", "leather"]
+  description: "A small leather pouch suitable for coins, gems, or minor trinkets."
+  roomDesc: "A small leather pouch lies here."
+  metadata:
+    capacity: 10
+    weight: 0.2
+    weightReduction: 0
+    wearableSlot: "slotless"
+  behaviors:
+    container:
+      closed: true
+
+- id: dust_pouch
+  name: "Leather Component Pouch (Dust)"
+  type: CONTAINER
+  keywords: ["pouch", "dust", "components", "spellcasting"]
+  description: "A small, drawstring leather pouch. Inside is a collection of fine grey dust, kept dry and ready for spellcasting."
+  inventory:
+    items:
+      - id: "dust"
+        quantity: 50 # Consumes 10 capacity (50 * 0.2)
+  metadata:
+    capacity: 10
+    weight: 0.3
+    weightReduction: 0
+    wearableSlot: "slotless"
+  behaviors:
+    container:
+      closed: true
+
+############################################################
+# SACKS & BULK TRANSPORT
+############################################################
+
+- id: container_sack_cloth
+  name: "Cloth Sack"
+  type: CONTAINER
+  keywords: ["sack", "bag", "cloth"]
+  description: "A simple cloth sack tied with a length of rough twine."
+  roomDesc: "A simple cloth sack lies here."
+  metadata:
+    capacity: 30
+    weight: 0.5
+    weightReduction: 0
+    wearableSlot: "none"
+  behaviors:
+    container:
+      closed: true
+
+- id: container_sack_large
+  name: "Large Burlap Sack"
+  type: CONTAINER
+  keywords: ["sack", "bag", "large", "burlap"]
+  description: "A large, rough burlap sack used for hauling heavy goods or grain."
+  roomDesc: "A large burlap sack lies here."
+  metadata:
+    capacity: 60
+    weight: 0.7
+    weightReduction: 0
+    wearableSlot: "none"
+  behaviors:
+    container:
+      closed: true
+
+############################################################
+# FIXED STORAGE (CHESTS, COFFERS, BOXES)
+############################################################
+
+- id: container_chest_wooden
+  name: "Wooden Chest"
+  type: CONTAINER
+  keywords: ["chest", "wooden", "ironbound"]
+  description: "A sturdy wooden chest bound with rusted iron bands."
+  roomDesc: "A sturdy wooden chest sits here."
+  metadata:
+    capacity: 120
+    weight: 10
+    weightReduction: 0
+  behaviors:
+    container:
+      closed: true
+      lockable: true
+      locked: false
+
+- id: container_chest_iron
+  name: "Iron Chest"
+  type: CONTAINER
+  keywords: ["chest", "iron", "heavy"]
+  description: "A heavy iron chest with reinforced corners and a complex locking mechanism."
+  roomDesc: "A heavy iron chest rests here."
+  metadata:
+    capacity: 150
+    weight: 20
+    weightReduction: 0
+  behaviors:
+    container:
+      closed: true
+      lockable: true
+      locked: true
+
+- id: container_coffer_ornate
+  name: "Ornate Coffer"
+  type: CONTAINER
+  keywords: ["coffer", "ornate", "box", "gems"]
+  description: "An ornate coffer inlaid with precious metals and small, decorative gems."
+  roomDesc: "An ornate coffer rests here."
+  metadata:
+    capacity: 30
+    weight: 5
+    weightReduction: 0
+  behaviors:
+    container:
+      closed: true
+      lockable: true
+      locked: false
+
+- id: container_strongbox
+  name: "Metal Strongbox"
+  type: CONTAINER
+  keywords: ["strongbox", "metal", "vault"]
+  description: "A reinforced metal strongbox designed to protect the most valuable documents or coins."
+  metadata:
+    capacity: 15
+    weight: 8
+    weightReduction: 0
+  behaviors:
+    container:
+      closed: true
+      lockable: true
+      locked: true
+
+############################################################
+# LIQUID VESSELS & BREWING
+############################################################
+
+- id: container_waterskin
+  name: "Waterskin"
+  type: CONTAINER
+  keywords: ["waterskin", "leather", "drink"]
+  description: "A cured leather waterskin sealed with a wooden stopper."
+  metadata:
+    capacity: 3
+    weight: 0.5
+    isLiquidContainer: true
+  behaviors:
+    container:
+      closed: true
+
+- id: container_bottle_glass
+  name: "Glass Bottle"
+  type: CONTAINER
+  keywords: ["bottle", "glass", "vessel"]
+  description: "A simple glass bottle, suitable for water, wine, or potions."
+  metadata:
+    capacity: 2
+    weight: 0.4
+    isLiquidContainer: true
+  behaviors:
+    container:
+      closed: true
+
+- id: container_keg_ale
+  name: "Small Keg of Ale"
+  type: CONTAINER
+  keywords: ["keg", "ale", "barrel", "small"]
+  description: "A small wooden keg filled with light ale, capped with a wax seal."
+  roomDesc: "A small keg of ale rests here."
+  metadata:
+    capacity: 80
+    weight: 15
+    isLiquidContainer: true
+    defaultLiquidId: "ale_light"
+  behaviors:
+    container:
+      closed: true
+
+- id: container_barrel_wooden
+  name: "Wooden Barrel"
+  type: CONTAINER
+  keywords: ["barrel", "wooden", "storage"]
+  description: "A stout wooden barrel bound with iron hoops, used for bulk storage."
+  roomDesc: "A wooden barrel stands here."
+  metadata:
+    capacity: 200
+    weight: 25
+    weightReduction: 0
+  behaviors:
+    container:
+      closed: true
+
+- id: container_cauldron
+  name: "Iron Cauldron"
+  type: CONTAINER
+  keywords: ["cauldron", "iron", "pot", "brewing"]
+  description: "A large, soot-stained iron cauldron used for heavy cooking or alchemical brewing."
+  roomDesc: "A large iron cauldron sits here."
+  metadata:
+    capacity: 15
+    weight: 10
+    isLiquidContainer: true
+  behaviors:
+    container:
+      closed: false

@@ -1,0 +1,17 @@
+- id: half_orc
+  name: Half-Orc
+  description: Strong and intimidating, half-orcs often struggle for acceptance
+    but excel in physical combat.
+  attributes:
+    strength: 2
+    dexterity: 0
+    constitution: 0
+    intelligence: -2
+    wisdom: 0
+    charisma: -2
+    appearance: -2
+  metadata:
+    baseSpeed: 30
+    vision: darkvision
+    traits:
+      - orc_ferocity

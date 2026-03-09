@@ -1,0 +1,74 @@
+# ============================================================
+# MATERIALS — Crafting Integration Pack 1
+# ============================================================
+
+- id: mat_flour
+  name: Flour
+  category: food
+  tags: [baking]
+  description: Ground grain used in baking.
+
+- id: mat_sugar
+  name: Sugar
+  category: food
+  tags: [sweetener]
+
+- id: mat_yeast
+  name: Yeast
+  category: food
+  tags: [fermentation]
+
+- id: mat_herb_mint
+  name: Mint Leaf
+  category: herb
+  tags: [herbalism, aromatic]
+
+- id: mat_herb_lavender
+  name: Lavender
+  category: herb
+  tags: [herbalism, calming]
+
+- id: mat_iron_ingot
+  name: Iron Ingot
+  category: metal
+  tags: [smithing]
+
+- id: mat_steel_ingot
+  name: Steel Ingot
+  category: metal
+  tags: [smithing]
+
+- id: mat_leather_strip
+  name: Leather Strip
+  category: leather
+  tags: [crafting]
+
+- id: mat_wood_plank
+  name: Wood Plank
+  category: wood
+  tags: [woodworking]
+
+- id: mat_glass_bottle
+  name: Glass Bottle
+  category: container
+  tags: [bottling]
+
+- id: mat_arcane_dust
+  name: Arcane Dust
+  category: magical
+  tags: [infusion]
+
+- id: mat_divine_essence
+  name: Divine Essence
+  category: magical
+  tags: [infusion]
+
+- id: "alchemical_solder"
+  name: "Alchemical Solder"
+  type: CONSUMABLE
+  keywords: ["solder", "alchemical", "resin"]
+  description: "A sticky, conductive resin designed to bond metal seamlessly. The label has instructions on how to use it for sound amplification."
+  metadata:
+    is_solder: true
+    is_repair_material: true
+    uses: 1

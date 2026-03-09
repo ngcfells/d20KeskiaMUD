@@ -1,0 +1,356 @@
+- id: "starter_chest"
+  name: "Iron-Bound Chest"
+  type: CONTAINER
+  keywords: ["chest", "iron-bound"]
+  description: "A heavy chest made of dark oak and reinforced with rusted iron bands. It sits slightly ajar."
+  metadata:
+    weight: 150 # Too heavy for a Level 1 character to carry while exploring
+    maxItems: 10
+    isContainer: true
+    closed: false
+  # Starter gear is pre-loaded inside
+  inventory:
+    - id: "weathered_club"
+    - id: "pious_staff"
+    - id: "padded_vest"
+
+- id: "silver_signet_ring"
+  name: "Silver Signet Ring"
+  type: ACCESSORY
+  keywords: ["ring", "silver", "signet"]
+  description: "A heavy silver ring etched with the sigil of the Ossuary's Arch-Priest. It feels significant."
+  metadata:
+    slot: "finger"
+    # This might be used as a key for the Secret Vault (Room 14)
+    is_arch_priest_key: true
+
+- id: "translucent_beetles"
+  name: "Translucent Beetles"
+  type: MISC
+  keywords: ["beetles", "insects", "bait"]
+  description: "A handful of fat, squirming beetles caught from the pantry floor. They smell earthy and rich, perfect for bait."
+  metadata:
+    is_bait: true
+    uses: 1 # They are consumed when fed to the rat
+
+- id: "vault_chest"
+  name: "Bolted Iron-Bound Chest"
+  type: CONTAINER
+  keywords: ["chest", "iron-bound", "vault_chest"]
+  description: "A masterwork of security, seemingly impervious to the ages."
+  script: "vault_chest_logic"
+  metadata:
+    weight: 150 # Too heavy for a Level 1 character to carry while exploring
+    isContainer: true
+    isLocked: true
+    maxItems: 5
+  inventory:
+    - id: "key_neon_blue"
+    - id: "ancient_psionic_focus"
+    - id: "mixed_coins_low" # Standard loot
+
+- id: "pilgrim_eye_gem"
+  name: "Dark Hematite Gem"
+  type: MISC
+  keywords: ["gem", "eye", "hematite", "stone"]
+  description: "A small, polished sphere of dark hematite. It was once the eye of a carved pilgrim."
+  metadata:
+    value: 10
+    is_gem: true
+    is_star_key: true # It can now function in the Hub
+    eye_state: "stolen" # States: stolen, cleansed, cursed, poisoned, brackish
+    corruption_value: 1
+
+- id: "sealed_glass_ball"
+  name: "Sealed Glass Ball"
+  type: CONTAINER
+  keywords: ["ball", "glass", "orb"]
+  description: "A thick glass sphere, perfectly clear. Inside, a small grey stone sits suspended in a vacuum."
+  script: "glass_ball_logic"
+  metadata:
+    is_container: true
+    is_breakable: true
+    closed: true
+  inventory:
+    - id: "ioun_torch_stone"
+
+- id: "rope_basket"
+  name: "Woven Rope Basket"
+  type: CONTAINER
+  keywords: ["basket", "rope"]
+  description: "A small basket of sturdy hemp rope, designed to hold spherical objects."
+  script: "rope_basket_logic"
+
+- id: "scroll_lesser_restoration"
+  name: "Scroll of Lesser Restoration"
+  type: CONSUMABLE
+  keywords: ["scroll", "restoration", "spell"]
+  description: "A strip of vellum inscribed with glowing silver runes. It can be 'recited' to clear minor ailments."
+  metadata:
+    spell: "lesser_restoration"
+    uses: 1
+
+- id: "recipe_ghost_sight"
+  name: "Recipe: Ghost-Sight Oil"
+  type: RECIPE
+  keywords: ["recipe", "oil", "ghost-sight"]
+  description: "A complex set of instructions for brewing an oil that allows the living to see the incorporeal clearly."
+  metadata:
+    requires: ["ectoplasm", "alchemical_solder"]
+    produces: "oil_of_ghost_sight"
+
+- id: "scroll_spark"
+  name: "Scroll of Spark"
+  type: CONSUMABLE
+  keywords: ["scroll", "spark", "light"]
+  description: "A tiny singed bit of paper. It can be used to produce a single bright flash."
+  metadata:
+    is_light: true
+    uses: 1
+
+- id: "ossuary_map_west"
+  name: "Map of the Western Wing"
+  type: MAP
+  keywords: ["map", "parchment"]
+  description: "A hand-drawn map showing the connections between the Scriptorium, the Confessional, and the Vault."
+  metadata:
+    reveals_rooms: [7, 11, 12, 13, 14]
+
+- id: "vellum_scrap"
+  name: "Blank Scrap of Vellum"
+  type: MISC
+  keywords: ["scrap", "vellum", "parchment", "paper"]
+  description: "A small, irregular fragment of cured skin. It is remarkably clean considering its age and could be used to record a short message."
+  metadata:
+    is_writable: true
+    max_characters: 140
+    value: 1 # Low base value, but worth more if "lore" is written on it
+
+- id: "heavy_mace"
+  name: "Heavy Flanged Mace"
+  type: WEAPON
+  keywords: ["mace", "heavy", "bludgeon"]
+  description: "A brutal weapon of solid iron with four sharp flanges designed to crush plate armor and bone alike."
+  metadata:
+    # 3.5E Stats: 1d8 Bludgeoning, Crit x2
+    damageDice: "1d8"
+    damageType: "bludgeoning"
+    weight: 8
+    is_masterwork: false
+
+- id: "key_neon_blue"
+  name: "Neon-Blue Data-Shard"
+  type: MISC
+  keywords: ["shard", "data", "blue", "key"]
+  description: "A translucent blue shard flickering with internal circuitry. It pulses with a digital heartbeat."
+  metadata: { genre: "cyberpunk", is_star_key: true }
+
+- id: "key_chrome_white"
+  name: "Chrome-White Pulsar"
+  type: MISC
+  keywords: ["pulsar", "white", "chrome", "key"]
+  description: "A perfectly smooth, cold sphere of white metal. It hums at a frequency that suggests deep space."
+  metadata: { genre: "scifi", is_star_key: true }
+
+- id: "key_emerald"
+  name: "Emerald Focusing Crystal"
+  type: MISC
+  keywords: ["crystal", "emerald", "green", "key"]
+  description: "A jagged green crystal that feels warm. It seems to vibrate in tune with a living energy."
+  metadata: { genre: "star_wars", is_star_key: true }
+
+- id: "key_crimson"
+  name: "Crimson Cinder"
+  type: MISC
+  keywords: ["cinder", "crimson", "red", "key"]
+  description: "A jagged, burnt stone that smells of ozone and radiation. It is perpetually warm to the touch."
+  metadata: { genre: "post_apoc", is_star_key: true }
+
+- id: "rusted_heavy_mace"
+  name: "Rusted Heavy Mace"
+  type: WEAPON
+  keywords: ["mace", "heavy", "rusted"]
+  description: "A pitted iron mace. It's ugly and off-balance, but the weight is enough to crack stone."
+  metadata:
+    damageDice: "1d8"
+    damageType: "bludgeoning"
+    attackPenalty: -2 # Rusted/Off-balance
+    weight: 10
+
+- id: "mummified_corpse"
+  name: "Mummified Corpse"
+  type: CONTAINER
+  keywords: ["corpse", "mummy", "remains"]
+  description: "A dessicated human form, wrapped in sticky spider-silk. It holds a small leather pouch."
+  metadata:
+    weight: 80 # Heavy, awkward, and likely to require a STR check to even drag
+    is_searchable: true
+    is_container: true
+  inventory:
+    - id: "ossuary:coin_pouch_low"
+
+- id: "coin_pouch_low"
+  name: "Rotted Coin Pouch"
+  type: CONTAINER
+  keywords: ["pouch", "bag"]
+  description: "A damp leather bag. It jingles with a modest amount of heavy metal."
+  metadata:
+    isContainer: true
+  inventory:
+    - id: "ossuary:mixed_coins_low"
+
+- id: "bone_fragments"
+  name: "Bleached Bone Fragments"
+  type: MISC
+  keywords: ["bones", "fragments", "bone"]
+  description: "A small collection of calcium-rich shards, bleached white and brittle. They are of no use to a warrior, but a shaman might find them valuable."
+  metadata:
+    weight: 2 # 3.5e standard: roughly 2 lbs for a pouch of bones
+    value: 1 # Nominal value to merchants
+
+- id: "vial_of_sludge"
+  name: "Vial of Green Sludge"
+  type: CONSUMABLE
+  keywords: ["vial", "sludge", "potion"]
+  description: "A thick, translucent green liquid that smells like a swamp. It's glowing faintly."
+  metadata:
+    # 3.5e/Genre Effect: Grants 'Ghost-Sight' for 5 minutes
+    effect: "ghost_sight"
+    duration: 300000
+    weight: 0.5
+
+- id: "iron_gate_key"
+  name: "Heavy Iron Key"
+  type: KEY
+  keywords: ["key", "iron", "gate"]
+  description: "A large, pitted iron key. It looks like it belongs to a heavy security gate."
+  metadata:
+    weight: 1
+    value: 5
+
+- id: "gravelight_fungus"
+  name: "Gravelight Fungus"
+  type: "MATERIAL"
+  keywords: ["fungus", "gravelight", "glowing"]
+  description: "A faintly bioluminescent patch of fungus scraped from the weeping archway. It glows with a sickly blue-green light."
+  metadata:
+    rarity: "common"
+    alchemy_use: "light-reactive"
+  value: 2
+
+- id: "mold_sample"
+  name: "Grey Mold Sample"
+  type: "MATERIAL"
+  keywords: ["mold", "sample", "spores"]
+  description: "A pouch of fuzzy grey mold scraped from the crypt walls. It releases a faint mist when disturbed."
+  metadata:
+    rarity: "common"
+    alchemy_use: "spore-reactive"
+  value: 1
+
+- id: "funerary_charm"
+  name: "Funerary Charm"
+  type: "TRINKET"
+  keywords: ["charm", "funerary", "amulet"]
+  description: "A small charm placed with the dead to guide their souls. It hums faintly with lingering devotion."
+  metadata:
+    rarity: "uncommon"
+    bonus:
+      sanity: 1
+  value: 15
+
+- id: "rope"
+  name: "Rotted Rope"
+  type: "TOOL"
+  keywords: ["rope", "tool"]
+  description: "A length of half-rotted rope salvaged from the riverside landing. Fragile, but still usable."
+  metadata:
+    durability: 3
+  value: 1
+
+- id: "piton"
+  name: "Rusted Piton"
+  type: "TOOL"
+  keywords: ["piton", "tool"]
+  description: "A rusted metal piton once used by miners. Still strong enough to anchor a rope."
+  metadata:
+    durability: 5
+  value: 2
+
+- id: "centipede_venom_sac"
+  name: "Centipede Venom Sac"
+  type: "MATERIAL"
+  keywords: ["venom", "sac", "centipede"]
+  description: "A swollen venom sac harvested from a giant cave centipede. The fluid inside burns the skin."
+  metadata:
+    rarity: "uncommon"
+    alchemy_use: "poison"
+  value: 8
+
+- id: "ooze_residue"
+  name: "Cauldron Ooze Residue"
+  type: "MATERIAL"
+  keywords: ["ooze", "residue", "slime"]
+  description: "A sticky glob of acidic residue left behind by a cauldron ooze. It bubbles faintly."
+  metadata:
+    rarity: "uncommon"
+    alchemy_use: "acidic"
+  value: 6
+
+- id: "rotted_scraps"
+  name: "Rotted Cloth Scraps"
+  type: "JUNK"
+  keywords: ["cloth", "rotted", "scraps"]
+  description: "Soggy, decayed cloth torn from a long-dead pilgrim’s garments."
+  metadata:
+    rarity: "junk"
+  value: 0
+
+- id: "gold_coins"
+  name: "Loose Gold Coins"
+  type: "CURRENCY"
+  keywords: ["gold", "coins"]
+  description: "A handful of tarnished gold coins recovered from the crypts."
+  metadata:
+    currency: "gp"
+  value: 1
+
+- id: devotional_charm
+  name: "devotional charm"
+  roomDesc: "A small devotional charm lies here, its surface worn smooth by touch."
+  type: OBJECT
+  keywords: ["devotional", "charm", "holy", "trinket"]
+  metadata:
+    value: 5
+    weight: 0.1
+    lore:
+      short: "A simple charm once carried by pilgrims to the ossuary."
+      tags: ["ossuary", "pilgrim", "devotion"]
+
+- id: forbidden_bone_shard
+  name: "etched bone shard"
+  roomDesc: "A shard of bone lies here, its surface etched with impossible geometry."
+  type: OBJECT
+  keywords: ["bone", "shard", "etched", "forbidden"]
+  metadata:
+    value: 0
+    weight: 0.2
+    mythos: true
+    sanityOnExamine: -3
+    lore:
+      short: "A fragment of something that should not have been preserved."
+      tags: ["ossuary", "mythos", "forbidden"]
+
+- id: sanctified_short_sword
+  name: "sanctified short sword"
+  roomDesc: "A short sword rests here, its blade faintly inscribed with worn blessings."
+  type: WEAPON
+  keywords: ["sword", "short", "sanctified", "blade"]
+  metadata:
+    weaponType: "shortsword"
+    bonus: 1
+    damage: "1d6"
+    damageType: "slashing"
+    value: 150
+    weight: 2.0
+    tags: ["ossuary", "sanctified", "early_enchanted"]

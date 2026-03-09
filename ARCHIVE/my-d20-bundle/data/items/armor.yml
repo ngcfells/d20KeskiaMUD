@@ -1,0 +1,45 @@
+# bundles/my-d20-bundle/data/items/armor.yml
+- id: "padded_vest"
+  name: "Musty Padded Vest"
+  type: ARMOR
+  keywords: ["vest", "padded", "armor"]
+  description: "Layers of quilted cloth, damp and smelling of mildew. It offers minimal protection but does not hinder movement."
+  metadata:
+    # 3.5E Stats: +1 AC, Max Dex +8, Check Penalty 0
+    slot: "torso"
+    armorClass: 1
+    maxDex: 8
+    armorCheckPenalty: 0
+    weight: 10
+- id: leather_armor_01
+  name: Studded Leather Armor
+  description: A suit of stiffened leather reinforced with metal studs.
+  type: ARMOR
+  slot: armor
+  metadata:
+    armorType: light
+    armorBonus: 3
+    maxDexBonus: 5
+    armorCheckPenalty: -1
+    weight: 20
+- id: breastplate_01
+  name: Steel Breastplate
+  description: A heavy chest plate designed to deflect direct blows.
+  type: ARMOR
+  slot: armor
+  metadata:
+    armorType: medium
+    armorBonus: 5
+    maxDexBonus: 3
+    armorCheckPenalty: -4
+    weight: 30
+- id: heavy_shield_01
+  name: Heavy Steel Shield
+  description: A large, kite-shaped shield made of solid steel.
+  type: ARMOR
+  slot: offhand
+  metadata:
+    isShield: true
+    shieldBonus: 2
+    armorCheckPenalty: -2
+    weight: 15

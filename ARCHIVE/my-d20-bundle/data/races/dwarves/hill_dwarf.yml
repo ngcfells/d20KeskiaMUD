@@ -1,0 +1,163 @@
+---
+schema: 1
+
+id: hill_dwarf
+parent: dwarf
+family: dwarf
+
+name: Hill Dwarf
+
+metadata:
+  origin: multiversal
+  rarity: common
+  tags: [canon, core_subrace]
+
+attributes:
+  constitution: 1
+  wisdom: 1
+
+traits: []
+
+abilities: []
+
+languages:
+  - dwarven
+  - common
+
+environments:
+  - hills
+  - mountains
+  - underground
+
+lore:
+  society: >
+    Hill dwarves dwell in rolling highlands, foothills, and stone‑rooted
+    settlements carved beneath ancient ridges. Their clans are known for
+    hospitality, steady leadership, and long‑standing traditions.
+  appearance: >
+    Slightly broader and earth‑toned compared to other dwarves, hill dwarves
+    often have warm brown or ruddy complexions and thick, braided beards.
+  culture: >
+    Their culture emphasizes community, craftsmanship, and stewardship of
+    ancestral lands. Hill dwarves are famed for stonework, brewing, and
+    subterranean agriculture.
+  religion: >
+    Hill dwarves honor deities of hearth, earth, and tradition, maintaining
+    shrines in both surface villages and underground halls.
+
+variants:
+
+  # ─────────────────────────────────────────────
+  # CANONICAL / SYSTEM VARIANTS (NONE REQUIRED)
+  # ─────────────────────────────────────────────
+  # Hill dwarves have no psionic/planar/corruption variants in any canon.
+
+  # ─────────────────────────────────────────────
+  # D&D REGIONAL VARIANTS
+  # ─────────────────────────────────────────────
+
+  - origin: forgotten_realms
+    region: zakhara
+    tags: [desert, al_qadim]
+    description: >
+      Hill dwarves of Zakhara inhabit sun‑blasted highlands and desert
+      foothills.
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: forgotten_realms
+    region: chult
+    tags: [jungle]
+    description: >
+      Hill dwarves of Chult dwell in humid highlands and jungle‑rimmed hills.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: forgotten_realms
+    region: icewind_dale
+    tags: [arctic]
+    description: >
+      Northern hill dwarves endure freezing winds and snow‑covered ridges.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: forgotten_realms
+    region: maztica
+    tags: [mesoamerican]
+    description: >
+      Maztican hill dwarves inhabit volcanic foothills and dense jungle slopes.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: kara_tur
+    tags: [east_asian]
+    description: >
+      Kara‑Tur hill dwarves dwell in steppe‑border highlands and terraced
+      mountain settlements.
+    traits:
+      add:
+        - physiology_high_altitude_adapted
+
+  # ─────────────────────────────────────────────
+  # GLOBAL CULTURAL ANALOGUES
+  # ─────────────────────────────────────────────
+
+  - origin: generic_fantasy
+    region: polynesia_analog
+    tags: [oceanic]
+    description: >
+      Hill dwarves of volcanic islands and coastal highlands.
+    traits:
+      add:
+        - physiology_oceanic_acclimated
+
+  - origin: generic_fantasy
+    region: sahara_analog
+    tags: [desert]
+    description: >
+      Hill dwarves of arid highlands shaped by scorching winds and sand.
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: generic_fantasy
+    region: northlands_analog
+    tags: [arctic, norse]
+    description: >
+      Hill dwarves of northern fjords and icy highlands.
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: generic_fantasy
+    region: dreamtime_analog
+    tags: [australian]
+    description: >
+      Hill dwarves of ancient sandstone hills shaped by heat and spirit‑echoes.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: subcontinent_analog
+    tags: [indian]
+    description: >
+      Hill dwarves of monsoon‑carved highlands and volcanic ridges.
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: first_nations_analog
+    tags: [native_american]
+    description: >
+      Hill dwarves of sacred hills, river‑cut ridges, and forested uplands.
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant

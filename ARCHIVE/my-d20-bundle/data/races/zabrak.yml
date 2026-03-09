@@ -1,0 +1,16 @@
+- id: zabrak
+  name: Zabrak
+  description: Resilient explorers known for their distinctive horns and mental fortitude.
+  attributes:
+    strength: 0
+    dexterity: 0
+    constitution: 2
+    intelligence: 0
+    wisdom: 0
+    charisma: 0
+    appearance: 0
+  metadata:
+    baseSpeed: 30
+    traits:
+      - bolstered_will
+      - heightened_awareness

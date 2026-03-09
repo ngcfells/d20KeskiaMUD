@@ -1,0 +1,334 @@
+---
+schema: 1
+
+id: duergar
+parent: dwarf
+family: dwarf
+
+name: Duergar (Gray Dwarf)
+
+metadata:
+  origin: multiversal
+  rarity: uncommon
+  tags: [canon, underdark, modular]
+
+attributes:
+  constitution: 2
+  wisdom: 1
+  charisma: -2
+
+traits:
+  - physiology_low_light_adapted
+  - physiology_light_sensitive
+  - physiology_underdark_hazard_resistant
+  - physiology_pain_conditioning
+  - physiology_trauma_hardened
+
+abilities:
+  - duergar_lore
+
+languages:
+  - dwarven
+  - undercommon
+
+environments:
+  - underground
+  - deep_earth
+
+lore:
+  society: >
+    Duergar dwell in harsh, oppressive strongholds deep beneath the earth,
+    shaped by centuries of enslavement, mutation, and cultural isolation.
+    Their society is rigid, militaristic, and deeply suspicious of outsiders.
+  appearance: >
+    Gray-skinned and grim-faced, duergar have pallid eyes adapted to
+    darkness. Their bodies are scarred and hardened by labor and conflict.
+  culture: >
+    Their culture values discipline, endurance, and mastery of the deep
+    earth. Duergar forge weapons of war, maintain strict hierarchies, and
+    wield innate or psionic abilities depending on their origin.
+  religion: >
+    They honor dark gods of tyranny, pain, and deep-earth dominion.
+
+variants:
+
+  # ─────────────────────────────────────────────
+  # CANONICAL D&D SETTINGS
+  # ─────────────────────────────────────────────
+
+  - origin: forgotten_realms
+    tags: [canon, infernal]
+    description: >
+      Faerûnian duergar bear infernal corruption from ancient planar contact.
+    traits:
+      add:
+        - physiology_planar_taint_infernal
+    abilities:
+      add:
+        - duergar_enlarge_innate
+        - duergar_invisibility_innate
+    languages:
+      add:
+        - infernal
+
+  - origin: greyhawk
+    tags: [canon, shadow]
+    description: >
+      Oerth duergar are touched by the Shadow Plane, granting void-tainted resilience.
+    traits:
+      add:
+        - physiology_planar_taint_shadow
+    abilities:
+      add:
+        - duergar_enlarge_innate
+        - duergar_invisibility_innate
+
+  - origin: dragonlance
+    tags: [canon, abyssal]
+    description: >
+      Krynnish duergar are touched by abyssal shadow tied to Takhisis.
+    traits:
+      add:
+        - physiology_planar_taint_abyssal
+    abilities:
+      add:
+        - duergar_enlarge_innate
+        - duergar_invisibility_innate
+
+  - origin: mystara
+    tags: [canon, psionic]
+    description: >
+      Mystaran duergar are purely psionic, lacking planar corruption.
+    traits:
+      add:
+        - physiology_psionic_resilience
+        - physiology_psychic_sensitivity
+    abilities:
+      add:
+        - duergar_enlarge_psionic
+        - duergar_invisibility_psionic
+
+  - origin: pathfinder
+    tags: [canon, daemonic, psionic]
+    description: >
+      Golarion duergar bear daemonic corruption from Abaddon and possess psionic resilience.
+    traits:
+      add:
+        - physiology_planar_taint_daemonic
+        - physiology_psionic_resilience
+    abilities:
+      add:
+        - duergar_enlarge_psionic
+        - duergar_invisibility_psionic
+
+  # ─────────────────────────────────────────────
+  # HIGH‑CORRUPTION MULTIVERSAL SETTINGS
+  # ─────────────────────────────────────────────
+
+  - origin: spelljammer
+    tags: [planar, psionic, void, eldritch]
+    description: >
+      Wildspace duergar are warped by void exposure, planar bleed, psionic mutation,
+      and eldritch cosmic forces.
+    traits:
+      add:
+        - physiology_psionic_resilience
+        - physiology_psychic_sensitivity
+        - physiology_planar_taint_void
+        - physiology_planar_taint_shadow
+        - physiology_eldritch_taint
+    abilities:
+      add:
+        - duergar_enlarge_psionic
+        - duergar_invisibility_psionic
+    languages:
+      add:
+        - voidcant
+
+  - origin: starfinder
+    tags: [planar, psionic, shadow]
+    description: >
+      Pact Worlds duergar evolved under Shadow Plane influence and psychic mutation.
+    traits:
+      add:
+        - physiology_psionic_resilience
+        - physiology_planar_taint_shadow
+    abilities:
+      add:
+        - duergar_enlarge_psionic
+        - duergar_invisibility_psionic
+
+  # ─────────────────────────────────────────────
+  # NON‑D&D BUT LOGICAL ANALOGUES
+  # ─────────────────────────────────────────────
+
+  - origin: warhammer_fantasy
+    tags: [infernal, extrapolated]
+    description: >
+      Chaos-touched duergar parallel the infernal corruption of Hashut’s chosen.
+    traits:
+      add:
+        - physiology_planar_taint_infernal
+    abilities:
+      add:
+        - duergar_enlarge_innate
+        - duergar_invisibility_innate
+
+  - origin: earthdawn
+    tags: [horror, psionic, extrapolated]
+    description: >
+      Horror-scarred deep dwarves mutated by the kaers and the Scourge.
+    traits:
+      add:
+        - physiology_horror_taint
+        - physiology_psionic_resilience
+    abilities:
+      add:
+        - duergar_enlarge_psionic
+        - duergar_invisibility_psionic
+
+  - origin: shadowrun
+    tags: [toxic, cybernetic, shadow, extrapolated]
+    description: >
+      Toxic magic, SURGE mutations, and deep-metaplane corruption shape these duergar.
+    traits:
+      add:
+        - physiology_toxic_resistant
+        - physiology_cybernetic_adapted
+        - physiology_planar_taint_shadow
+    abilities:
+      add:
+        - duergar_enlarge_psionic
+        - duergar_invisibility_psionic
+
+  - origin: rifts
+    tags: [planar, psionic, cybernetic, void, infernal, eldritch, extrapolated]
+    description: >
+      Dimensional storms, psionics, cybernetics, and demonic energies create the most mutated duergar.
+    traits:
+      add:
+        - physiology_psionic_resilience
+        - physiology_psychic_sensitivity
+        - physiology_planar_taint_infernal
+        - physiology_planar_taint_void
+        - physiology_cybernetic_adapted
+        - physiology_eldritch_taint
+    abilities:
+      add:
+        - duergar_enlarge_psionic
+        - duergar_invisibility_psionic
+
+  - origin: synnibarr
+    tags: [cosmic, psionic, eldritch, extrapolated]
+    description: >
+      Cosmic radiation, psionics, and divine mutation produce hyper‑evolved duergar.
+    traits:
+      add:
+        - physiology_cosmic_taint
+        - physiology_psionic_resilience
+        - physiology_eldritch_taint
+    abilities:
+      add:
+        - duergar_enlarge_psionic
+        - duergar_invisibility_psionic
+
+  - origin: palladium_fantasy
+    tags: [shadow, extrapolated]
+    description: >
+      Deep dwarves corrupted by ancient rune magic and subterranean forces.
+    traits:
+      add:
+        - physiology_planar_taint_shadow
+    abilities:
+      add:
+        - duergar_enlarge_innate
+        - duergar_invisibility_innate
+
+  - origin: arduin
+    tags: [horror, eldritch, extrapolated]
+    description: >
+      Arduin’s deep dwarves are mutated by eldritch energies and ancient horrors.
+    traits:
+      add:
+        - physiology_horror_taint
+        - physiology_eldritch_taint
+    abilities:
+      add:
+        - duergar_enlarge_innate
+        - duergar_invisibility_innate
+
+  # ─────────────────────────────────────────────
+  # REGIONAL VARIANTS (D&D + GLOBAL ANALOGUES)
+  # ─────────────────────────────────────────────
+
+  - origin: forgotten_realms
+    region: zakhara
+    tags: [desert, al_qadim]
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: forgotten_realms
+    region: chult
+    tags: [jungle]
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: forgotten_realms
+    region: icewind_dale
+    tags: [arctic]
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: forgotten_realms
+    region: maztica
+    tags: [mesoamerican]
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant
+
+  - origin: generic_fantasy
+    region: polynesia_analog
+    tags: [oceanic]
+    traits:
+      add:
+        - physiology_oceanic_acclimated
+
+  - origin: generic_fantasy
+    region: sahara_analog
+    tags: [desert]
+    traits:
+      add:
+        - physiology_heat_acclimated
+        - physiology_desert_hazard_resistant
+
+  - origin: generic_fantasy
+    region: northlands_analog
+    tags: [arctic, norse]
+    traits:
+      add:
+        - physiology_cold_acclimated
+
+  - origin: generic_fantasy
+    region: dreamtime_analog
+    tags: [australian]
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: subcontinent_analog
+    tags: [indian]
+    traits:
+      add:
+        - physiology_heat_acclimated
+
+  - origin: generic_fantasy
+    region: first_nations_analog
+    tags: [native_american]
+    traits:
+      add:
+        - physiology_jungle_hazard_resistant

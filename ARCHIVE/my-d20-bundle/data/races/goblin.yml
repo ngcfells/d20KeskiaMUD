@@ -1,0 +1,44 @@
+- id: goblin
+  name: Goblin
+  description: >
+    Small, quick, and notoriously reckless, goblins thrive on chaos, scavenging,
+    and impulsive bursts of destructive curiosity.
+  attributes:
+    strength: -2
+    dexterity: 4
+    constitution: 0
+    intelligence: 0
+    wisdom: 0
+    charisma: -2
+    appearance: 0
+  metadata:
+    baseSpeed: 30
+    size: small
+    vision: darkvision
+    traits:
+      - goblinoid
+      - normal_speed
+      - skilled_ride_stealth
+    startingLanguages:
+      - goblin
+    bonusLanguagePool:
+      - common
+      - draconic
+      - dwarven
+      - gnoll
+      - gnome
+      - halfling
+      - orc
+    favoredClasses:
+      - alchemist
+      - barbarian
+      - bard
+      - cavalier
+      - druid
+      - gunslinger
+      - oracle
+      - ranger
+      - rogue
+      - sorcerer
+      - summoner
+      - witch

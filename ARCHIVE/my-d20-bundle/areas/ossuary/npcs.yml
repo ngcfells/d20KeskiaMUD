@@ -1,0 +1,611 @@
+- id: "npc_gatekeeper_spirit"
+  name: "Gatekeeper Spirit"
+  keywords: ["gatekeeper", "spirit", "ghost"]
+  description: "A translucent guardian drifts before the crumbling gatehouse, its hollow eyes watching all who approach."
+  level: 5
+  attributes:
+    health: { base: 60 }
+    powerPoints: { base: 20 }
+    sanity: { base: 100 }
+    stamina: { base: 50 }
+    resolve: { base: 25 }
+
+    strength: { base: 10 }
+    dexterity: { base: 14 }
+    constitution: { base: 0 }
+    intelligence: { base: 14 }
+    wisdom: { base: 18 }
+    charisma: { base: 16 }
+    appearance: { base: 8 }
+
+    fortitude: { base: 0 }
+    reflex: { base: 5 }
+    will: { base: 10 }
+
+    armorKinetic: { base: 50 }
+    damageReduction: { base: 10 }
+
+    corruption: { base: 5 }
+    luck: { base: 2 }
+    reputation: { base: 15 }
+    destinyPoints: { base: 1 }
+  metadata:
+    isSpirit: true
+    isUndead: true
+    isIncorporeal: true
+    hitDie: 12
+    role: "tutorial_guardian"
+  behaviors:
+    combat: true
+  script: "gatekeeper_tutorial"
+
+- id: "skeleton_guard"
+  name: "A Rattle-Bone Guard"
+  keywords: ["skeleton", "guard"]
+  description: "A pile of animated bones held together by flickering necromantic spite. It clutches a rusted spear-head."
+  level: 1
+  attributes:
+    health: { base: 10 }
+    powerPoints: { base: 0 }
+    sanity: { base: 0 }
+    stamina: { base: 100 }
+    resolve: { base: 1 }
+
+    strength: { base: 12 }
+    dexterity: { base: 10 }
+    constitution: { base: 10 }
+    intelligence: { base: 0 }
+    wisdom: { base: 10 }
+    charisma: { base: 0 }
+    appearance: { base: 1 }
+
+    fortitude: { base: 2 }
+    reflex: { base: 0 }
+    will: { base: 2 }
+
+    armorKinetic: { base: 10 }
+    damageReduction: { base: 5 }
+
+    corruption: { base: 10 }
+    luck: { base: 0 }
+    grit: { base: 5 }
+  metadata:
+    isUndead: true
+    hitDie: 12
+  behaviors:
+    combat: true
+  items:
+    - id: "ossuary:bone_fragments"
+      chance: 75
+
+- id: "lesser_shadow"
+  name: "A Flickering Shadow"
+  keywords: ["shadow", "undead", "shade"]
+  description: "A patch of darkness that moves against the grain of the light. It has no face, only a vague, reaching shape."
+  level: 1
+  attributes:
+    health: { base: 8 }
+    stamina: { base: 20 }
+    resolve: { base: 5 }
+
+    strength: { base: 6 }
+    dexterity: { base: 10 }
+    constitution: { base: 10 }
+    intelligence: { base: 4 }
+    wisdom: { base: 10 }
+    charisma: { base: 10 }
+    appearance: { base: 0 }
+
+    fortitude: { base: 0 }
+    reflex: { base: 2 }
+    will: { base: 2 }
+
+    armorKinetic: { base: 5 }
+    damageReduction: { base: 0 }
+  metadata:
+    isUndead: true
+    isLesserShadow: true
+  behaviors:
+    combat: true
+  script: "lesser_shadow_logic"
+  items:
+    - id: "ossuary:shadow_essence"
+      chance: 50
+
+- id: "ghoul"
+  name: "A Famine-Struck Ghoul"
+  keywords: ["ghoul", "undead", "eater"]
+  description: "A gaunt, grey-skinned humanoid with elongated teeth and filth-encrusted claws. It crouches over a drainage groove, sniffing the air with predatory hunger."
+  level: 2
+  attributes:
+    health: { base: 15 }
+    stamina: { base: 30 }
+    resolve: { base: 10 }
+
+    strength: { base: 12 }
+    dexterity: { base: 12 }
+    constitution: { base: 10 }
+    intelligence: { base: 6 }
+    wisdom: { base: 12 }
+    charisma: { base: 10 }
+    appearance: { base: 0 }
+
+    fortitude: { base: 2 }
+    reflex: { base: 2 }
+    will: { base: 4 }
+
+    armorKinetic: { base: 12 }
+    damageReduction: { base: 0 }
+  metadata:
+    isUndead: true
+    isGhoul: true
+    hitDie: 12
+  behaviors:
+    combat: true
+  script: "ghoul_logic"
+  items:
+    - id: "ossuary:key_crimson"
+      chance: 100
+
+- id: "dire_rat"
+  name: "A Filth-Caked Dire Rat"
+  keywords: ["rat", "dire", "rodent"]
+  description: "A rodent the size of a dog, its fur matted with black ichor and its eyes glowing with a feral, red light."
+  level: 1
+  attributes:
+    health: { base: 12 }
+    stamina: { base: 20 }
+
+    strength: { base: 10 }
+    dexterity: { base: 14 }
+    constitution: { base: 12 }
+    intelligence: { base: 2 }
+    wisdom: { base: 12 }
+    charisma: { base: 4 }
+
+    fortitude: { base: 3 }
+    reflex: { base: 3 }
+    will: { base: 1 }
+  metadata:
+    isAnimal: true
+    hitDie: 8
+  behaviors:
+    combat: true
+  script: "dire_rat_logic"
+
+- id: "mirror_doppelganger"
+  name: "A Shimmering Reflection"
+  keywords: ["reflection", "doppelganger", "double"]
+  description: "A liquid-silver version of yourself, its features melting and shifting as it mocks your every move."
+  level: 2
+  attributes:
+    health: { base: 16 }
+    powerPoints: { base: 10 }
+    sanity: { base: 100 }
+    stamina: { base: 20 }
+    resolve: { base: 10 }
+
+    strength: { base: 10 }
+    dexterity: { base: 16 }
+    constitution: { base: 10 }
+    intelligence: { base: 10 }
+    wisdom: { base: 12 }
+    charisma: { base: 14 }
+    appearance: { base: 10 }
+
+    fortitude: { base: 1 }
+    reflex: { base: 5 }
+    will: { base: 4 }
+
+    armorKinetic: { base: 13 }
+    damageReduction: { base: 0 }
+
+    corruption: { base: 5 }
+    luck: { base: 5 }
+  metadata:
+    hitDie: 8
+    isShapechanger: true
+  behaviors:
+    combat: true
+  script: "mirror_doppelganger_logic"
+
+- id: "stone_guardian"
+  name: "Stone Armored Guardian"
+  keywords: ["guardian", "golem", "construct"]
+  description: "A ponderous engine of destruction carved from solid basalt. It moves with the slow, grinding inevitability of a landslide."
+  level: 4
+  attributes:
+    health: { base: 45 }
+    stamina: { base: 100 }
+    resolve: { base: 50 }
+
+    strength: { base: 18 }
+    dexterity: { base: 8 }
+    constitution: { base: 10 }
+    intelligence: { base: 0 }
+    wisdom: { base: 11 }
+    charisma: { base: 1 }
+    appearance: { base: 0 }
+
+    fortitude: { base: 5 }
+    reflex: { base: -1 }
+    will: { base: 0 }
+
+    armorKinetic: { base: 18 }
+    damageReduction: { base: 10 }
+  metadata:
+    isConstruct: true
+    isImmuneToMagic: true
+    hitDie: 10
+  behaviors:
+    combat: true
+  items:
+    - id: "ossuary:heavy_mace"
+      chance: 100
+    - id: "ossuary:bone_fragments"
+      chance: 75
+
+- id: "goblin_shaman"
+  name: "Gorguk the Bone-Stirrer"
+  keywords: ["gorguk", "shaman", "goblin"]
+  description: "A ragged goblin covered in ritual tattoos of soot and blood. He hunches over a bubbling cauldron, muttering to himself in a language that sounds like wet gravel."
+  level: 3
+  attributes:
+    health: {base: 27 }
+    powerPoints: { base: 30 }
+    sanity: { base: 80 }
+    stamina: { base: 40 }
+    resolve: { base: 15 }
+
+    strength: { base: 8 }
+    dexterity: { base: 14 }
+    constitution: { base: 12 }
+    intelligence: { base: 13 }
+    wisdom: { base: 15 }
+    charisma: { base: 8 }
+    appearance: { base: 4 }
+
+    fortitude: { base: 3 }
+    reflex: { base: 2 }
+    will: { base: 5 }
+
+    armorKinetic: { base: 12 }
+    damageReduction: { base: 0 }
+
+    corruption: { base: 15 }
+    reputation: { base: -10 }
+  metadata:
+    hitDie: 8
+    isHumanoid: true
+    isSpellcaster: true
+  behaviors:
+    combat: true
+  script: "goblin_shaman"
+
+- id: npc_trapped_ghost_martha
+  name: "Martha, the Trapped Ghost"
+  level: 4
+  description: "A translucent woman in tattered penitential robes. Her eyes flicker with fear and longing, as if she has been trapped in silence for centuries."
+  keywords: ["martha", "ghost", "spirit", "woman"]
+
+  metadata:
+    alignment: neutral_good
+    is_undead: true
+    incorporeal: true
+    bound_to_room: true
+    initial_dialogue_triggered: false
+
+  attributes:
+    health: { base: 22 }
+    armorKinetic: { base: 12 }
+    evasion: { base: 14 }
+    strength: { base: 6 }
+    dexterity: { base: 14 }
+    constitution: { base: 0 }
+    intelligence: { base: 12 }
+    wisdom: { base: 16 }
+    charisma: { base: 15 }
+    appearance: { base: 16 }
+    fortitude: { base: 1 }
+    reflex: { base: 3 }
+    will: { base: 6 }
+
+  behaviors:
+    combat:
+      aggressive: false
+      attackVerb: "touches"
+      damage:
+        min: 2
+        max: 6
+      damageType: "necrotic"
+    lootable: false
+
+  skills:
+    knowledge.religion: 4
+    perception: 6
+    insight: 5
+
+  script: "npcs/martha"
+
+- id: "zombie_human"
+  name: "Waterlogged Zombie"
+  keywords: ["zombie", "undead", "corpse", "waterlogged"]
+  description: "A bloated corpse sloughing off strips of grey flesh. Water pours from its mouth and eye sockets as it shambles forward."
+  level: 2
+
+  attributes:
+    health: { base: 22 }
+    stamina: { base: 10 }
+    resolve: { base: 5 }
+
+    strength: { base: 14 }
+    dexterity: { base: 6 }
+    constitution: { base: 14 }
+    intelligence: { base: 2 }
+    wisdom: { base: 6 }
+    charisma: { base: 2 }
+    appearance: { base: 0 }
+
+    fortitude: { base: 4 }
+    reflex: { base: 0 }
+    will: { base: 2 }
+
+    armorKinetic: { base: 12 }
+    damageReduction: { base: 2 }
+
+  metadata:
+    isUndead: true
+    hitDie: 12
+    waterlogged: true
+
+  behaviors:
+    combat: true
+
+  script: "zombie_human_logic"
+
+  items:
+    - id: "ossuary:rotted_scraps"
+      chance: 50
+
+- id: "wight"
+  name: "Drowned Wight"
+  keywords: ["wight", "undead", "drowned"]
+  description: "A gaunt, water-swollen corpse with sunken eyes that glow with cold hatred. Its presence chills the air with negative energy."
+  level: 4
+
+  attributes:
+    health: { base: 40 }
+    stamina: { base: 20 }
+    resolve: { base: 20 }
+
+    strength: { base: 16 }
+    dexterity: { base: 12 }
+    constitution: { base: 14 }
+    intelligence: { base: 8 }
+    wisdom: { base: 12 }
+    charisma: { base: 10 }
+    appearance: { base: 0 }
+
+    fortitude: { base: 5 }
+    reflex: { base: 3 }
+    will: { base: 6 }
+
+    armorKinetic: { base: 16 }
+    damageReduction: { base: 5 }
+
+  metadata:
+    isUndead: true
+    hitDie: 12
+    negativeEnergyAura: true
+
+  behaviors:
+    combat: true
+
+  script: "wight_logic"
+
+  items:
+    - id: "ossuary:funerary_charm"
+      chance: 25
+
+- id: "giant_centipede"
+  name: "Giant Cave Centipede"
+  keywords: ["centipede", "insect", "vermin"]
+  description: "A long, segmented horror with chitinous plates and venom-dripping mandibles. Its many legs skitter across stone with unnerving speed."
+  level: 2
+
+  attributes:
+    health: { base: 14 }
+    stamina: { base: 20 }
+
+    strength: { base: 8 }
+    dexterity: { base: 16 }
+    constitution: { base: 12 }
+    intelligence: { base: 1 }
+    wisdom: { base: 10 }
+    charisma: { base: 2 }
+    appearance: { base: 0 }
+
+    fortitude: { base: 3 }
+    reflex: { base: 4 }
+    will: { base: 1 }
+
+    armorKinetic: { base: 10 }
+    damageReduction: { base: 0 }
+
+  metadata:
+    isVermin: true
+    hitDie: 8
+    venomous: true
+
+  behaviors:
+    combat: true
+
+  script: "giant_centipede_logic"
+
+  items:
+    - id: "ossuary:centipede_venom_sac"
+      chance: 40
+
+- id: "cauldron_ooze"
+  name: "Cauldron Ooze"
+  keywords: ["ooze", "slime", "cauldron"]
+  description: "A quivering glob of acidic sludge birthed from the shaman’s cauldron. It bubbles with unstable magical residue."
+  level: 3
+
+  attributes:
+    health: { base: 28 }
+    stamina: { base: 10 }
+
+    strength: { base: 14 }
+    dexterity: { base: 6 }
+    constitution: { base: 16 }
+    intelligence: { base: 1 }
+    wisdom: { base: 6 }
+    charisma: { base: 1 }
+    appearance: { base: 0 }
+
+    fortitude: { base: 5 }
+    reflex: { base: 0 }
+    will: { base: 1 }
+
+    armorKinetic: { base: 8 }
+    damageReduction: { base: 3 }
+
+  metadata:
+    isOoze: true
+    hitDie: 10
+    acidic: true
+
+  behaviors:
+    combat: true
+
+  script: "cauldron_ooze_logic"
+
+  items:
+    - id: "ossuary:ooze_residue"
+      chance: 50
+
+- id: "damp_skeleton"
+  name: "Damp Skeleton"
+  keywords: ["skeleton", "undead", "damp"]
+  description: "A waterlogged skeleton drags itself along the stones, joints creaking with each uneven step."
+  level: 1
+
+  attributes:
+    health: { base: 14 }
+    stamina: { base: 8 }
+
+    strength: { base: 10 }
+    dexterity: { base: 8 }
+    constitution: { base: 10 }
+    intelligence: { base: 1 }
+    wisdom: { base: 4 }
+    charisma: { base: 1 }
+    appearance: { base: 0 }
+
+    fortitude: { base: 1 }
+    reflex: { base: 1 }
+    will: { base: 1 }
+
+    armorKinetic: { base: 6 }
+    damageReduction: { base: 0 }
+
+  metadata:
+    undead: true
+    hitDie: 6
+
+  behaviors:
+    combat: true
+    wander:
+      areas: ["ossuary"]
+      rooms: [0, 1, 2]
+
+  script: "damp_skeleton_logic"
+
+  items:
+    - id: "ossuary:bone_fragments"
+      chance: 40
+
+- id: "restless_acolyte"
+  name: "Restless Acolyte"
+  keywords: ["acolyte", "undead", "restless"]
+  description: "A faded acolyte shuffles through the corridor, robes damp and half-rotted."
+  level: 2
+
+  attributes:
+    health: { base: 18 }
+    stamina: { base: 10 }
+
+    strength: { base: 11 }
+    dexterity: { base: 10 }
+    constitution: { base: 11 }
+    intelligence: { base: 4 }
+    wisdom: { base: 6 }
+    charisma: { base: 3 }
+    appearance: { base: 0 }
+
+    fortitude: { base: 2 }
+    reflex: { base: 2 }
+    will: { base: 2 }
+
+    armorKinetic: { base: 7 }
+    damageReduction: { base: 1 }
+
+  metadata:
+    undead: true
+    hitDie: 6
+
+  behaviors:
+    combat: true
+    wander:
+      areas: ["ossuary"]
+      rooms: [0, 1, 2, 3]
+
+  script: "restless_acolyte_logic"
+
+  items:
+    - id: "ossuary:devotional_charm"
+      chance: 25
+    - id: "ossuary:bone_fragments"
+      chance: 40
+
+- id: "mural_touched_vermin"
+  name: "Mural‑Touched Vermin"
+  keywords: ["vermin", "rat", "mural", "touched"]
+  description: "A small creature twisted by the mural’s impossible geometry, its movements jerky and unnatural."
+  level: 2
+
+  attributes:
+    health: { base: 12 }
+    stamina: { base: 8 }
+
+    strength: { base: 8 }
+    dexterity: { base: 14 }
+    constitution: { base: 10 }
+    intelligence: { base: 2 }
+    wisdom: { base: 4 }
+    charisma: { base: 1 }
+    appearance: { base: 0 }
+
+    fortitude: { base: 1 }
+    reflex: { base: 3 }
+    will: { base: 1 }
+
+    armorKinetic: { base: 6 }
+    damageReduction: { base: 0 }
+
+  metadata:
+    mythos_tainted: true
+    hitDie: 4
+
+  behaviors:
+    combat: true
+
+  script: "mural_touched_vermin_logic"
+
+  items:
+    - id: "ossuary:forbidden_bone_shard"
+      chance: 10
+    - id: "ossuary:vermin_ichor"
+      chance: 50
+

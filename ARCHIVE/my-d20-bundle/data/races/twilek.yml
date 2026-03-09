@@ -1,0 +1,17 @@
+- id: twilek
+  name: Twi'lek
+  description: Distinctive humanoid species with twin head-tails (lekuu) and a
+    gift for grace and charm.
+  attributes:
+    strength: 0
+    dexterity: 2
+    constitution: 0
+    intelligence: 0
+    wisdom: 0
+    charisma: 2
+    appearance: 2
+  metadata:
+    baseSpeed: 30
+    traits:
+      - low_light_vision
+      - great_fortitude_bonus

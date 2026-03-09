@@ -1,0 +1,18 @@
+- id: warforged
+  name: Warforged
+  description: Living constructs built for war. They are hearty and resilient but
+    often struggle with social nuances.
+  attributes:
+    strength: 0
+    dexterity: 0
+    constitution: 2
+    intelligence: 0
+    wisdom: -2
+    charisma: -2
+    appearance: -2
+  metadata:
+    baseSpeed: 30
+    traits:
+      - living_construct
+      - composite_plating
+      - light_fortification

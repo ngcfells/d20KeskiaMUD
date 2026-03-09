@@ -1,0 +1,12 @@
+# bundles/my-d20-bundle/data/items/currency.yml
+
+# --- GENERIC ---
+- id: "mixed_coins_low"
+  name: "Handful of Mixed Coins"
+  type: MISC
+  keywords: ["coins", "jumble", "money", "loot"]
+  description: "A handful of tarnished coins of various metals. You'll need to <yellow>count</yellow> them to see what they are worth."
+  script: "mixed_coins_logic"
+  metadata:
+    weight: 2 # 50 coins = 1 lb in 3.5E; this represents a bulky handful
+    value: 10 # Base resale value if they don't count them

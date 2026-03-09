@@ -1,0 +1,77 @@
+# path: bundles/d20-combat/config/armor-types.yml
+
+armorCategories:
+  light:
+    proficiency: proficiencyLightArmor
+    traits:
+      - armorLight
+  medium:
+    proficiency: proficiencyMediumArmor
+    traits:
+      - armorMedium
+  heavy:
+    proficiency: proficiencyHeavyArmor
+    traits:
+      - armorHeavy
+  shield:
+    proficiency: proficiencyShields
+    traits:
+      - armorShield
+  unarmored:
+    proficiency: proficiencyUnarmoredDefense
+    traits:
+      - armorUnarmored
+  natural:
+    proficiency: null
+    traits:
+      - armorNatural
+
+armorMaterials:
+  nonmetal:
+    traits:
+      - armorNonmetal
+    proficiency: proficiencyNonmetalArmor
+
+  metal:
+    traits:
+      - armorMetal
+    proficiency: null
+
+  composite:
+    traits:
+      - armorComposite
+    proficiency: null
+
+  organic:
+    traits:
+      - armorOrganic
+    proficiency: null
+
+  ceramic:
+    traits:
+      - armorCeramic
+    proficiency: null
+
+  force:
+    traits:
+      - armorForce
+    proficiency: null
+
+  psionic:
+    traits:
+      - armorPsionic
+    proficiency: null
+
+  eldritch:
+    traits:
+      - armorEldritch
+    proficiency: null
+
+# Optional: genre‑specific armor layers (for sci‑fi / modern bundles)
+armorLayers:
+  kinetic:
+    attribute: armorKinetic
+  ballistic:
+    attribute: armorBallistic
+  energy:
+    attribute: armorEnergy

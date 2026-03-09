@@ -1,0 +1,22 @@
+module.exports = {
+  id: 'burning_hands',
+  name: 'Burning Hands',
+  level: 1,
+  school: 'evocation',
+  descriptors: ['fire'],
+  castingTime: 'standard',
+  components: ['V', 'S'],
+  materialComponents: [],
+  range: '15 ft',
+  target: 'cone-shaped emanation',
+  duration: 'instantaneous',
+  savingThrow: 'ref_half',
+  spellResistance: true,
+  onCast(state, caster) {
+    // Logic: Deals 1d4 damage/level (max 5d4) in a cone.
+    const damage = state.Dice.roll(`${Math.min(caster.level, 5)}d4`);
+    const targets = caster.room.getEnemiesInCone(caster, 15);
+    targets.forEach(t => t.damage(damage, caster, { type: 'fire' }));
+    caster.room.broadcast(`A fan of white-hot fire erupts from ${caster.name}'s outstretched fingers!`);
+  }
+};

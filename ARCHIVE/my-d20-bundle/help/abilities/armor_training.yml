@@ -1,0 +1,19 @@
+# path: bundles/my-d20-bundle/help/abilities/armor_training.yml
+id: armor_training
+name: Armor Training
+type: ability
+description: |
+  Starting at 3rd level, a fighter learns to be more maneuverable while 
+  wearing armor. 
+
+  MECHANICS:
+  - Reduce Armor Check Penalty (ACP) by 1.
+  - Increase Maximum Dexterity Bonus (MDB) allowed by armor by 1.
+  - Move at normal speed while wearing Medium Armor.
+
+  SCALING:
+  Every four levels thereafter (7th, 11th, and 15th), these bonuses 
+  increase by +1, to a maximum of -4 ACP and +4 MDB.
+
+  At 7th level, you move at normal speed while wearing Heavy Armor.
+related: [fighter, move, score]

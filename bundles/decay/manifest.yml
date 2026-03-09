@@ -1,0 +1,10 @@
+title: decay
+description: Core decay behaviors and decay engine integration.
+version: 1.0.0
+author: Chris Fells, 2026
+
+requires: []
+
+listeners:
+  bundleReady:
+    - listeners/onReady.js

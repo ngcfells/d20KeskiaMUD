@@ -1,0 +1,17 @@
+- id: ithorian
+  name: Ithorian
+  description: Hammer-headed peaceful beings with a deep connection to nature and
+    powerful voices.
+  attributes:
+    strength: 0
+    dexterity: -2
+    constitution: 0
+    intelligence: 0
+    wisdom: 2
+    charisma: 2
+    appearance: -2
+  metadata:
+    baseSpeed: 30
+    traits:
+      - bellow
+      - wilderness_affinity

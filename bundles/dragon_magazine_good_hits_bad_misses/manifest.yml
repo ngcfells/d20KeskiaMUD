@@ -1,6 +1,6 @@
 name: dragon_magazine_good_hits_bad_misses
 description: "RanvierMUD implementation of Good Hits, Bad Misses from Dragon Magazine 39."
-author: "Article: Carl Parlagrecco, 1980. Game Adaption: Chris Fells, 2026"
+author: "Article: Carl Parlagrecco, 1980. D20 conversion and RanvierMUD Game Adaption: Chris Fells, 2026"
 version: 1.0.0
 # Ensure this loads after your core combat bundle
 dependencies:

@@ -1,6 +1,0 @@
-name: arduinTables
-description: "D20 Fumble/Critical system featuring Arduin percentile tables."
-author: "Chris Fells, 2026"
-version: 1.0.0
-# Ensure this loads after your core combat bundle
-dependencies:

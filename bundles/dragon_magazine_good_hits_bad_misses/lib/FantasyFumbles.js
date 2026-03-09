@@ -1,6 +1,10 @@
 /**
  * Fantasy Fumble Effects Table - All Fantasy Weapons. Converted to d20
- * Roll to hit. If a miss, what was it missed by? If a 16 was needed to hit, and a 6 was rolled, there is a 10% chance of a fumble. Roll for fumble on percentile.
+ * Roll to hit.
+ * If a miss, how much was it missed by?
+ * If a 16 was needed to hit, and a 6 was rolled, there is a 10% chance of a fumble.
+ * If a natural 1 was rolled, double the chance percentage determined above.
+ * Roll for fumble on percentile.
  */
 
 const Fumbles = [

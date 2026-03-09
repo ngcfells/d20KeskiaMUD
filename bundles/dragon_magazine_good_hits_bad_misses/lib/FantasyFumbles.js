@@ -3,7 +3,6 @@
  * Roll to hit. If a miss, what was it missed by? If a 16 was needed to hit, and a 6 was rolled, there is a 10% chance of a fumble. Roll for fumble on percentile.
  */
 
-98 distracted; opponent’s next attack at +3
 const Fumbles = [
   { range: [1, 19],  desc: "slipped", effect: 'Make a DC 15 Reflex save. On a failure, you fall prone and are stunned for 1d4 rounds.' },
   { range: [20, 33], desc: "stumble", effect: 'DC 15 Reflex save or fall prone and be stunned for 1d6 rounds.' },

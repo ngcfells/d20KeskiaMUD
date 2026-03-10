@@ -3,6 +3,12 @@
 - Copyright 1979, Fantasy Art Enterprises
 - Conversion to d20 and integrated into RanvierMUD, Chris Fells, 2026
 
+## Prompt
+- you are an expert game developer focusing on converting system content, regardless of system, to D&D 3.5E / d20 standard.Convert the following creature into standard d20 block:
+
+## URL
+https://dn720708.ca.archive.org/0/items/booty-and-the-beasts-osr/Booty%20and%20the%20Beasts%20%28OSR%29_text.pdf
+
 ## Creatures of the Land
 Fungus Man
 Small Plant

@@ -9,6 +9,10 @@
 ## URL
 https://dn720708.ca.archive.org/0/items/booty-and-the-beasts-osr/Booty%20and%20the%20Beasts%20%28OSR%29_text.pdf
 
+### Referenced material for some of the entries here:
+https://archive.org/details/the-necromican
+
+# The Beasts
 ## Creatures of the Land
 Fungus Man
 Small Plant
@@ -2207,3 +2211,1689 @@ Mobs: The Galactic Dragon (The core entity).
 ---
 
 ## Demons
+
+The Piranha Demon (Tanar'ri)
+Medium Outsider (Extraplanar, Chaotic, Evil, Tanar'ri)
+Hit Dice: 13d8+39 (97 hp)
+Initiative: +11 (+6 Dex, +4 Improved Initiative, +1 Supernatural)
+Speed: 90 ft. (18 squares)
+Armor Class: 22 (+6 Dex, +6 natural), touch 16, flat-footed 16
+Base Attack/Grapple: +13/+16
+Attack: Bite +19 melee (1d6+4 plus Rend) or +3 Fang +22 melee (1d4+6/19-20)
+Full Attack: Bite +19 melee (1d6+4) and 2 +3 Fangs +22 melee (1d4+6/19-20)
+Space/Reach: 5 ft./5 ft.
+Special Attacks: Instant Digestion, Rend 2d6+4
+Special Qualities: Damage reduction 10/good, Darkvision 60 ft., Evasion, SR 26, Supernatural Reflexes, Tanar'ri traits
+Saves: Fort +11, Ref +14, Will +10
+Abilities: Str 16, Dex 22, Con 16, Int 10, Wis 14, Cha 12
+Challenge Rating: 12
+Alignment: Always Chaotic Evil
+Origin: The Abyss (Layer 88: Abysm/The Brine Flats)
+Tactics: They use their 90 ft. speed to circle prey, using Supernatural Reflexes (Reflex DC 11) to shrug off up to 4 attacks per round. They focus fire on one target to trigger Instant Digestion (Fort DC 19).
+Special Abilities
+Instant Digestion (Ex): If a Piranha Demon hits a Medium or smaller opponent with all three attacks in a single round, the target must succeed on a DC 19 Fortitude save or be instantly devoured and slain. If the target is Large or bigger, this process takes 1d4 rounds of maintained contact. The save DC is Strength-based.
+Supernatural Reflexes (Su): The Piranha Demon gains a +1 bonus to Initiative over the fastest non-magically accelerated opponent it faces. Additionally, it can attempt to "dodge" up to 4 physical attacks per round; this functions like the Deflect Arrows feat but applies to any melee or ranged attack. The demon must succeed on a DC 11 Reflex save for each attack to negate the damage.
+Fangs: The demon’s fangs function as +3 daggers while held or if harvested after death.
+Encounter: The Brine Pack
+Pack Captain: Xalthar the Render
+Piranha Demon Rogue 3 (CR 15)
+Adds Sneak Attack +2d6 and Uncanny Dodge. He leads the pack to flank and shred high-threat casters first.
+The Swarm: 1 Captain + 7 Piranha Demons.
+Total CR: 17 (Very Deadly)
+
+Guardian of the Sepulcher
+Large Outsider (Extraplanar, Chaotic, Evil, Tanar'ri)
+Hit Dice: 13d8+65 (123 hp)
+Initiative: +3
+Speed: 30 ft. (6 squares), fly 60 ft. (good)
+Armor Class: 32 (–1 size, +3 Dex, +20 natural), touch 12, flat-footed 29
+Base Attack/Grapple: +13/+24
+Attack: Gore +19 melee (5d6+7 plus Knockback) or Serpent-Arm bite +19 melee (2d6+7 plus poison)
+Full Attack: Gore +19 melee (5d6+7 plus Knockback) and 2 Serpent-Arm bites +17 melee (2d6+3 plus poison); or (if flying) 2 Hooves +19 melee (4d6+7) and 2 Serpent-Arm bites +17 melee (2d6+3 plus poison)
+Space/Reach: 10 ft./10 ft.
+Special Attacks: Breath Weapon, Knockback, Null-Void Aura, Poison
+Special Qualities: Damage reduction 10/good and cold iron, Darkvision 60 ft., Immunity to fire, poison, and disease, Magic Reflection, See Invisibility, Spell-like Abilities, Tanar'ri traits, Teleport
+Saves: Fort +13, Ref +11, Will +12
+Abilities: Str 24, Dex 16, Con 21, Int 18, Wis 18, Cha 18
+Skills: Concentration +21, Diplomacy +20, Intimidate +20, Knowledge (Religion) +20, Knowledge (The Planes) +20, Listen +20, Search +20, Sense Motive +20, Spot +20
+Feats: Multiattack, Power Attack, Improved Bull Rush, Hover, Iron Will
+Environment: The Abyss (Layer 113: Thanatos)
+Organization: Solitary or Guard Detail (2–4)
+Challenge Rating: 15
+Alignment: Always Chaotic Evil
+Special Abilities
+Null-Void Aura (Su): As a free action, the Guardian exudes a 20-ft. radius sphere of absolute sensory deprivation. All creatures inside (except the Guardian) are blinded, deafened, and lose all tactile sensation. This imposes a –6 penalty on all attack rolls, AC, and skill checks.
+Breath Weapon (Su): 30-ft. cone of purple flame, once every 1d4 rounds; damage 8d10 fire, Reflex DC 21 half. Those who fail the save are also affected by insanity (as the spell, CL 13th). The save DC is Constitution-based.
+Magic Reflection (Su): The Guardian is immune to all spells and spell-like abilities that allow spell resistance. Any such spell targeted at the Guardian is automatically reflected back at the caster as per spell turning, with no limit on spell levels reflected.
+Knockback (Ex): A creature struck by the Guardian's gore attack is knocked 1d4 × 5 feet backward.
+Poison (Ex): Bite, Fortitude DC 21 or die. (Non-lethal variant: 1d6 Con/1d6 Con).
+Spell-Like Abilities (Sp): At will—greater teleport (self plus 50 lbs. of objects only), astral caravan (self only), ethereal jaunt. CL 13th.
+
+The Metal Fiend
+Huge Outsider (Extraplanar, Chaotic, Evil, Tanar'ri)
+Hit Dice: 18d8+144 (225 hp)
+Initiative: +3
+Speed: 30 ft. (6 squares)
+Armor Class: 34 (–2 size, +3 Dex, +23 natural), touch 11, flat-footed 31
+Base Attack/Grapple: +18/+36
+Attack: Claw +26 melee (2d8+10 plus Molten Lead)
+Full Attack: 2 Claws +26 melee (2d8+10 plus Molten Lead) and Bite +24 melee (4d6+5)
+Space/Reach: 15 ft./15 ft.
+Special Attacks: Mercury Globule, Molten Lead, Oxidation Beam
+Special Qualities: Damage reduction 15/cold iron and good, Darkvision 60 ft., Immunity to electricity and poison, Metal Sense 120 ft., SR 28, Tanar'ri traits
+Saves: Fort +19, Ref +14, Will +15
+Abilities: Str 30, Dex 16, Con 26, Int 14, Wis 18, Cha 14
+Skills: Appraise +23 (+25 metal), Intimidate +23, Knowledge (Dungeoneering) +23, Listen +25, Search +23, Spot +25, Survival +25
+Feats: Awesome Blow, Cleave, Multiattack, Power Attack, Improved Bull Rush, Weapon Focus (Claw)
+Environment: The Abyss (Layer 400: Woeful Escarun)
+Organization: Solitary or Mining Party (2–4)
+Challenge Rating: 18
+Alignment: Always Chaotic Evil
+Special Abilities
+Oxidation Beam (Su): As a standard action, the Metal Fiend fires a beam from its eyes (60 ft. range). This instantly turns up to 2,000 lbs. of non-magical metal into dust. Magical metal items (armor, weapons) must succeed on a DC 27 Fortitude save or be destroyed. The save DC is Constitution-based.
+Molten Lead (Ex): A creature struck by a claw attack is laced with searing liquid metal. This deals 4d6 fire damage initially, and continues to deal 4d6 fire damage for 1d6 rounds as the lead cools.
+Mercury Globule (Su): Once every 1d4 rounds, the fiend can spit a 10-ft. glob of mercury that travels up to 50 ft. Any creature in its path must succeed on a DC 27 Fortitude save or die instantly from systemic toxic shock. Success results in no effect.
+Metal Sense (Ex): The Metal Fiend can pinpoint the location of any metal (including ore or equipment) within 120 feet.
+
+Imp of the Perverse
+Tiny Outsider (Extraplanar, Chaotic, Evil, Tanar'ri)
+Hit Dice: 2d8+2 (11 hp)
+Initiative: +2 (varies by Dex)
+Speed: 20 ft. (4 squares), fly 40 ft. (average) — varies by form
+Armor Class: 15 (+2 size, +2 Dex, +1 natural), touch 14, flat-footed 13
+Base Attack/Grapple: +2/–9
+Attack: Bite +6 melee (1d4–3) or Sting +6 melee (1d3–3 plus poison)
+Full Attack: Bite +6 melee (1d4–3) or 2 Claws +6 melee (1d3–3)
+Space/Reach: 2-1/2 ft./0 ft.
+Special Attacks: Perverse Gaze
+Special Qualities: Damage reduction 5/cold iron or good, Darkvision 60 ft., Immunity to electricity and poison, SR 12, Tanar'ri traits
+Saves: Fort +4, Ref +5, Will +4
+Abilities: Str 5, Dex 15, Con 12, Int 10, Wis 12, Cha 14
+Skills: Hide +15, Listen +6, Move Silently +7, Sleight of Hand +7, Spot +6, Tumble +7
+Feats: Weapon Finesse
+Environment: The Abyss (Layer 222: Shedaklah)
+Organization: Cavort (2–20)
+Challenge Rating: 2
+Alignment: Always Chaotic Evil
+Special Abilities
+Perverse Gaze (Su): The mere sight of these vile, nonsensical forms (e.g., a head with arms for legs, a demonic flower with teeth) is psychically revolting. Any creature within 30 feet viewing an Imp of the Perverse must succeed on a DC 13 Will save or be simultaneously Confused and Nauseated for 1d4 rounds. A creature that successfully saves is immune to that specific Imp's gaze for 24 hours. The save DC is Charisma-based.
+Varying Form (Ex): Imps of the Perverse are never uniform. For every group encountered, roll 1d4:
+Toad-like: Gain +4 to Hide in swamps; Swim speed 20 ft.
+Head with Arms: Gain +4 to Tumble; Speed increases to 30 ft.
+Flower-like: Gain +4 to Hide in foliage; Reach increases to 5 ft.
+Unborn/Abomination: Gaze save DC increases by +2.
+
+Stellar Demon
+Huge Outsider (Extraplanar, Chaotic, Evil)
+Hit Dice: 17d8+85 (161 hp)
+Initiative: +2
+Speed: 20 ft. (4 squares), Fly 40 ft. (clumsy)
+Armor Class: 18 (–2 size, +2 Dex, +8 natural), touch 10, flat-footed 16
+Base Attack/Grapple: +17/+33
+Attack: Pseudopod +23 melee (5d4+8 cold plus Crystalization)
+Full Attack: 4 Pseudopods +23 melee (5d4+8 cold plus Crystalization)
+Space/Reach: 15 ft./15 ft. (20 ft. with pseudopods)
+Special Attacks: Crystalization, Stellar Vacuum
+Special Qualities: Damage reduction 15/magic, Darkvision 60 ft., Immunity to "Effect" attacks, Incorporeal-like traits (Immunity to Impact), SR 27
+Saves: Fort +15, Ref +12, Will +14
+Abilities: Str 26, Dex 15, Con 21, Int 16, Wis 18, Cha 14
+Challenge Rating: 16
+Alignment: Always Chaotic Evil
+Origin: The Abyss (Layer 422: The Yawning Void)
+Special Abilities
+Stellar Vacuum (Su): The demon is a mobile gate to deep space. Within 60 ft., all creatures and objects not secured must succeed on a DC 20 Dexterity check each round or be sucked through the demon into the vacuum of space (instant death). Within 120 ft., all sound is drowned out (Deafened status). Visibility is reduced to 30 ft. due to the hurricane-force winds rushing toward the demon.
+Crystalization (Su): A creature hit by a pseudopod must succeed on a DC 23 Fortitude save or be frozen solid. Upon returning to normal temperature (the following round), the victim shatters explosively (death). If the save is made, the victim takes 5d4 cold damage instead.
+Immunity to Impact (Ex): The demon has no physical form. It is immune to all non-magical bludgeoning, piercing, and slashing damage. Projectiles pass through its form harmlessly into the gate.
+Immunity to "Effect" Attacks (Ex): The Stellar Demon is only affected by attacks that deal hit point damage (e.g., Fireball). It is completely immune to non-damaging effects like Disintegrate, Teleportation, Petrification, or Death effects.
+
+Pentagoth
+Gargantuan Outsider (Extraplanar, Chaotic, Evil)
+Hit Dice: 60d8+600 (870 hp)
+Initiative: +11 (+1 over fastest opponent via Mantis)
+Speed: Teleport 480 ft. (as a move action)
+Armor Class: 38 (–4 size, +32 natural), touch 6, flat-footed 38
+Base Attack/Grapple: +60/+82
+Attack: See Face of the Pillar
+Space/Reach: 20 ft./20 ft.
+Special Attacks: Pillar Entrapment, Flogiston’s Flame, Severing Strike
+Special Qualities: Area Effect Immunity, Blind-Hole Top, Damage Reduction 20/Epic and Good, Spell Resistance 35
+Saves: Fort +42, Ref +32, Will +36
+Abilities: Str 30, Dex 22, Con 30, Int 20, Wis 22, Cha 20
+Challenge Rating: 25
+Alignment: Always Chaotic Evil
+Origin: The Abyss (Layer 523: The Thousand-Faced Pillar)
+Faces of the Pillar
+The Pentagoth acts as five distinct entities sharing one space. Each "Face" has its own HP pool; if a face's HP is reduced to 0, that side is disabled.
+Black Lion (10 HD/90 hp, AC 25):
+Bite: +66 melee (3d10+10 plus Poison). Poison: Fort DC 35 or intestines liquify (instant death).
+Flogiston’s Flame (Su): 2/day, 240-ft. cone. Targets take 10d6 cold damage, 1d6 negative levels, 2d6 Con drain, and age 50 years. DC 35 Reflex halves all effects.
+The Insane Wizard (Face 2 of the Pentagoth)
+Spells Prepared (Caster Level 25th):
+The Wizard has 10 Epic Spell Slots available per day. He typically uses the following seeds:
+Vengeful Gaze of God: (Seed: Destroy) Deals 30d6 damage to a single target. If the target is reduced to 0 hp, it is utterly consumed. (Fort DC 35 half).
+Abyssal Grasp: (Seed: Afflict) Target takes a –20 penalty to a chosen ability score for 20 hours. (Will DC 35 negates).
+Rupture Reality: (Seed: Transport) Forcibly teleports a target into the heart of a star or the Negative Energy Plane. (Will DC 35 negates).
+Epic Counterspell: (Seed: Dispel) As an immediate action, he can negate any spell cast by an opponent, regardless of level.
+Jade Statue (14 HD/126 hp, AC 38):
+Shattering Hide: Non-magical weapons striking the statue shatter (DC 25 Ref save for magical weapons to avoid).
+Fists: 2 slams +66 melee (6d6+10 plus Bone Break). Bone Break: Fort DC 37 or 1d6 Str and 1d6 Dex damage.
+Giant Newt (12 HD/108 hp, AC 28):
+Tongue: +66 ranged touch (Grabs Medium or smaller). Deals 2d6 (constrict), 3d8 (bite), and 1d10 acid per round.
+Regeneration 10: Overcome by cold or fire.
+Praying Mantis (16 HD/144 hp, AC 30):
+Severing Strike: If it hits by 2 or more over the target's AC, it severs a limb (roll 1d6: 1-2 Arm, 3-4 Leg, 5-6 Head).
+Exoskeleton: Reflects all rays, bolts, and beams back at the caster.
+Special Abilities
+Pillar Entrapment (Su): As a full-round action, the Pentagoth teleports onto a victim's space. The victim must succeed on a DC 35 Will save. Failure means they are absorbed into the pillar (requires Wish to recover). Success means they die instantly but can be resurrected normally.
+Area Effect Immunity (Ex): The Pentagoth is entirely immune to spells or effects that target an area (e.g., Fireball, Cloudkill, Mass spells). It must be targeted individually.
+Blind-Hole Top (Ex): The Pentagoth cannot be attacked from above; all such attacks automatically miss or are deflected.
+
+The Demon of Pestilence
+Medium Outsider (Extraplanar, Chaotic, Evil, Tanar'ri)
+Hit Dice: 21d8+105 (199 hp)
+Initiative: +11 (Matches the fastest opponent's initiative)
+Speed: 60 ft. (12 squares)
+Armor Class: 33 (+11 Dex, +12 natural), touch 21, flat-footed 22
+Base Attack/Grapple: +21/+24
+Attack: Misshapen Arm +32 melee (3d6+3 plus Accelerated Disease)
+Full Attack: 2 Misshapen Arms +32 melee (3d6+3 plus Accelerated Disease)
+Space/Reach: 5 ft./5 ft.
+Special Attacks: Accelerated Disease, Field of Damnation, Plague Aura
+Special Qualities: Damage reduction 15/cold iron and good, Darkvision 60 ft., Immunity to electricity and poison, SR 32, Tanar'ri traits
+Saves: Fort +17, Ref +23, Will +19
+Abilities: Str 16, Dex 32*, Con 21, Int 20, Wis 20, Cha 18
+*Note: Dexterity dynamically adjusts to match the fastest opponent's total score +4 (to maintain +11 modifier).
+Challenge Rating: 20
+Alignment: Always Chaotic Evil
+Origin: The Abyss (Layer 222: Shedaklah/The Slime Pits)
+Special Abilities
+Plague Aura (Su): Any creature within 30 ft. must succeed on a DC 25 Fortitude save or contract a disease (Roll 1d6):
+Influenza: –2 penalty to attacks, AC, and saves for 1d6 days. 5% chance of fatal pneumonia.
+Rabies: 48h incubation. Then Confusion for 24h, followed by death.
+Bubonic Plague: Death in 2d4 days (10% chance of recovery via bursting bulboes).
+Leprosy: –6 to attacks/AC; 1d8 drain to Str, Con, Dex, and Cha. Ear/Nose loss (Charisma loss is permanent).
+Spinal Meningitis: Coma for 1d8 days. 50% chance of cardiac failure (death).
+Cholera: Incapacitated for 1d10 days. 70% chance of death. 
+Field of Damnation (Su) - Revised
+Any creature that dies within the 15-ft. radius must succeed on a DC 24 Will save.
+On a success: The soul escapes to its natural afterlife and can be resurrected normally.
+On a failure: The soul is instantly claimed by the Abyss. The body cannot be raised, reincarnated, or resurrected. Only a Wish, Miracle, or a successful Bargain with a Duke of Hell or Abyssal Lord can retrieve the soul. The save DC is Charisma-based.
+Accelerated Disease (Ex): Any creature struck by the demon's arms must succeed on a DC 25 Fortitude save or contract one of the above diseases (determined randomly). The disease runs its full course in 1d4 rounds. Only a simultaneous Remove Curse and Cure Disease can stop the progression.
+
+Queen of Lust
+Medium Outsider (Extraplanar, Chaotic, Evil, Tanar'ri)
+Hit Dice: 15d8+45 (112 hp)
+Initiative: +9 (+1 over fastest opponent)
+Speed: 60 ft. (12 squares)
+Armor Class: 25 (+5 Dex, +10 natural), touch 15, flat-footed 20
+Base Attack/Grapple: +15/+17
+Attack: Touched by Desire +20 melee touch (1d6 Charisma damage)
+Full Attack: Touched by Desire +20 melee touch (1d6 Charisma damage)
+Space/Reach: 5 ft./5 ft.
+Special Attacks: Aura of the Ideal, Lecherous Beams, Orgasmic Drain
+Special Qualities: Damage reduction 15/silver, Darkvision 60 ft., Immunity to mind-affecting effects, SR 26, Tanar'ri traits, Teleport, True Seeing (Su)
+Saves: Fort +12, Ref +14, Will +13
+Abilities: Str 14, Dex 19, Con 16, Int 18, Wis 18, Cha 28
+APP (Appearance): 34 (+12) [Variable based on viewer's ideal]
+Skills: Bluff +35, Diplomacy +35, Disguise +27 (+37 to mimic ideal), Intimidate +27, Knowledge (Planes) +22, Listen +22, Move Silently +22, Sense Motive +22, Spot +22
+Feats: Ability Focus (Aura of the Ideal), Dodge, Mobility, Persuasive, Weapon Finesse
+Challenge Rating: 16
+Alignment: Always Chaotic Evil
+Origin: The Abyss (Layer 570: Shendilavri)
+Special Abilities
+Aura of the Ideal (Su): The Queen appears as the viewer's perfect female ideal. Male characters within 60 ft. must make a Wisdom Check (DC = Wisdom Score).
+Failure: The male falls under a Dominate Monster effect (CL 15th).
+Success: The male is affected by Charm Monster. He cannot harm her and will protect her from others.
+Female characters are immune to the charm but are immediate targets of the Queen’s hatred.
+Lecherous Beams (Su): 3/day each, 120-ft. ray, ranged touch. DC 26 Fortitude negates.
+Black Ray: Female targets fall into a Comatose Sleep. Only "True Love’s Kiss" can wake them; even a Wish fails.
+White Ray: Target undergoes an instantaneous, permanent magical sex reversal (Male to Female or vice versa).
+Red Ray: Target is overcome by a frenzy of lust, attempting to sexually assault the nearest creature for 1d6 rounds.
+Orgasmic Drain (Su): Each day a dominated male spends with the Queen, he takes 1d3 Constitution drain from exhaustion. If Con reaches 0, he dies.
+
+Archfiend of Antiperception
+Huge Outsider (Extraplanar, Chaotic, Evil, Tanar'ri)
+Hit Dice: 45d8+540 (945 hp)
+Initiative: +11 (+7 Dex, +4 Improved Initiative; always +1 over fastest opponent)
+Speed: Fly 120 ft. (perfect), Teleport at will (no error)
+Armor Class: 45 (–2 size, +7 Dex, +30 insight), touch 23, flat-footed 38
+Base Attack/Grapple: +45/+65
+Attack: Incorporeal Touch +50 melee (2d6 Charisma drain)
+Full Attack: 2 Incorporeal Touches +50 melee (2d6 Charisma drain)
+Space/Reach: 15 ft./15 ft.
+Special Attacks: Breath of Gray Jelly, Breathless Possession, Sensory Rupture, Soul Sap
+Special Qualities: Absolute Surprise, Damage Reduction 20/Epic and Good, Immune to "Effect" Spells, Incorporeal Traits, SR 35, Tanar'ri traits, Total Immunity (Energy/Disintegrate), 50% Tech Resistance
+Saves: Fort +36, Ref +31, Will +34
+Abilities: Str —, Dex 24, Con 34, Int 30, Wis 30, Cha 30
+APP (Appearance): — (Inperceptible to all but deities)
+Skills: Bluff +58, Concentration +60, Diplomacy +58, Intimidate +58, Knowledge (all) +58, Listen +58, Search +58, Sense Motive +58, Spellcraft +58, Spot +58
+Feats: Improved Initiative, Quicken Spell-Like Ability (Teleport), Ability Focus (Possession), Ability Focus (Sensory Rupture), Great Fortitude, Iron Will, Lightning Reflexes, Multiattack, Power Attack, Hover, Epic Will, Epic Fortitude, Epic Reflexes, Superior Initiative.
+Challenge Rating: 30
+Alignment: Always Chaotic Evil
+Origin: The Abyss (Layer 663: The Silent Empty)
+Special Abilities
+Absolute Surprise (Ex): In its natural state, this demon is imperceptible. It cannot be detected by True Seeing, Blindsight, or Detect Evil. It always acts in a surprise round; victims cannot react or use "immediate" actions to prevent the initial Sensory Rupture.
+Sensory Rupture (Su): During the surprise round, all within 60 ft. must succeed on a DC 42 Fortitude save (–4 penalty).
+Failure: The victim’s eyes burst, eardrums puncture, nose crunches, and the tongue transforms into a White Worm (Curse). This results in permanent Blindness, Deafness, and loss of Speech/Taste/Smell. This is a transmutation curse requiring Heal, Greater Restoration, or Limited Wish to reverse.
+Success: The victim merely loses 1–6 senses (including psychic/esper abilities) while within 60 ft. of the demon.
+Soul Sap (Su): Any creature within 20 ft. must make a DC 42 Will save.
+Failure: Lose 1–4 experience levels. These can only be restored by earning XP; all magical protections (like Death Ward) are bypassed.
+Success: Levels lost can be restored via Restoration or Wish.
+Breathless Possession (Su): The Archfiend targets the most powerful being present (Will DC 42 negates).
+Failure: Permanent possession.
+Success: Possession lasts 1–10 rounds.
+The Archfiend gains all the victim's memories, skills, and items. The host’s HP is doubled. Only the total destruction of the body (reduction to –100 hp or disintegration of the host) ends the possession.
+Breath of Gray Jelly (Su): 3/day (while possessing a host), 30-ft. cone. Victims must remove the jelly within 3 rounds or die of asphyxiation. To remove it, the jelly must take 25 points of damage from a specific energy type, randomized per victim.
+Knowledge (Planes/Demonology/Religion) DC 40: Identifies the correct solvent (Acid, Sonic, Electric, Fire, Cold, or Force) for one victim.
+Total Immunity (Ex): Immune to physical attacks, disease, poison, acid, alkaline, electricity, fire, cold, level drain, and Disintegrate. 75% Magic Resistance and 50% immunity to technological attacks.
+
+---
+RanvierMUD Area: The Salt-Slick Spires
+This area utilizes the RanvierMUD YAML format for rooms and NPCs.
+manifest.yml
+yaml
+name: "The Salt-Slick Spires"
+id: "salt-spires"
+Use code with caution.
+
+npcs.yml
+yaml
+- id: piranha-demon
+  name: 'Piranha Demon'
+  level: 13
+  keywords: ['demon', 'piranha']
+  attributes:
+    health: 1500
+    speed: 1.2
+  description: "A blurred shape of scales and fangs, vibrating with hunger."
+  behaviors:
+    aggro: true
+
+- id: xalthar
+  name: 'Xalthar the Render'
+  level: 16
+  keywords: ['captain', 'xalthar']
+  description: "The largest of the pack, his fangs glow with a sickly Abyssal light."
+Use code with caution.
+
+rooms.yml
+yaml
+- id: spire-entrance
+  title: "The Salt-Crusted Shore"
+  coordinates: [0, 0, 0]
+  description: "White salt flats stretch toward a shallow, black sea. The air smells of brine and rot."
+  exits:
+    - direction: north
+      roomId: "salt-spires:blood-shallows"
+
+- id: blood-shallows
+  title: "The Blood Shallows"
+  coordinates: [0, 1, 0]
+  description: "Knee-deep water hides jagged rocks. Ripples suggest something fast is moving toward you."
+  npcs:
+    - id: "salt-spires:piranha-demon"
+      count: 4
+  exits:
+    - direction: north
+      roomId: "salt-spires:xalthars-throne"
+
+- id: xalthars-throne
+  title: "Xalthar's Jagged Outcropping"
+  coordinates: [0, 2, 0]
+  description: "A mound of gnawed bones rises above the tide. The Pack Captain awaits."
+  npcs:
+    - id: "salt-spires:xalthar"
+    - id: "salt-spires:piranha-demon"
+      count: 3
+
+---
+RanvierMUD Area Addition: The Ebon Vault
+npcs.yml
+yaml
+- id: guardian-sepulcher
+  name: 'Guardian of the Sepulcher'
+  level: 20
+  keywords: ['guardian', 'demon', 'ram']
+  description: "A ten-foot tall horror with the head of a ram and arms that end in hissing serpents."
+  behaviors:
+    aggro: true
+    sentinel: true # Won't leave the room it guards
+Use code with caution.
+
+rooms.yml
+yaml
+- id: ebon-vault-entrance
+  title: "Entrance to the Ebon Vault"
+  description: "The temperature drops as you approach the massive obsidian doors. High above, bat-like wings rustle in the rafters."
+  npcs:
+    - id: "salt-spires:guardian-sepulcher"
+  exits:
+    - direction: south
+      roomId: "salt-spires:xalthars-throne"
+    - direction: down
+      roomId: "salt-spires:inner-sepulcher"
+
+---
+RanvierMUD Area: The Devoured Mine
+npcs.yml
+yaml
+- id: metal-fiend
+  name: 'The Metal Fiend'
+  level: 25
+  keywords: ['fiend', 'metal', 'demon']
+  description: "A hulking, jagged monstrosity with eyes like molten furnaces, gnawing on a rusted breastplate."
+  behaviors:
+    aggro: true
+Use code with caution.
+
+rooms.yml
+yaml
+- id: iron-vein-depths
+  title: "The Iron Vein Depths"
+  description: "The walls here are stripped bare, showing marks of massive, clawed teeth. The floor is covered in a fine, metallic dust."
+  npcs:
+    - id: "salt-spires:metal-fiend"
+  exits:
+    - direction: up
+      roomId: "salt-spires:inner-sepulcher"
+
+ ---
+ RanvierMUD Area: The Fetid Garden
+npcs.yml
+yaml
+- id: perverse-imp
+  name: 'Imp of the Perverse'
+  level: 3
+  keywords: ['imp', 'perverse', 'demon']
+  description: "A stomach-turning fusion of anatomical parts that shouldn't exist, twitching rhythmically."
+  behaviors:
+    aggro: true
+Use code with caution.
+
+rooms.yml
+yaml
+- id: fetid-garden
+  title: "The Fetid Garden"
+  description: "The air is thick with the scent of rotting lilies and ozone. Small, twitching shapes scuttle between the black-petaled flowers."
+  npcs:
+    - id: "salt-spires:perverse-imp"
+      count: 6
+  exits:
+    - direction: west
+      roomId: "salt-spires:iron-vein-depths"
+
+ ---
+ RanvierMUD Area: The Void-Struck Observatory
+npcs.yml
+yaml
+- id: stellar-demon
+  name: 'Stellar Demon'
+  level: 28
+  keywords: ['demon', 'stellar', 'void']
+  description: "A shifting 15-foot mass of star-flecked darkness, howling with the wind of a thousand worlds."
+  behaviors:
+    aggro: true
+Use code with caution.
+
+rooms.yml
+yaml
+- id: ruined-telescope
+  title: "The Ruined Telescope"
+  description: "The ceiling of this dome has been torn away. A silent, swirling hole in reality hovers where the lens once pointed."
+  npcs:
+    - id: "salt-spires:stellar-demon"
+  exits:
+    - direction: east
+      roomId: "salt-spires:fetid-garden"
+
+ ---
+ Final RanvierMUD Area: The Pillar Room (Updated)
+npcs.yml
+yaml
+- id: pentagoth
+  name: 'The Pentagoth'
+  level: 60
+  keywords: ['pillar', 'pentagoth', 'demon', 'epic']
+  description: "A 15-foot tall purple pillar. From each side, a nightmare protrudes. The wizard's face screams silent, world-ending incantations."
+  attributes:
+    health: 50000
+    mana: 10000
+  behaviors:
+    aggro: true
+    boss: true
+    epic_magic: # Custom behavior for Epic Spells
+      chance: 25
+      spells: ['vengeful-gaze', 'rupture-reality']
+Use code with caution.
+
+items.yml
+yaml
+- id: fangs-of-the-demon
+  name: 'Demon-Fang Daggers'
+  type: 'weapon'
+  level: 15
+  keywords: ['dagger', 'fang', 'demon']
+  stats:
+    hit: 15
+    damage: 25
+  properties:
+    - '+3 enhancement'
+    - 'poison: strength-drain'
+  description: "A massive, curved fang from a Piranha Demon, still dripping with caustic bile."
+Use code with caution.
+
+rooms.yml
+yaml
+- id: central-pillar-vault
+  title: "The Vault of the Five Faces"
+  description: "The walls of this pentagonal chamber are etched with the names of a thousand consumed souls. The Pentagoth stands in the center, its five faces scanning for intruders."
+  npcs:
+    - id: "salt-spires:pentagoth"
+  exits:
+    - direction: up
+      roomId: "salt-spires:ruined-telescope"
+    - direction: north
+      roomId: "salt-spires:the-exit-portal"
+
+---
+RanvierMUD Area: The Plague-Choked Square
+npcs.yml
+yaml
+- id: pestilence-demon
+  name: 'The Demon of Pestilence'
+  level: 40
+  keywords: ['demon', 'pestilence', 'plague']
+  description: "A gaunt, shivering figure wrapped in moldy black rags. His very breath smells of the grave."
+  behaviors:
+    aggro: true
+    disease_aura: true
+Use code with caution.
+
+rooms.yml
+yaml
+- id: corpse-square
+  title: "The Square of Broken Carts"
+  description: "The gutters are clogged with the pale limbs of the dead. A lone, crippled figure sits atop a pile of corpses, chuckling softly."
+  npcs:
+    - id: "salt-spires:pestilence-demon"
+  exits:
+    - direction: south
+      roomId: "salt-spires:central-pillar-vault"
+---
+Final RanvierMUD Exit
+yaml
+- id: the-exit-portal
+  title: "The Shimmering Rift"
+  description: "A jagged tear in the fabric of the Abyss leads back to the Material Plane. The stench of pestilence fades as you approach."
+  exits:
+    - direction: north
+      roomId: "liminal-space:starting-inn"
+---
+RanvierMUD Area: The Boudoir of Bliss
+npcs.yml
+yaml
+- id: queen-lust
+  name: 'The Queen of Lust'
+  level: 35
+  keywords: ['queen', 'lust', 'demoness']
+  description: "She is everything you ever wanted. Looking at her makes your breath hitch and your heart race."
+  attributes:
+    app: 34
+    cha: 28
+  behaviors:
+    aggro_females: true
+    charm_males: true
+Use code with caution.
+
+rooms.yml
+yaml
+- id: silken-chamber
+  title: "The Silken Chamber"
+  description: "The walls are draped in translucent purple silks. The air is heavy with the scent of musk and expensive perfumes."
+  npcs:
+    - id: "salt-spires:queen-lust"
+  exits:
+    - direction: west
+      roomId: "salt-spires:corpse-square"
+---
+RanvierMUD Area: The Throne of the Unseen
+npcs.yml
+yaml
+- id: archfiend-antiperception
+  name: 'Archfiend of Antiperception'
+  level: 100
+  keywords: ['archfiend', 'antiperception', 'void']
+  description: "A terrifying absence in reality. You feel your senses dying just by standing near the void where it resides."
+  attributes:
+    health: 50000
+    mana: 20000
+  behaviors:
+    absolute_stealth: true
+    possess_highest_level: true
+    sensory_rupture_on_entry: true
+Use code with caution.
+
+items.yml
+yaml
+- id: white-worm-tongue
+  name: 'The Pulpy White Worm'
+  type: 'curse'
+  description: "Your tongue has become a writhing, mindless parasite. You cannot speak or taste."
+
+- id: gray-jelly-coating
+  name: 'Viscous Gray Jelly'
+  type: 'debuff'
+  description: "A translucent jelly covers your face. You are suffocating."
+Use code with caution.
+
+rooms.yml
+yaml
+- id: high-throne-room
+  title: "The High Throne of Ranvier"
+  description: "The magnificent gold-leafed hall is silent. The King sits upon his throne, his face a mask of gray slime. You feel an invisible pressure crushing your very soul."
+  npcs:
+    - id: "salt-spires:archfiend-antiperception"
+  exits:
+    - direction: south
+      roomId: "salt-spires:silken-chamber"
+    - direction: north
+      roomId: "salt-spires:the-void-gate"
+---
+
+## Parasites
+
+Spine Crab (Parasite)
+Fine Vermin
+Hit Dice: 1/8 d8 (1 hp)
+Initiative: +4
+Speed: 1 ft.
+Armor Class: 22 (+8 size, +4 Dex), touch 22, flat-footed 18
+Base Attack/Grapple: +0/–21
+Special Attacks: Infestation
+Special Qualities: Electrical Siphon, Parasitic Dependency, Vermin traits
+Saves: Fort +2, Ref +4, Will +0
+Abilities: Str 1, Dex 18, Con 10, Int —, Wis 10, Cha 1
+APP (Appearance): 1 (Vile/Microscopic)
+Challenge Rating: 1/4 (Initial) / 5 (Complication)
+Alignment: Always Neutral
+Special Abilities
+Infestation (Ex): In swampy environments, the larval Spine Crab is inhaled. Any living creature breathing the air must succeed on a DC 15 Fortitude save or become a host. The crab migrates to the spinal column over 1d4 days. There are no outward symptoms during this phase. 
+Electrical Siphon (Ex): Once nestled between vertebrae, the crab feeds on neural impulses. The host’s Dexterity score and Base Land Speed are immediately reduced by half. This effect persists as long as the crab is alive and attached.
+Parasitic Dependency (Ex): The crab’s body becomes a literal bridge for the host's nervous system. If the Spine Crab is killed or removed (via Remove Disease or surgery) without a simultaneous DC 25 Heal check and a Regenerate or Heal spell, the host is permanently Paralyzed and must succeed on a DC 20 Fortitude save or die from systemic shock.
+
+Amorphosite (Parasite)
+Fine Ooze (Extraplanar)
+Hit Dice: 1d10 (5 hp)
+Initiative: +10
+Speed: Fly 40 ft. (perfect)
+Armor Class: 28 (+8 size, +10 Dex), touch 28, flat-footed 18
+Base Attack/Grapple: +0/—
+Attack: None
+Space/Reach: 1/2 ft./0 ft.
+Special Attacks: Spell Siphon
+Special Qualities: Absolute Stealth, Blindsight 60 ft., Immunity to Mind-Affecting, Incorporeal Traits, Mana-Sensitivity, Ooze traits
+Saves: Fort +0, Ref +10, Will –5
+Abilities: Str —, Dex 30, Con 10, Int 1, Wis 1, Cha 1
+APP (Appearance): — (Undetectable vapor)
+Challenge Rating: 4 (Complication)
+Alignment: Always Neutral
+Environment: Any (Rare), Astral/Ethereal Planes (Common) 
+Special Abilities
+Absolute Stealth (Ex): In its natural state, an Amorphosite is a transparent, odorless vapor. It is invisible and undetectable by non-magical sight, scent, or hearing. It cannot be detected by See Invisibility or True Seeing as it lacks a solid or magical form to reveal; only Detect Magic or Detect Manifestation reveals a faint, lingering aura of "hunger." 
+Mana-Sensitivity (Ex): The Amorphosite can sense any creature capable of casting spells or using spell-like abilities within 60 feet. It reflexively drifts toward and "clings" to the aura of the most powerful magic user present. 
+Spell Siphon (Su): Whenever the host casts a spell or uses a spell-like ability, the Amorphosite instantly absorbs the expended energy. The spell fails completely (as if counterspelled or suppressed by an Antimagic Field), and the Amorphosite is "fed." 
+Starvation (Ex): The only non-violent way to remove an Amorphosite is to starve it. If the host refrains from all magical activity (casting spells, using charged items, or activating spell-like abilities) for 7 consecutive days, the parasite either dies or detaches to find a new host. 
+
+Item Imposter (Parasite)
+Fine Aberration (Shapechanger)
+Hit Dice: 1d8 (4 hp)
+Initiative: +0
+Speed: 5 ft. (clumsy)
+Armor Class: 18 (+8 size), touch 18, flat-footed 18
+Base Attack/Grapple: +0/+12 (Special)
+Attack: Adhesive Grip (see below)
+Full Attack: Adhesive Grip
+Space/Reach: 1/2 ft./0 ft.
+Special Attacks: Strength Siphon, Unbreakable Grip
+Special Qualities: Absolute Immunity, False Item, Magic Mimicry
+Saves: Fort +2, Ref +0, Will +2
+Abilities: Str 10, Dex 10, Con 10, Int 2, Wis 14, Cha 14
+APP (Appearance): Variable (Matches item)
+Challenge Rating: 3 (Complication)
+Alignment: Always Neutral 
+Special Abilities
+False Item (Ex): The Item Imposter can assume the form of any Tiny or smaller magical item (Ring, Wand, Rod, Amulet, or Dagger). While in this form, it is indistinguishable from the real object. It even radiates a faint aura of the school of magic it is mimicking. 
+Unbreakable Grip (Ex): Once a living creature picks up or wears the Item Imposter, it instantly bonds to the host's flesh. The creature cannot drop, remove, or be disarmed of the parasite. Only severing the affected limb (finger for a ring, hand for a wand/weapon) or the death of the parasite can break the bond. 
+Strength Siphon (Su): Every 24 hours the parasite is attached, the host takes 1d6 Strength damage. This damage cannot be healed until the parasite is removed. If Strength reaches 0, the host falls into a coma and the parasite slowly consumes them. 
+Absolute Immunity (Ex): The Item Imposter is immune to all forms of physical damage (bludgeoning, piercing, slashing), energy damage, and "effect" spells (disintegrate, etc.). 
+Magic Negation Vulnerability (Ex): Because it is an entity of mimicked energy, it is instantly slain by an Antimagic Field, a successful Greater Dispel Magic (DC 25), or a Rod of Negation.
+
+Macrosite
+Gargantuan Aberration
+Hit Dice: 25d8+200 (312 hp)
+Initiative: +0
+Speed: 30 ft. (6 squares)
+Armor Class: 18 (–4 size, +12 natural), touch 6, flat-footed 18
+Base Attack/Grapple: +18/+42
+Attack: Tentacle +26 melee (1d6+12 plus Attachment)
+Full Attack: 10 Tentacles +26 melee (1d6+12 plus Attachment)
+Space/Reach: 20 ft./20 ft.
+Special Attacks: Docility Enzyme, Gastric Siphon
+Special Qualities: Damage Reduction 10/magic, Darkvision 60 ft., External Metabolism
+Saves: Fort +16, Ref +8, Will +16
+Abilities: Str 34, Dex 10, Con 26, Int 2, Wis 14, Cha 10
+APP (Appearance): 2 (A bloated, pulsing mass of hooked tubes)
+Challenge Rating: 16
+Alignment: Always Neutral
+Special Abilities
+Attachment (Ex): If a Macrosite hits with a tentacle, the barbed tip lodges into the victim’s stomach. The tentacle is considered "grappling" the foe, but the Macrosite is not considered grappled. To remove a lodged tentacle, a creature must succeed on a DC 34 Strength check or deal 30 points of slashing damage to the tentacle (AC 20). Removal deals an additional 1d6 damage to the host.
+Docility Enzyme (Ex): Upon attachment, the victim must succeed on a DC 30 Fortitude save. Failure results in the victim becoming "Docile." A docile victim is Charmed by the Macrosite and will not attack it or attempt to flee. Furthermore, they are overcome by a supernatural hunger, spending every action seeking and consuming food to feed the parasite. The save DC is Constitution-based.
+Gastric Siphon (Ex): For every hour a victim remains attached, they must consume a full day's worth of rations or take 1d4 Constitution damage from malnutrition as the Macrosite siphons all nutrients.
+External Metabolism (Ex): The Macrosite cannot eat. If it has no attached hosts for more than 48 hours, it begins to starve, taking 1d10 points of non-lethal damage every hour until it attaches to a new host or dies.
+
+Marrow Worm (Parasite)
+Fine Vermin
+Hit Dice: 1/12 d8 (1 hp)
+Initiative: +2
+Speed: 1 ft.
+Armor Class: 20 (+8 size, +2 Dex), touch 20, flat-footed 18
+Base Attack/Grapple: +0/–25
+Attack: Anesthetic Burrow +10 melee touch (Infestation)
+Space/Reach: 1/2 ft./0 ft.
+Special Attacks: Bone Marrow Consumption, Infestation
+Special Qualities: Anesthetic Saliva, Butterfly Weakness, Vermin traits
+Saves: Fort +0, Ref +2, Will +0
+Abilities: Str 1, Dex 14, Con 10, Int —, Wis 10, Cha 1
+APP (Appearance): 1 (A translucent, thready needle)
+Challenge Rating: 1/2 (Complication)
+Alignment: Always Neutral
+Special Abilities
+Infestation (Ex): A Marrow Worm waits in soil for a host to step on it. It can burrow through leather, cloth, or skin. The victim must succeed on a DC 20 Survival or Spot check to notice the worm before treading on it. Once it makes contact, the worm burrows into the foot.
+Anesthetic Saliva (Ex): Due to a powerful numbing agent, the victim is unaware of the burrowing. They must succeed on a DC 25 Search or Heal check (performed by themselves or an ally) to notice the tiny entry wound.
+Bone Marrow Consumption (Ex): Over 30 days, the worm grows to 3 feet in length inside the host's skeletal system.
+Days 1–15: No symptoms.
+Days 16–30: The host becomes Fatigued. They lose the ability to heal naturally.
+Day 31+: The host’s marrow is gone. They become Exhausted. Any hit point damage taken by the host becomes Constitution damage instead (representing blood loss that cannot be replaced). The host dies in 14 days if not treated.
+Butterfly Weakness (Ex): Ingesting the wings of Butterfly People (a specific fey or humanoid race) acts as a specialized Cloudkill effect to the worm only. The worm dies instantly and is absorbed harmlessly by the host's body.
+
+Cranolid
+Diminutive Magical Beast
+Hit Dice: 1/4 d10 (2 hp)
+Initiative: +4
+Speed: 5 ft. (1 square), fly 30 ft. (good)
+Armor Class: 18 (+4 size, +4 Dex), touch 18, flat-footed 14
+Base Attack/Grapple: +0/–17
+Attack: Memory-Drain Tongue +8 melee touch (Memory Siphon)
+Space/Reach: 1 ft./0 ft.
+Special Attacks: Memory Siphon
+Special Qualities: Low-Light Vision, Cold Vulnerability
+Saves: Fort +2, Ref +6, Will +2
+Abilities: Str 1, Dex 18, Con 10, Int 2, Wis 14, Cha 10
+APP (Appearance): 4 (+0) [A fleshy, pulsating louse with a multi-valved tongue]
+Challenge Rating: 1 (Complication)
+Alignment: Always Neutral 
+Special Abilities
+Memory Siphon (Su): Once a Cranolid has nestled into the hair of an intelligent host (Int 3+), it begins feeding on their neural history. Every 24 hours, the victim must succeed on a DC 15 Will save. 
+Failure: The victim loses 10% of their total memory and one character level (or 10% of their total levels, whichever is higher). This represents the loss of learned abilities, spells, and combat maneuvers.
+Persistence: This drain continues daily until the host is reduced to 1st level or the parasite is removed. 
+Removal (Ex): The Cranolid is nearly impossible to spot while buried in hair (Search DC 30). However, if the host's head is completely shaved, the parasite is exposed and has no further defense. It can be killed as a standard action by any creature with a blunt object or bare hand.
+Cold Vulnerability (Ex): Cranolids cannot survive in freezing temperatures. If the environment drops below 32°F (0°C), the parasite enters a state of hibernation or dies within 1d4 hours if not sheltered.
+
+Womb Lice
+Fine Vermin
+Hit Dice: 1/12 d8 (1 hp)
+Initiative: +2
+Speed: 1 ft.
+Armor Class: 20 (+8 size, +2 Dex), touch 20, flat-footed 18
+Base Attack/Grapple: +0/–25
+Attack: None
+Space/Reach: 1/2 ft./0 ft.
+Special Attacks: Fetal Consumption, Ovum Fertilization
+Special Qualities: Internal Infestation, Temperature Dependency, Vermin traits
+Saves: Fort +0, Ref +2, Will +0
+Abilities: Str 1, Dex 14, Con 10, Int —, Wis 10, Cha 1
+APP (Appearance): 1 (A translucent, segmented parasite)
+Challenge Rating: 1/8 (Complication)
+Alignment: Always Neutral
+Special Abilities
+Internal Infestation (Ex): Womb Lice infest large female mammals through contact in hot, humid environments. They migrate to the uterus and lodge in the uterine wall. Detection requires a DC 25 Heal check or specialized magical divination. 
+Fetal Consumption (Ex): If the host is already pregnant, the Womb Lice immediately begin devouring the fetus. This process takes 1d4 days, after which the pregnancy is terminated. While utilized by some cultures as a primitive abortifacient, the process causes 1d6 Constitution damage and 1d6 Charisma damage (APP) to the host due to internal scarring and trauma. 
+Ovum Fertilization (Ex): If the host is not pregnant, the lice "fertilize" an ovum with their own genetic material. Within 1d8 days, the host "gives birth" to a swarm of 1d100 new Womb Lice. This process deals 1d4 points of non-lethal damage per 10 lice birthed. 
+Temperature Dependency (Ex): Womb Lice are native to equatorial regions. If the host enters a sub-arctic environment or is subjected to at least 10 points of Cold damage, the lice must succeed on a DC 15 Fortitude save or die instantly.
+
+The Neila Parasite (Xenomorphic Abomination)
+Type: Aberration (Extraplanar)
+Environment: Dark corners of the universe / The Abyss
+Common Traits (All Stages):
+Energy Immunities: Immune to poison, disease, life drain, heat, cold, sonic, electricity, and vacuum.
+Acid Affinity (Ex): Acid damage heals the Neila instead of harming it.
+Reflexive Dodge (Ex): In all stages (except Egg), it can dodge any physical attack with a DC 15 Reflex Save. Failure by 5+ dissolves the attacker's weapon (Fort DC 20 for magic items).
+Evasion (Ex): Natural 4 or better on a d20 negates all magic/technological energy damage.
+Stage 1: The Egg (Ovomorph)
+Small Aberration
+Hit Dice: 2d8+4 (13 hp)
+Armor Class: 15 (+1 size, +4 natural), touch 11, flat-footed 14
+Special Qualities:
+Flower Opening: If a living host comes within 5 ft., the top unfurls. The Stage 2 Neila leaps with a +10 Initiative bonus.
+Stage 2: The Face-Clutcher
+Tiny Aberration
+Hit Dice: 1d8+2 (6 hp)
+Initiative: +10
+Armor Class: 20 (+2 size, +6 Dex, +2 natural), touch 18, flat-footed 14
+Attack: Touch +8 melee (Proboscis Implantation)
+Special Attacks:
+Proboscis Implantation: On a hit, it latches. Host must save vs. DC 20 Fortitude or fall into a coma. It remains for 24 hours, then dies.
+Lethal Removal: Removal (DC 25 Str) requires a DC 20 Fort save for the host to survive the trauma. Cutting it triggers a 4d6 acid spray. 
+Stage 3: The Chest-Burster
+Tiny Aberration
+Hit Dice: 1d8+1 (5 hp)
+Speed: 60 ft.
+Attack: Burrow +8 melee (10d10 damage)
+Special Attacks:
+Stomach Burrow: Triggers when the host first eats. Deals 10d10 damage and kills the host instantly.
+Surgical Extraction: DC 30 Heal check can remove it. Failure triggers the burrow attack and 8d6 internal acid damage. 
+Xenopedia
+Xenopedia
+ +1
+Stage 4: The Adult (The Xenomorph)
+Large Aberration (Extraplanar)
+Hit Dice: 18d8+90 (171 hp)
+Initiative: +11 (+7 Dex, +4 Improved Init; +1 over fastest opponent)
+Speed: 50 ft., Climb 30 ft.
+Armor Class: 28 (–1 size, +6 Dex, +13 natural), touch 15, flat-footed 22
+Base Attack/Grapple: +13/+25
+Attack: Bite +21 melee (2d6+8 plus 1d6 acid)
+Full Attack: Bite +21 melee (2d6+8), 2 Claws +19 melee (1d8+4), Tail +19 melee (1d10+4)
+Special Qualities:
+Procreative Hunger: Lays egg per 500 lbs consumed.
+Acidic Blood (Ex): When damaged by physical attacks, it sprays acid in a 5-ft. radius, dealing damage equal to half the damage taken (Reflex DC 20 half).
+Hull Breach (Ex): Acid blood can melt through flooring and walls. If damage exceeds 30 points in one square, it creates a 5-ft. hole. In a ship, this may cause a vacuum breach.
+Abilities: Str 26, Dex 22, Con 20, Int 10, Wis 14, Cha 12. APP: 1. CR: 15.
+---
+RanvierMUD Area: The Neural Marsh
+items.yml
+yaml
+- id: spine-crab-larvae
+  name: 'Microscopic Spores'
+  type: 'gas'
+  description: "The air is thick with a shimmering, irritant dust."
+  properties:
+    - 'infest: spine-crab'
+
+- id: spine-crab-embedded
+  name: 'Encrusted Vertebrae'
+  type: 'debuff'
+  description: "A flat, chitinous growth is fused to your spine, thrumming with stolen energy."
+  stats:
+    dexterity: -50%
+    speed: -50%
+Use code with caution.
+
+rooms.yml
+yaml
+- id: neural-marsh-center
+  title: "The Choking Mists"
+  description: "The swamp gas here is heavy and tastes of copper. Every breath feels like swallowing needles."
+  events:
+    onEntry: 'check_infestation'
+  exits:
+    - direction: south
+      roomId: "salt-spires:high-throne-room"
+---
+RanvierMUD Mechanic: The Silent Leech 
+items.yml
+yaml
+- id: amorphosite-aura
+  name: 'Amorphosite Infestation'
+  type: 'debuff'
+  description: "A thin, invisible film of extraplanar vapor clings to your hands and mouth. Magic feels distant and cold."
+  properties:
+    - 'spell_fail: 100%'
+    - 'invisible: true'
+    - 'detectable_by: detect_magic'
+Use code with caution.
+
+Logic Script (Global Trigger)
+javascript
+/**
+ * Triggers when a player attempts to cast a spell
+ */
+function onCast(player, spell) {
+  if (player.hasEffect('amorphosite-aura')) {
+    player.say("As you finish the incantation, the energy is sucked into the air around you, leaving only a faint, satisfied hum.");
+    player.consumeMana(spell.cost); // Mana is lost, spell fails
+    player.getEffect('amorphosite-aura').resetStarvationTimer();
+    return false; // Cancel spell effect
+  }
+}
+---
+RanvierMUD Mechanic: The Cursed Loot
+items.yml
+yaml
+- id: imposter-wand
+  name: 'Wand of Fireballs'
+  type: 'wand'
+  level: 10
+  keywords: ['wand', 'fireball', 'gold']
+  description: "A finely crafted gold-tipped wand. It feels strangely warm to the touch."
+  behaviors:
+    onPickup: 'trigger_imposter_grip'
+Use code with caution.
+
+Logic Script (Removal)
+javascript
+/**
+ * Item Imposter Removal Logic
+ */
+function onCommand(player, command) {
+  if (command === "amputate hand" && player.hasEffect('imposter-grip')) {
+    player.takeDamage(25, 'slashing'); // Massive damage/wound
+    player.removeEffect('imposter-grip');
+    player.say("With a scream of agony, you sever your own hand. The 'wand' falls to the floor, twitching like a dying insect.");
+    player.addStatus('missing_limb');
+  }
+}
+---
+RanvierMUD Mechanic: The Feeding Pit
+npcs.yml
+yaml
+- id: macrosite
+  name: 'The Macrosite'
+  level: 45
+  keywords: ['macrosite', 'beast', 'parasite']
+  description: "A colossal, pulsating mound of flesh with ten thick, vascular tentacles snaking across the floor."
+  behaviors:
+    aggro: true
+Use code with caution.
+
+items.yml
+yaml
+- id: enzyme-docility
+  name: 'Enzymatic Docility'
+  type: 'debuff'
+  description: "Your stomach growls with a bottomless void. The Great Beast is your provider; you must eat for it."
+  properties:
+    - 'pacified: true'
+    - 'hunger_rate: 1000%'
+---
+RanvierMUD Mechanic: The Silent Wasting
+items.yml
+yaml
+- id: butterfly-wings
+  name: 'Wings of the Butterfly Folk'
+  type: 'reagent'
+  description: "Iridescent, powdery wings that shimmer with an alien chemistry."
+  behaviors:
+    onEat: 'cure_marrow_worm'
+
+- id: marrow-worm-infestation
+  name: 'Marrow Worm'
+  type: 'debuff'
+  description: "A deep, aching cold resides within your bones. You feel thin, as if your blood is turning to water."
+Use code with caution.
+
+Logic Script (Internal Bleeding)
+javascript
+function onTakeDamage(player, amount) {
+  if (player.hasEffect('marrow-worm-stage-3')) {
+    let conLoss = Math.ceil(amount / 5);
+    player.drainAttribute('constitution', conLoss);
+    player.say("Your wounds do not stop bleeding; your body has no strength to knit itself back together.");
+  }
+}
+---
+RanvierMUD Mechanic: The Hollow Mind
+items.yml
+yaml
+- id: cranolid-infestation
+  name: 'Cranolid Attachment'
+  type: 'debuff'
+  description: "A faint, rhythmic pulsing resides at the base of your skull. Names and faces feel like they are slipping through your fingers."
+  properties:
+    - 'level_drain: 1_per_day'
+    - 'min_level: 1'
+Use code with caution.
+
+Logic Script (Removal Command)
+javascript
+/**
+ * Specialized command to handle Cranolid removal
+ */
+function onCommand(player, command) {
+  if (command === "shave head") {
+    player.say("The blade shears away the hair. A small, bloated insect falls to the ground, twitching.");
+    player.removeEffect('cranolid-infestation');
+    player.addStatus('bald');
+    // Spawn the vulnerable npc to be destroyed
+    player.room.spawnNpc('salt-spires:cranolid-exposed');
+  }
+}
+---
+RanvierMUD Mechanic: The Tropical Scourge
+items.yml
+yaml
+- id: womb-lice-infestation
+  name: 'Womb Lice'
+  type: 'debuff'
+  description: "A sharp, localized cramping persists within your abdomen. You feel a strange, parasitic heat spreading through your core."
+  properties:
+    - 'fetal_death: true'
+    - 'spawn_timer: 1d8_days'
+Use code with caution.
+
+Logic Script (Spawn Event)
+javascript
+/**
+ * Logic for the Womb Lice spawning event
+ */
+function onSpawn(player) {
+  if (player.hasEffect('womb-lice-infestation')) {
+    let count = Math.floor(Math.random() * 100) + 1;
+    player.say(`You are overcome by sudden, violent labor pains. ${count} translucent parasites spill forth!`);
+    player.takeDamage(count / 10, 'nonlethal');
+    player.removeEffect('womb-lice-infestation');
+  }
+}
+---
+RanvierMUD Area: The Hive Ship
+manifest.yml
+yaml
+name: "Neila Hive Ship"
+id: "neila-hive"
+Use code with caution.
+
+npcs.yml
+yaml
+- id: neila-egg
+  name: 'Leathery Neila Egg'
+  level: 5
+  description: "A two-foot high, rough-shelled egg. The top appears ready to unfurl."
+
+- id: neila-adult
+  name: 'The Neila Stalker'
+  level: 45
+  description: "An eight-foot tall, biomechanical nightmare. Its obsidian skin drips with smoking acid."
+  behaviors:
+    aggro: true
+    acid_blood: true
+Use code with caution.
+
+items.yml
+yaml
+- id: neila-embryo
+  name: 'Neila Gestation'
+  type: 'debuff'
+  description: "A violent hunger gnaws at your insides. Something is moving."
+Use code with caution.
+
+rooms.yml
+yaml
+- id: egg-chamber
+  title: "The Steam-Filled Hold"
+  description: "The floor is covered in a thick, resinous webbing. Leathery eggs pulse with a faint, inner light."
+  script: "egg_logic.js"
+  exits:
+    - direction: up
+      roomId: "neila-hive:hive-medbay"
+
+- id: hive-medbay
+  title: "The Ruined Infirmary"
+  description: "Autopsy tables are overturned, stained with yellow-green acid burns."
+  npcs:
+    - id: "neila-hive:neila-adult"
+  exits:
+    - direction: down
+      roomId: "neila-hive:egg-chamber"
+Use code with caution.
+
+scripts/egg_logic.js
+javascript
+let biomass = 0;
+module.exports = {
+  listeners: {
+    npcLeave: (room, npc) => {
+      if (npc.id !== 'neila-adult') {
+        biomass += 175; // Standard body weight
+        if (biomass >= 500) {
+          room.spawnNpc('neila-hive:neila-egg');
+          biomass -= 500;
+        }
+      }
+    }
+  }
+};
+/**
+ * Room Script: Hull Breach Logic
+ */
+let hullIntegrity = 100;
+
+function onAcidSpray(room, damage) {
+  hullIntegrity -= Math.floor(damage / 5);
+  if (hullIntegrity <= 0) {
+    room.say("The floor vanishes in a hiss of yellow smoke. DECOMPRESSION DETECTED!");
+    room.addEffect('vacuum_hazard', {
+      damagePerRound: 50,
+      asphyxiation: true
+    });
+    room.exits.clear(); // Doors seal automatically
+  }
+}
+---
+
+## Robots
+
+Drillbot (C-Series Industrial Combatant)
+Medium Construct (Robot)
+Hit Dice: 6d10+20 (53 hp)
+Initiative: +3
+Speed: 45 ft. (9 squares)
+Armor Class: 18 (+3 Dex, +5 Equipment [Reinforced Chassis]), touch 13, flat-footed 15
+Base Attack/Grapple: +4/+7
+Attack: Pneumatic Drill +8 melee (1d10+3/19-20/x3 Piercing)
+Full Attack: 2 Pneumatic Drills +8 melee (1d10+3/19-20/x3 Piercing)
+Space/Reach: 5 ft./5 ft.
+Special Attacks: High-Torque Impale, Targeted Structural Failure
+Special Qualities: Aegis Shielding (SR 17), Construct traits, Hardness 5, Darkvision 60 ft., Vulnerability to Electricity, Low-light vision
+Saves: Fort +2, Ref +5, Will +2
+Abilities: Str 16, Dex 16, Con —, Int —, Wis 11, Cha 1
+APP (Appearance): 4 (Utilitarian, industrial yellow, oil-stained)
+Challenge Rating: 4
+Special Abilities
+Aegis Shielding (Ex): The Drillbot has SR 17. This is a technological "Magic Resistance" derived from its Ceramet plating. It does not function in an Antimagic Field, but it does function against Supernatural (Su) abilities that allow SR.
+Targeted Structural Failure (Ex): On a successful hit, the victim must succeed on a DC 16 Fortitude save or suffer a localized injury (Roll 1d6):
+Sensors/Head: –4 penalty to Listen/Spot/Search.
+Locomotion/Legs: Move speed reduced by 10 ft.
+Manipulators/Arms: –2 penalty to attacks.
+Armor/Torso: Hardness/DR reduced by 2 for 1 hour.
+Nervous System: Target is Staggered for 1 round.
+Internal Bleeding: 1d4 Con damage.
+---
+scripts/behaviors/self_destruct.js
+javascript
+/**
+ * Reactor Overload on Death
+ */
+function onDeath(npc, killer) {
+  npc.say("FATAL ERROR: CORE INTEGRITY COMPROMISED. SELF-DESTRUCT IN 3... 2... 1...");
+  npc.room.broadcast("A blinding white flash fills the room as the Drillbot's power cell detonates!");
+  
+  const targets = npc.room.getPlayers();
+  targets.forEach(target => {
+    target.takeDamage(30, 'explosive'); // Reflex DC 15 for half
+  });
+}
+Use code with caution.
+
+items.yml
+yaml
+- id: aegis-plating
+  name: 'Scrap Aegis Plating'
+  type: 'component'
+  description: "A chunk of dull gray ceramet. It feels strangely resistant to the touch of magic."
+  properties:
+    - 'spell_resistance: 10'
+---
+Medi-Robot (M-Series Triage Unit)
+Small Construct (Robot)
+Hit Dice: 4d10+10 (32 hp)
+Initiative: +7
+Speed: 15 ft. (3 squares)
+Armor Class: 22 (+1 size, +7 Dex, +4 Equipment [Ceramet Case]), touch 18, flat-footed 15
+Base Attack/Grapple: +3/–2
+Attack: Laser Scalpel +11 melee (1d4+1/19-20/x2 Fire)
+Full Attack: Laser Scalpel +11 melee (1d4+1/19-20/x2 Fire)
+Space/Reach: 5 ft./5 ft.
+Special Attacks: Hidden Defense Protocol (Locked)
+Special Qualities: Advanced Triage Suite, Internal Biometric Bank, Hardness 5, Aegis Shielding (SR 15), Vulnerability to Electricity, Unit Biometric Key
+Saves: Fort +1, Ref +8, Will +2
+Abilities: Str 8, Dex 25, Con —, Int 14, Wis 16, Cha 10
+APP (Appearance): 8 (Clean, white-enameled plating, sterile scent)
+Challenge Rating: 3
+Special Abilities
+Hidden Defense Protocol (Ex): This sub-routine is factory-locked. A character must succeed on a DC 25 Computer Use or Slicing check to enable "Guardian Mode."
+Guardian Mode: If the Prime Patient is attacked, the Medi-Robot enters combat. It uses its Dexterity for attack rolls (Weapon Finesse) and targets vital points with its laser scalpel.
+Precision Strike: Once enabled, the robot deals an additional 2d6 precision damage (as Sneak Attack) against any creature currently engaged in melee with its Prime Patient.
+Unit Biometric Key (Ex): New units bond to the first PC scanned. Legacy units require a DC 20 Hack to re-key.
+Advanced Triage Suite (Ex):
+Healing Spray: 15/day (10 HP).
+Neutralizer/Pathogen Scrub: 5/day each (Neutralize Poison/Remove Disease).
+Chemical Boost: 8-hour stimulant (Fatigue/Pain negation). Leads to 16 hours of Exhaustion.
+---
+RanvierMUD Area: The Bio-Storage Wing
+scripts/behaviors/guardian_mode.js
+javascript
+/**
+ * Logic for Guardian Mode sub-routine
+ */
+function onCombat(npc, room) {
+  if (!npc.behavior.has('guardian_mode_enabled')) return;
+
+  const prime = npc.getPrime();
+  const threat = room.getNpcs().find(n => n.target === prime);
+
+  if (threat) {
+    npc.say("THREAT DETECTED TO PRIME PATIENT. INITIATING DEFENSE PROTOCOL.");
+    npc.setTarget(threat);
+    // Apply precision damage bonus logic
+  }
+}
+Use code with caution.
+
+rooms.yml
+yaml
+- id: cold-storage-vault
+  title: "Cryo-Storage Vault 7"
+  description: "The air is a frigid mist. Rows of stasis pods hum with a low, electric thrum. A single M-Series unit stands vigil over a pod labeled 'PROJECT NEILA'."
+  npcs:
+    - id: "neila-hive:medi-robot-legacy"
+  exits:
+    - direction: south
+      roomId: "neila-hive:hive-medbay"
+---
+The Electroid (S-Series Static-Pulse Drone)
+Large Construct (Robot)
+Hit Dice: 7d10+30 (68 hp)
+Initiative: +3
+Speed: 15 ft. (3 squares), fly 15 ft. (perfect)
+Armor Class: 17 (–1 size, +3 Dex, +5 Equipment [Reinforced Alloy Shell]), touch 12, flat-footed 14
+Base Attack/Grapple: +5/+13
+Attack: Static Bump +8 melee (7d8 electrical/heat damage)
+Full Attack: Static Bump +8 melee (7d8 electrical/heat damage)
+Space/Reach: 10 ft./5 ft.
+Special Attacks: Repulsive Charge
+Special Qualities: Aegis Shielding (SR 18), Construct traits, Hardness 8, Darkvision 60 ft., Hover, Smoldering Glow, Vulnerability to Electricity
+Saves: Fort +2, Ref +5, Will +2
+Abilities: Str 18, Dex 16, Con —, Int 6, Wis 12, Cha 10
+APP (Appearance): 3 (Dark gray sphere, glowing orange interior, smells of ozone)
+Challenge Rating: 7
+Special Abilities
+Repulsive Charge (Su): As a standard action, the Electroid targets a single creature within 30 feet. It floods the victim’s body with massive, identical static charges. The victim’s limbs and organs begin to violently repel one another.
+Effect: The target must succeed on a DC 18 Fortitude save or be torn apart internally, resulting in instant death. If the save is successful, there is no effect. This is a purely technological/electrical effect, not a death effect (though the result is the same). The save DC is Strength-based.
+Static Bump (Ex): The Electroid’s hull carries a massive latent charge. Any creature it "bumps" (slam attack) takes 7d8 points of damage. Half of this is Electricity damage, and half is Fire (Heat) damage.
+Smoldering Glow (Ex): The Electroid emits a dim orange light in a 20-foot radius. It is never found in total darkness and cannot use the Hide skill while its core is active.
+---
+RanvierMUD Area: The Power Core
+npcs.yml
+yaml
+- id: electroid-drone
+  name: 'Electroid S-7'
+  level: 7
+  keywords: ['electroid', 'robot', 'sphere']
+  description: "A five-foot diameter sphere of dull gray metal. Orange light pulses through the grills in its side like a dying furnace."
+  behaviors:
+    passive: true
+    aggro_on_block: true
+Use code with caution.
+
+scripts/behaviors/repulsive_charge.js
+javascript
+/**
+ * Logic for the Electroid's Repulsive Charge
+ */
+function onCombat(npc, room) {
+  const target = npc.target;
+  if (!target || npc.cooldowns.repulsive_charge) return;
+
+  npc.say("INITIATING STATIC POLARIZATION SEQUENCE.");
+  const saved = target.save('fortitude', 18);
+  
+  if (!saved) {
+    target.say("Your limbs pull away from your torso with agonizing force!");
+    target.die("Torn apart by static repulsion.");
+  } else {
+    target.say("You feel your hair stand on end, but the sensation passes.");
+  }
+  
+  npc.setCooldown('repulsive_charge', 3); // 3-round cooldown
+}
+Use code with caution.
+
+rooms.yml
+yaml
+- id: reactor-catwalk
+  title: "The High-Voltage Catwalk"
+  description: "The air here is thick with the smell of scorched copper. Massive electrodes spark overhead. An Electroid sphere drifts slowly across the path."
+  npcs:
+    - id: "neila-hive:electroid-drone"
+  exits:
+    - direction: north
+      roomId: "neila-hive:cold-storage-vault"
+---
+Arachnatdroid (A-Series Recon Scout)
+Small Construct (Robot)
+Hit Dice: 5d10+10 (37 hp)
+Initiative: +5
+Speed: 60 ft. (12 squares), Climb 60 ft.
+Armor Class: 20 (+1 size, +5 Dex, +4 Equipment [Reinforced Chassis]), touch 16, flat-footed 15
+Base Attack/Grapple: +3/+0
+Attack: Piercing Leg +9 melee (1d12+1 plus Impale)
+Full Attack: 3 Piercing Legs +9 melee (1d12+1 plus Impale)
+Space/Reach: 5 ft./5 ft.
+Special Attacks: Impale, System Dysfunction
+Special Qualities: Aegis Shielding (SR 16), All-Terrain Locomotion, Construct traits, Hardness 5, Low-light vision, Optical Camo Protocol, Vulnerability to Electricity
+Saves: Fort +1, Ref +6, Will +1
+Abilities: Str 12, Dex 20, Con —, Int 10, Wis 12, Cha 1
+APP (Appearance): 4 (Variable; default is metallic silver)
+Challenge Rating: 6
+Special Abilities
+Optical Camo Protocol (Ex): The Arachnatdroid utilizes light-bending cells and thermal dampeners.
+Active (Full HP): Provides an Invisibility effect. Requires a DC 30 Spot check to notice the shimmer. The unit is masked against thermal and magnetic scans.
+Glitched (Damaged): If the unit has taken any damage, the camouflage begins to ghost and flicker. The Spot DC is reduced to 20, and the unit is now detectable by Infrared, Thermal, and Magnetic sensors.
+All-Terrain Locomotion (Ex): The robot can move across any surface (including vertical and inverted surfaces) at its full speed. It is immune to movement penalties from difficult terrain.
+Impale (Ex): On a natural attack roll of 15–20 (effectively a 33% chance), the strike penetrates deep. This doubles the base damage of the attack (2d12+2) and triggers a System Dysfunction.
+System Dysfunction (Ex): The precision strike destroys localized tissue or mechanical components. Roll 1d6 for the impaled area:
+Limb (Leg): Target is Prone; speed reduced to 5 ft. until healed.
+Limb (Arm): Target drops held items; limb is useless until healed.
+Torso (Organ): Target takes 2d4 Constitution damage.
+Sensors/Face: Target is Blinded until healed.
+Head/Neck: Target must succeed on a DC 17 Fortitude save or die instantly.
+Vitals: Target is Stunned for 1d3 rounds.
+Note: Healing requires an effect (Medicine, Magic, Psionics, etc.) capable of restoring specific anatomical or structural integrity.
+---
+RanvierMUD Area: The Vertical Shaft
+npcs.yml
+yaml
+- id: arachnatdroid-stealth
+  name: 'Arachnatdroid Stalker'
+  level: 6
+  keywords: ['spider', 'robot', 'stealth']
+  description: "A faint ripple in the air suggests something many-legged is waiting above."
+  behaviors:
+    optical_camo: true
+    ceiling_drop: true
+    glitch_on_damage: true
+Use code with caution.
+
+scripts/behaviors/glitch_logic.js
+javascript
+/**
+ * Logic for Optical Camo Degradation
+ */
+function onTakeDamage(npc, amount) {
+  if (npc.health < npc.maxHealth) {
+    npc.say("SYSTEM WARNING: CAMO INTEGRITY COMPROMISED. SIGNATURE MASKING OFFLINE.");
+    npc.removeEffect('invisibility');
+    npc.addEffect('shimmer_glitch', { 
+      description: "A flickering, static-filled outline.",
+      spot_dc_penalty: 10,
+      thermal_detectable: true
+    });
+  }
+}
+Use code with caution.
+
+rooms.yml
+yaml
+- id: ventilation-hub
+  title: "Ventilation Hub Gamma"
+  description: "A massive vertical shaft. The air is still, and a strange shimmer occasionally flickers along the ceiling tiles."
+  npcs:
+    - id: "neila-hive:arachnatdroid-stealth"
+      count: 3
+  exits:
+    - direction: south
+      roomId: "neila-hive:reactor-catwalk"
+ ---
+Aquatron (P-Series Subsurface Patrol Unit)
+Huge Construct (Robot)
+Hit Dice: 14d10+40 (117 hp)
+Initiative: +2
+Speed: 10 ft. (2 squares), swim 60 ft.; Land Repulsion 30 ft. (10-minute limit)
+Armor Class: 30 (–2 size, +2 Dex, +20 Equipment [Reinforced Pressure Hull]), touch 10, flat-footed 28
+Base Attack/Grapple: +10/+26
+Attack: Brain Probe +10 ranged (Control) or Slam +16 melee (2d8+12)
+Full Attack: Brain Probe +10 ranged (Control) or Slam +16 melee (2d8+12)
+Space/Reach: 15 ft./10 ft.
+Special Attacks: Boiling Wake (Water), Superheated Steam (Land), Brain Probe
+Special Qualities: Aegis Shielding (SR 25), Construct traits, Hardness 15 (Pressure Resistance), Sonar (Blindsight 120 ft.), Solar Replenishment, Stationary Turret Mode, Vulnerability to Electricity, Acoustic Vulnerability
+Saves: Fort +4, Ref +6, Will +5
+Abilities: Str 26, Dex 15, Con —, Int 12, Wis 12, Cha 10
+APP (Appearance): 5 (Disk-shaped, bulging metallic center, industrial vents)
+Challenge Rating: 14
+Special Abilities
+Pressure Resistance (Ex): The Aquatron’s hull is designed for the crushing depths. It has Hardness 15 against all physical attacks. This shielding also grants SR 25 against magical/supernatural manipulation.
+Acoustic Vulnerability (Ex): While its Sonar grants Blindsight 120 ft. underwater, any Sonic attack dealing 20+ damage forces a DC 20 Fortitude save or the Aquatron is "blinded" (loses Blindsight) for 1d4 rounds.
+Brain Probe (Ex): 1/round, range 60 ft. (Land) / 30 ft. (Water). The robot fires a neuro-linked probe.
+Living/Thinking Targets: Will DC 18 negates. On a failure, the victim is totally controlled.
+Thinking Undead: Requires a Caster Level check (1d20 + 14) against the Undead's HD or its creator's CL to override the animating magic.
+Unthinking Undead: Immune. The probe cannot "hotwire" non-functional biological systems.
+Nervous System Burn: 10% chance per round of control that the probe causes a surge. The victim takes 3d6 Intelligence drain. If Intelligence reaches 0, the victim dies (or is destroyed if Undead).
+Boiling Wake / Steam Vent (Ex):
+Underwater: At will, boils water in a 20-ft. radius. Deals 7d8 fire damage (Reflex DC 22 half).
+Land: 3/day, expels steam in a 10-ft. (10d6 damage + blind 1d10 rounds) or 20-ft. (5d6 damage) radius. Reflex DC 22 half/negate.
+Stationary Turret Mode (Ex): After 10 minutes on land, the primary battery dies. The Aquatron becomes immobile but can operate its Probes and Steam Vents for an additional 30 minutes on backup power.
+---
+RanvierMUD Area: The Submerged Hangar
+npcs.yml
+yaml
+- id: aquatron-patrol
+  name: 'Aquatron P-14'
+  level: 14
+  keywords: ['aquatron', 'robot', 'disk']
+  description: "A massive, 15-foot wide metallic disk with steaming grills along its rim. It hums with a deep, aquatic vibration."
+  behaviors:
+    passive: true
+    aggro_on_beach: true
+    sonar_ping: true
+
+- id: controlled-shark
+  name: 'Probed Great White'
+  level: 12
+  description: "A massive shark with a metallic spike driven into its skull, its eyes glowing with a synthetic amber light."
+Use code with caution.
+
+scripts/behaviors/turret_mode.js
+javascript
+/**
+ * Logic for Land Repulsion Battery
+ */
+let battery = 600; // 10 minutes in seconds
+
+function onUpdate(npc, room) {
+  if (!room.isWater) {
+    battery -= 2;
+    if (battery <= 0) {
+      npc.say("PRIMARY DRIVE OFFLINE. SWITCHING TO STATIONARY TURRET MODE.");
+      npc.addEffect('immobile');
+      npc.setPower('backup', 1800); // 30 mins
+    }
+  }
+}
+Use code with caution.
+
+rooms.yml
+yaml
+- id: moon-pool
+  title: "The Moon Pool Hangar"
+  description: "A circular room with a large pool of dark seawater in the center. Glowing probes hang from the ceiling like robotic jellyfish."
+  npcs:
+    - id: "neila-hive:aquatron-patrol"
+  exits:
+    - direction: down
+      roomId: "neila-hive:kelp-forest-patrol"
+    - direction: north
+      roomId: "neila-hive:ventilation-hub"
+---
+Scorbot (The Reptilian Remnant)
+Huge Construct (Robot)
+Hit Dice: 17d10+40 (133 hp)
+Initiative: +4
+Speed: 45 ft. (9 squares)
+Armor Class: 34 (–2 size, +4 Dex, +22 Equipment [Ancient Reinforced Alloy]), touch 12, flat-footed 30
+Base Attack/Grapple: +12/+30
+Attack: Crystalline Claw +20 melee (4d10+10/18–20 plus Slicing) or HV Slug +14 ranged (3d12/x3 plus Annihilation)
+Full Attack: Crystalline Claw +20 melee (4d10+10), HV Slug +14 ranged (3d12), Bite +15 melee (2d12+5), and Tail +15 melee (2d8+5 plus Selective Acid)
+Space/Reach: 15 ft./15 ft.
+Special Attacks: Annihilation (Slug), Slicing (Claw), Selective Acid (Tail)
+Special Qualities: Aegis Shielding (SR 30), Construct traits, Fast Healing 10, Reactive Nanobot Repair (3/day), Hardness 20, Internal Vulnerability, Low-light vision, Darkvision 120 ft.
+Saves: Fort +5, Ref +9, Will +7
+Abilities: Str 30, Dex 18, Con —, Int 14, Wis 14, Cha 12
+APP (Appearance): 2 (Menacing, archaic reptilian chassis, weathered by eons)
+Challenge Rating: 18
+Special Abilities
+Annihilation (Ex): On a successful hit with the HV Slug (Range 240 ft.), the target must succeed on a DC 28 Fortitude save or the hit area is destroyed. For humanoids, this functions as a Massive Damage check: failure results in instant death (if head/torso) or permanent loss of a limb. For Undead, this deals an additional 10d6 points of damage as their animating structure is pulverized.
+Slicing (Ex): The Crystalline Claw is preternaturally sharp. On a natural 18–20 or if the attack exceeds the target's AC by 5 or more, the target must succeed on a DC 28 Reflex save or have a limb severed (as a Vorpal weapon, but applies to limbs).
+Selective Acid (Ex): The Tail Lash (15-ft. reach) injects a specialized nanite-acid.
+Failed Save (DC 28 Fort): The acid liquefies internal organs. Target takes 2d10 Constitution drain per round for 3 rounds.
+Successful Save: Only one organ is affected; target takes 1d6 Constitution drain (once).
+Nanobot Repair (Ex): The Scorbot possesses Fast Healing 10. Additionally, it has 3 Emergency Doses of Reactive Repair: if it takes 50+ damage in a single round, it reflexively heals 20 HP. These doses must be replenished at a specialized ancient depot or by "harvesting" 50 lbs of rare minerals.
+Internal Vulnerability (Ex): Identifying the Scorbot’s hidden power core or sensor "Blind Spot" requires a DC 35 check in Knowledge (Aliens, History, Engineering, or Robotics). If identified, a character may take a –4 penalty on an attack roll to hit the core. A successful hit bypasses all Hardness and counts as an automatic Critical Hit.
+---
+RanvierMUD Area: The Reptilian Reliquary
+npcs.yml
+yaml
+- id: scorbot-prime
+  name: 'The Scorbot Remnant'
+  level: 55
+  keywords: ['scorbot', 'reptilian', 'relic']
+  description: "A hulking mechanical saurian. Its crystalline claw gleams with an internal, ancient light."
+  behaviors:
+    aggro: true
+    nanobot_regen: true
+Use code with caution.
+
+scripts/behaviors/nanobot_regen.js
+javascript
+let emergencyDoses = 3;
+function onDamage(npc, amount) {
+  if (amount >= 50 && emergencyDoses > 0) {
+    npc.say("EMERGENCY REPAIR PROTOCOL ENGAGED. NANOBOTS DEPLOYING.");
+    npc.heal(20);
+    emergencyDoses--;
+  }
+}
+Use code with caution.
+
+rooms.yml
+yaml
+- id: ancient-command-center
+  title: "The Silent Command Center"
+  description: "Monolithic stone slabs are fused with glowing circuitry. In the center stands a dormant saurian machine, waiting for a command from a dead world."
+  npcs:
+    - id: "neila-hive:scorbot-prime"
+  exits:
+    - direction: south
+      roomId: "neila-hive:moon-pool"
+---
+Dredbot (X-Series Heavy Ordnance Platform)
+Gargantuan Construct (Robot)
+Hit Dice: 35d10+60 (252 hp)
+Initiative: +11 (+7 Dex, +4 Improved Init)
+Speed: 90 ft. (18 squares), Trample 10d6+15
+Armor Class: 36 (–4 size, +7 Dex, +23 Equipment [Reactive Ablative Plating]), touch 13, flat-footed 29
+Base Attack/Grapple: +26/+53
+Attack: Infinite Repeater +29 ranged (1d12 per shell) or Slam +38 melee (4d8+15)
+Full Attack: 2 Infinite Repeaters +29 ranged, 6 Mortars +29 ranged, and Hellbore (Standard Action)
+Space/Reach: 20 ft. x 10 ft. / 15 ft.
+Special Attacks: Hellbore, Mortar Volley, Infinite Repeaters, Trample (DC 42)
+Special Qualities: Aegis Shielding (SR 35), Construct traits, Hardness 25, Shattering Chassis, Tactical AI, Vulnerability to Electricity
+Saves: Fort +11, Ref +18, Will +12
+Abilities: Str 40, Dex 25, Con —, Int 20, Wis 12, Cha 10
+APP (Appearance): 2 (Terrifying, bristling with barrels, matte black)
+Challenge Rating: 24
+Special Abilities
+The Hellbore (Ex): Primary turret. 1,250-ft. cone, 250-ft. wide base.
+0–50 ft: Targets must succeed on a DC 32 Fortitude save or be disintegrated (atomized). Success results in the target being reduced to –10 HP (stable).
+51–250 ft: Targets die instantly. DC 32 Fortitude save to instead lose 1d100% of current HP, be knocked back 120 ft., and be Stunned for 1d6 minutes.
+251–1,250 ft: 6d8 damage and 30-ft. knockback. DC 32 Reflex save for half damage and no knockback.
+Mortar Volleys (Ex): 6 independent side-mounted mortars (3 per flank). Range 360 ft.
+Explosive: 20-ft. radius, 4d6 damage (Reflex DC 32 half).
+Napalm: 10-ft. radius, 2d6 damage per round for 1d6 rounds (Reflex DC 32 negates subsequent rounds).
+Smoke: 40-ft. cube of total concealment.
+Infinite Repeaters (Ex): Nose and tail pintles. 720-ft. range, 90-degree cone. Targets in the cone must succeed on a DC 32 Reflex save or be struck by 1d6 shells, each dealing 1d12 damage.
+Shattering Chassis (Ex): Non-magical weapons striking the Dredbot have a 75% chance of shattering. Each "plus" of enchantment reduces this chance by 5% (+5 weapons are immune).
+---
+RanvierMUD Area: The Proving Grounds
+npcs.yml
+yaml
+- id: dredbot-x1
+  name: 'Dredbot X-1'
+  level: 80
+  keywords: ['dredbot', 'tank', 'warbot']
+  description: "A twenty-foot slabs of death-black metal. Barrels of every caliber rotate toward you with predatory precision."
+  behaviors:
+    tactical_ai: true
+    heavy_ordnance: true
+Use code with caution.
+
+scripts/behaviors/hellbore.js
+javascript
+/**
+ * Logic for Hellbore Firing Sequence
+ */
+function onCombat(npc, room) {
+  if (npc.cooldowns.hellbore) return;
+  
+  room.broadcast("The Dredbot's central turret whines with a nuclear charge. DANGER: HIGH RADIANCE.");
+  const targets = room.getPlayers();
+  
+  targets.forEach(p => {
+    const dist = p.getDistance(npc);
+    if (dist <= 50) {
+      if (!p.save('fortitude', 32)) p.die("Atomized by the Hellbore.");
+    } else if (dist <= 250) {
+      if (!p.save('fortitude', 32)) p.die("Incinerated by the blast wave.");
+    }
+  });
+  npc.setCooldown('hellbore', 5);
+}
+Use code with caution.
+
+rooms.yml
+yaml
+- id: armor-testing-field
+  title: "The Scorched Proving Grounds"
+  description: "The ground is glassed by nuclear fire. Shattered remnants of lesser robots litter the craters. A Dredbot patrols the perimeter."
+  npcs:
+    - id: "neila-hive:dredbot-x1"
+  exits:
+    - direction: south
+      roomId: "neila-hive:ancient-command-center"
+---
+
+# The Booty
+
+## Magical Items
+
+Wand of the Marrow Squid
+Wand (Techno-Arcane Rod)
+Caster Level: 13th
+Aura: Strong Transmutation [Evil]
+Activation: Standard (Squeeze)
+Range: 60 ft.
+Target: One living creature with a calcified skeletal structure
+Saving Throw: Fortitude DC 22 negates; see text
+Spell Resistance: Yes
+APP (Appearance): 2 (A twitching, purplish tentacle fused to a tarnished copper rod; it feels warm and pulses like a heartbeat)
+Special Abilities
+Skeletal Extraction (Su): When activated, the wand's tentacle pulses with a dark, rhythmic hum. The target must succeed on a DC 22 Fortitude save or have their entire skeleton "gently" sucked from their body and absorbed into the wand.
+Targeting: Only works on internal calcified skeletons (e.g., Humanoids, Xenomorphs Stages 2–4). Ineffective against Oozes or Exoskeletons.
+The Pile Condition: A victim who loses their skeleton is Helpless, Incapacitated, and Prone.
+Suffocation: Without a ribcage, the victim begins to suffocate. Each round, they must succeed on a Constitution Check (DC 10 + 1 per previous check). Failure results in unconsciousness, then dying, then death in successive rounds.
+Survival Roll: If the victim succeeds on a Raw Constitution check (1d20 vs. 1/2 their Con score) immediately upon extraction, they remain stable/conscious but helpless.
+Bone Consumption (Ex): The wand consumes the extracted bones to fuel its internal power cell.
+Charges: The wand has a maximum of 10 charges.
+Refueling: Extracting a Medium skeleton provides 1 full charge.
+Scaling: Small skeletons provide 1/2 charge; Large provide 2 charges; Huge+ provide 4 charges. Tiny or smaller skeletons are insufficient to provide power.
+Depletion: If the wand reaches 0 charges, the tentacle withers and becomes inert until a skeleton is manually fed into the copper housing (requiring a DC 20 Use Magic Device check).
+Restoration: Requires Regenerate, Limited Wish, Wish, or Miracle. Heal only stabilizes. Cybernetic Endoskeleton replacement (DC 35 Heal/Repair) is a technological alternative.
+
+RanvierMUD Mechanic: The Bone-Eater
+items.yml
+yaml
+- id: wand-marrow-squid
+  name: 'Wand of the Marrow Squid'
+  type: 'wand'
+  level: 20
+  keywords: ['wand', 'marrow', 'squid', 'tentacle']
+  description: "An amputated, animated tentacle grafted to copper. It is currently pulsing with a faint, calcium-rich light."
+  metadata:
+    charges: 10
+    max_charges: 10
+  behaviors:
+    onUse: 'extract_skeleton'
+Use code with caution.
+
+scripts/behaviors/extract_skeleton.js
+javascript
+/**
+ * Logic for Skeletal Extraction and Power Consumption
+ */
+function onUse(player, target) {
+  const item = this;
+  if (item.getMeta('charges') <= 0) {
+    player.say("The tentacle is withered and dry; it lacks the power to strike.");
+    return;
+  }
+
+  if (!target.hasSkeleton) {
+    player.say("The wand pulses fruitlessly; your target lacks the necessary structure.");
+    return;
+  }
+
+  const saved = target.save('fortitude', 22);
+  item.setMeta('charges', item.getMeta('charges') - 1);
+
+  if (!saved) {
+    target.say("A horrific, gentle tug pulls the rigidity from your very core.");
+    
+    // Calculate charge gain based on target size
+    let gain = 0;
+    if (target.size === 'medium') gain = 1;
+    else if (target.size === 'large') gain = 2;
+    else if (target.size === 'small') gain = 0.5;
+    
+    item.setMeta('charges', Math.min(item.getMeta('max_charges'), item.getMeta('charges') + gain));
+    
+    target.addEffect('bone_loss', {
+      duration: Infinity,
+      stats: { dex: -100, str: -100 },
+      onTick: (p) => {
+         if (!p.checkHalfCon()) {
+           p.say("Your chest collapses. You are suffocating.");
+           p.takeDamage(10, 'asphyxiation');
+         }
+      }
+    });
+  }
+}
+---
+Unpilferable Pouch
+Wondrous Item (Dimensional Storage)
+Caster Level: 30th
+Aura: None (See Mundane Masking)
+Activation: Standard (Opening/Reaching)
+Weight: 1 lb. (Contents provide no weight)
+APP (Appearance): 5 (A plain, well-worn burlap or cloth sack)
+Special Abilities
+Mundane Masking (Ex): The pouch is shielded by a CL 30 Nondetection and Magic Aura effect. It detects as a completely non-magical, mundane cloth sack to all spells, including Detect Magic, Identify, True Seeing, and Analyze Device.
+Dimensional Interior (Ex): The interior of the pouch is a static 20-ft. x 20-ft. x 20-ft. pocket dimension.
+Encumbrance: Items stored within have no weight for the bearer.
+Environment: The space has a self-renewing air supply, though time passes normally (items are not in stasis).
+Anti-Thievery Gate (Su): When anyone other than the "Keyed" owner reaches into the bag, they see a glamer of a normal pile of gems and coins. If they attempt to grab any item, the dimensional gate snaps shut.
+Severing Trap: The thief must succeed on a DC 30 Reflex save.
+Failure: The thief’s arm is instantly severed at the point of entry (usually the elbow or shoulder). This deals 1d6 Strength damage and 4d6 slashing damage, plus heavy bleeding (1d6/round). The severed limb remains inside the pocket dimension.
+Success: The thief manages to pull their hand back just as the fabric of space cinches shut, but they retrieve nothing.
+Ownership Keying: The pouch is keyed to its current owner's soul. If the owner is sleeping, charmed, or on another plane (Astral/Ethereal), the pouch remains keyed to them. Only upon the permanent death of the owner does the pouch become "unkeyed." The first individual to touch the sack after the owner's death becomes the new "Keyed" owner.
+RanvierMUD Mechanic: The Thief-Biter
+items.yml
+yaml
+- id: unpilferable-pouch
+  name: 'A Mundane Cloth Sack'
+  type: 'container'
+  level: 30
+  keywords: ['pouch', 'sack', 'bag']
+  description: "A simple, unassuming cloth bag tied with a bit of twine."
+  metadata:
+    keyed_owner: 'NPC_ID_OR_PLAYER_NAME'
+    dimension_size: 20
+  behaviors:
+    onGetItem: 'check_ownership'
+Use code with caution.
+
+scripts/behaviors/check_ownership.js
+javascript
+/**
+ * Logic for the Severing Gate
+ */
+function onGetItem(player, item, container) {
+  const owner = container.getMeta('keyed_owner');
+  
+  if (player.name !== owner) {
+    player.say("As you reach for the gold, the mouth of the bag cinches tight with impossible force!");
+    
+    const saved = player.save('reflex', 30);
+    if (!saved) {
+      player.say("PAIN flares as the bag severs your arm cleanly at the elbow!");
+      player.takeDamage(50, 'slashing');
+      player.drainAttribute('strength', 4);
+      player.addEffect('bleeding');
+      return false; // Action failed
+    } else {
+      player.say("You pull back just in time, the bag snapping shut inches from your fingers.");
+      return false;
+    }
+  }
+  return true; // Owner can take items freely
+}
+---

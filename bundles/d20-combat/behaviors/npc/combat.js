@@ -11,20 +11,29 @@ module.exports = {
     update: function (state) {
       const npc = this;
 
+      // Hard guard: no emitter or no room, bail.
       if (!npc || !npc.room) {
         return;
       }
 
-      // If already fighting, advance combat
-      if (npc.isInCombat && npc.isInCombat()) {
+      // If already fighting, advance combat.
+      if (typeof npc.isInCombat === 'function' && npc.isInCombat()) {
         Combat.updateCombatRound(npc);
         return;
       }
 
-      // Otherwise, look for a player to attack
+      // Otherwise, look for a player to attack.
+      if (!npc.room.players || !npc.room.players.size) {
+        return;
+      }
+
       for (const [, player] of npc.room.players) {
-        if (player.isNpc) continue;
-        if (player.getMeta('isDead')) continue;
+        if (!player || player.isNpc) {
+          continue;
+        }
+        if (typeof player.getMeta === 'function' && player.getMeta('isDead')) {
+          continue;
+        }
 
         Combat.startCombat(npc, player);
         break;
@@ -36,6 +45,6 @@ module.exports = {
      */
     death: function () {
       Combat.stopCombat(this);
-    }
-  }
+    },
+  },
 };

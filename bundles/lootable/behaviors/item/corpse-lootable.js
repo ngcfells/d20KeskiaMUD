@@ -1,3 +1,4 @@
+// corpse-lootable
 'use strict';
 
 const LootResolver = require('../../lib/resolvers/lootResolver');

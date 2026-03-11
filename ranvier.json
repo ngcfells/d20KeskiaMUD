@@ -1,14 +1,6 @@
 {
   "port": 4000,
   "bundles": [
-    "d20-traits",
-    "d20-attributes",
-    "lootable",
-    "decay",
-    "lifecycle",
-    "d20-common-effects",
-    "d20-effect-engine",
-    "d20-combat",
     "bundle-example-areas",
     "bundle-example-channels",
     "bundle-example-classes",
@@ -16,6 +8,7 @@
     "bundle-example-debug",
     "bundle-example-input-events",
     "bundle-example-lib",
+    "bundle-example-combat",
     "bundle-example-npc-behaviors",
     "bundle-example-player-events",
     "bundle-example-quests",

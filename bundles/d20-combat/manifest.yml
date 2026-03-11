@@ -1,6 +1,6 @@
 title: d20-combat
 description: Full D20 combat engine integrating attack rolls, AC, damage types, criticals, maneuvers, and effect hooks.
-version: 1.0.0
+version: 1.0.1
 author: Chris Fells, 2026
 
 requires:
@@ -15,3 +15,10 @@ requires:
 listeners:
   stateReady:
     - listeners/register.js
+
+behaviors:
+  npc:
+    combat: behaviors/npc/combat.js
+
+  player:
+    player-combat: behaviors/player/player-combat.js

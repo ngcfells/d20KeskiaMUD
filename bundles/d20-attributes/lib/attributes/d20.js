@@ -17,13 +17,7 @@ module.exports = [
       },
     },
   },
-
-  { name: 'powerPoints', base: 0 },
-  { name: 'sanity', base: 100 },
-  { name: 'stamina', base: 10 },
-  { name: 'resolve', base: 5 },
-
-  // CORE 7
+  // CORE 7 Attributes
   { name: 'strength', base: 0 },
   { name: 'dexterity', base: 0 },
   { name: 'constitution', base: 0 },
@@ -36,6 +30,8 @@ module.exports = [
   { name: 'fortitude', base: 0 },
   { name: 'reflex', base: 0 },
   { name: 'will', base: 0 },
+  // Horror / Cthulhu
+  { name: 'sanity', base: 100 },
 
   // ARMOR
   { name: 'armorKinetic', base: 0 },
@@ -45,9 +41,17 @@ module.exports = [
   { name: 'damageReduction', base: 0 },
   { name: 'shielding', base: 0 },
 
+  //Psionics
+  { name: 'powerPoints', base: 0 },
+  // Mechanic to prevent spamming
+  { name: 'stamina', base: 10 },
+  // Used to fuel special abilities. HD/2 + Main attribute bonus (primary class)
+  { name: 'resolve', base: 0 },
+
   // GENRE
   { name: 'tech', base: 0 },
   { name: 'pilot', base: 0 },
+  // Cyberpunk - 1 + CON mod, minimum is 0. Used for any graft/implant be they mechanical, steampunk, cyberpunk, magical, or psionic. Represnts the physical limitation.
   { name: 'cyberTolerance', base: 0 },
   { name: 'radiationResist', base: 0 },
   { name: 'grit', base: 0 },

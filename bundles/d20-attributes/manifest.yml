@@ -1,9 +1,0 @@
-title: d20-attributes
-description: Registers all d20 attribute definitions with the AttributeFactory.
-version: 1.0.0
-author: Chris Fells, 2026
-requires: []
-
-listeners:
-  stateReady:
-    - listeners/stateReady.js

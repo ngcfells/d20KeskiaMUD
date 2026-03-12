@@ -2,21 +2,31 @@
   "port": 4000,
   "bundles": [
     "bundle-example-areas",
+    "bundle-example-bugreport",
     "bundle-example-channels",
     "bundle-example-classes",
+    "bundle-example-combat",
     "bundle-example-commands",
     "bundle-example-debug",
+    "bundle-example-effects",
     "bundle-example-input-events",
     "bundle-example-lib",
-    "bundle-example-combat",
     "bundle-example-npc-behaviors",
     "bundle-example-player-events",
     "bundle-example-quests",
+    "lootable-npcs",
     "simple-crafting",
     "vendor-npcs",
     "player-groups",
     "progressive-respawn",
-    "websocket-networking"
+    "websocket-networking",
+    "d20-core",
+    "d20-effect-engine",
+    "d20-common-effects",
+    "d20-traits",
+    "lifecycle",
+    "decay",
+    "d20-admin"
   ],
   "dataSources": {
     "YamlArea": {

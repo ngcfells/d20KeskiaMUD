@@ -1,0 +1,5 @@
+title: d20-admin
+description: Administrative commands for inspecting NPCs and players.
+type: bundle
+commands:
+  - commands/npcstats.js

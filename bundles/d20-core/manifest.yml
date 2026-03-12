@@ -1,4 +1,11 @@
 title: d20-core
-description: Full D20 engine for base functionality.
+description: Core d20 rules, attributes, and foundational mechanics.
 version: 1.0.0
 author: Chris Fells, 2026
+type: bundle
+requires: []
+listeners:
+  - listeners/derived.js
+  - listeners/character.js
+  - listeners/npc.js
+
